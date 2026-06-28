@@ -668,9 +668,24 @@
         "filename": "other_connectors.kicad_sch",
         "name": "Other_Connectors",
         "uuid": "a6fda882-b5b2-43b7-bcc8-365357a6eb10"
+      },
+      {
+        "filename": "rtl9210b_circuit.kicad_sch",
+        "name": "RTL9210b_Circuit",
+        "uuid": "7736e3ac-b95d-4de4-8ae1-42fea29ef2fc"
+      },
+      {
+        "filename": "dp_to_hdmi.kicad_sch",
+        "name": "DP_to_HDMI",
+        "uuid": "d0d9b026-c649-4d9b-a037-f2cffa22073f"
+      },
+      {
+        "filename": "tusb1064.kicad_sch",
+        "name": "TUSB1064",
+        "uuid": "853c0ec2-ee62-433f-8e45-05737c35d52d"
       }
     ],
-    "used_designators": "J4-5,#PWR124,#PWR140-143",
+    "used_designators": "R53-54,#PWR156-161",
     "variants": []
   },
   "sheets": [
@@ -697,6 +712,18 @@
     [
       "a6fda882-b5b2-43b7-bcc8-365357a6eb10",
       "Other_Connectors"
+    ],
+    [
+      "7736e3ac-b95d-4de4-8ae1-42fea29ef2fc",
+      "RTL9210b_Circuit"
+    ],
+    [
+      "d0d9b026-c649-4d9b-a037-f2cffa22073f",
+      "DP_to_HDMI"
+    ],
+    [
+      "853c0ec2-ee62-433f-8e45-05737c35d52d",
+      "TUSB1064"
     ]
   ],
   "text_variables": {},
