@@ -7006,17 +7006,6 @@
 		)
 		(uuid "50192918-31bd-42c9-b489-e9043562c565")
 	)
-	(text "Solder this by hand to save money!!"
-		(exclude_from_sim no)
-		(at 131.826 173.736 0)
-		(effects
-			(font
-				(size 0.6096 0.6096)
-			)
-			(justify left)
-		)
-		(uuid "7073b670-fe7d-468e-9b1b-4da32898e2b2")
-	)
 	(text "3V3->2V5\nper WEBENCH"
 		(exclude_from_sim no)
 		(at 273.558 72.136 0)
@@ -10199,7 +10188,7 @@
 	)
 	(global_label "CSI_2N"
 		(shape input)
-		(at 156.21 97.7462 0)
+		(at 156.21 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10209,7 +10198,7 @@
 		)
 		(uuid "c85a1dc4-68f0-46f4-8eb5-91420ce9da0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.7871 97.7462 0)
+			(at 165.7871 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

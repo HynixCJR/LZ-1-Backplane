@@ -846,6 +846,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:H2541FV-C762-2X04P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "H2541FV-C762-2X04P"
+				(at 0 -8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:H2541FV-C762-2X04P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405141422_HanElectricity-H2541FV-C762-2x04P_C22387106.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+105℃ 2.54mm 7.62mm 8P DIP Phosphor bronze Square Hole DIP-8 IC / Transistor Socket ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22387106"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HanElectricity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "H2541FV-C762-2x04P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C22387106 DIP-8_L10.2-W10.1-P2.54-LS7.6-BL_2 H2541FV-C762-2x04P HanElectricity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "H2541FV-C762-2X04P_0_1"
+				(circle
+					(center -3.81 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -6.35) (xy 4.6711 -6.3403) (xy 4.7664 -6.3113) (xy 4.8542 -6.2644) (xy 4.9312 -6.2012)
+						(xy 4.9944 -6.1242) (xy 5.0413 -6.0364) (xy 5.0702 -5.9411) (xy 5.08 -5.842) (xy 5.0702 5.9411)
+						(xy 5.0413 6.0364) (xy 4.9944 6.1242) (xy 4.9312 6.2012) (xy 4.8542 6.2644) (xy 4.7664 6.3113)
+						(xy 4.6711 6.3403) (xy 4.572 6.35) (xy -4.6711 6.3403) (xy -4.7664 6.3113) (xy -4.8542 6.2644)
+						(xy -4.9312 6.2012) (xy -4.9944 6.1242) (xy -5.0413 6.0364) (xy -5.0702 5.9411) (xy -5.08 5.842)
+						(xy -5.0702 -5.9411) (xy -5.0413 -6.0364) (xy -4.9944 -6.1242) (xy -4.9312 -6.2012) (xy -4.8542 -6.2644)
+						(xy -4.7664 -6.3113) (xy -4.6711 -6.3403) (xy -4.572 -6.35) (xy 4.572 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:TPS65987DDJRSHR"
 			(pin_names
 				(offset 1.016)
@@ -2186,7 +2469,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2211,7 +2494,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2243,7 +2526,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2265,7 +2548,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2303,7 +2586,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2511,6 +2794,10 @@
 		(uuid "e4dd7438-3157-4ebc-b77b-1cc0f0508ba9")
 	)
 	(no_connect
+		(at 201.93 48.26)
+		(uuid "a2590abf-4419-4259-881c-27fdcca120da")
+	)
+	(no_connect
 		(at 105.41 53.34)
 		(uuid "b0df2fc6-7574-4d3e-a674-4526e55a2b6d")
 	)
@@ -2620,6 +2907,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 93.98) (xy 157.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f5bd95-f019-46f1-9d4a-a07e6f535802")
+	)
+	(wire
+		(pts
+			(xy 152.4 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b04a67a-0f3e-419d-a966-06f7c5b0b518")
+	)
+	(wire
+		(pts
 			(xy 41.91 26.67) (xy 44.45 26.67)
 		)
 		(stroke
@@ -2717,16 +3024,6 @@
 			(type default)
 		)
 		(uuid "dcd16033-f06d-4bc5-ba6e-697b76c3f0e8")
-	)
-	(wire
-		(pts
-			(xy 149.86 113.03) (xy 148.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d540b2-b712-405c-a9d3-88851272e2d3")
 	)
 	(wire
 		(pts
@@ -2912,6 +3209,30 @@
 			)
 		)
 	)
+	(global_label "CTRL_SDA"
+		(shape input)
+		(at 201.93 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57e79830-79ff-42e3-856e-abd635cd1309")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9866 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DRAIN1"
 		(shape input)
 		(at 201.93 68.58 0)
@@ -3029,6 +3350,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CTRL_SCL"
+		(shape input)
+		(at 201.93 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c06cbed-0be4-4e79-b60f-644ddd139a76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.9261 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3304,6 +3649,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2c1fb033-bcd4-4ea2-ae72-8142ee052a73")
+		(property "Reference" "#PWR0164"
+			(at 152.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CTRL_LDO_3V3"
+			(at 147.828 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a70e8e9-70ed-49bc-a976-35a529dcbd7e")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 134.62 22.86 0)
 		(unit 1)
@@ -3382,8 +3805,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 149.86 113.03 0)
+		(lib_id "JLCImport:H2541FV-C762-2X04P")
+		(at 217.17 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3392,9 +3815,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f3ed766-90d7-428e-afe4-83e4bc5b2e12")
-		(property "Reference" "#PWR0144"
-			(at 149.86 116.84 0)
+		(uuid "6b1b1a6e-db48-4762-ad3d-9072a32adb5c")
+		(property "Reference" "CN3"
+			(at 217.17 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "H2541FV-C762-2X04P"
+			(at 217.17 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:H2541FV-C762-2X04P"
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,18 +3847,8 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 149.86 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 113.03 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405141422_HanElectricity-H2541FV-C762-2x04P_C22387106.pdf"
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,8 +3858,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 149.86 113.03 0)
+		(property "Description" "-55℃~+105℃ 2.54mm 7.62mm 8P DIP Phosphor bronze Square Hole DIP-8 IC / Transistor Socket ROHS"
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,8 +3869,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 113.03 0)
+		(property "LCSC" "C22387106"
+			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,14 +3879,57 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" "HanElectricity"
+			(at 217.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "H2541FV-C762-2x04P"
+			(at 217.17 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ba55ed9e-5ce8-47bc-a949-7462fb666807")
 		)
 		(pin "1"
-			(uuid "4013cf29-7d11-43d2-a7c3-b38b4bd351b1")
+			(uuid "a563037b-ef9d-47c8-9192-6198c7c5d832")
+		)
+		(pin "8"
+			(uuid "63679106-dff2-496b-8a79-28593069fd6d")
+		)
+		(pin "3"
+			(uuid "0939a049-190f-479a-8be5-ba3370319227")
+		)
+		(pin "5"
+			(uuid "aae3b41a-b96a-46b1-8696-fa3ad02a8725")
+		)
+		(pin "7"
+			(uuid "e0c62259-c582-4c75-a6b2-28bdc14cd78b")
+		)
+		(pin "4"
+			(uuid "0d3f6bd7-fcde-4f66-a3c9-c9731cf84644")
+		)
+		(pin "6"
+			(uuid "b618e9c0-3b83-42a4-8a3a-1ec2baea708e")
 		)
 		(instances
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
-					(reference "#PWR0144")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
