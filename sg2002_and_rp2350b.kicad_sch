@@ -2655,6 +2655,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:H2541FV-C762-2X04P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN3"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "H2541FV-C762-2X04P"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:H2541FV-C762-2X04P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405141422_HanElectricity-H2541FV-C762-2x04P_C22387106.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+105℃ 2.54mm 7.62mm 8P DIP Phosphor bronze Square Hole DIP-8 IC / Transistor Socket ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C22387106"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HanElectricity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "H2541FV-C762-2x04P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C22387106 DIP-8_L10.2-W10.1-P2.54-LS7.6-BL_2 H2541FV-C762-2x04P HanElectricity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "H2541FV-C762-2X04P_0_1"
+				(circle
+					(center -3.81 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -6.35) (xy 4.6711 -6.3403) (xy 4.7664 -6.3113) (xy 4.8542 -6.2644) (xy 4.9312 -6.2012)
+						(xy 4.9944 -6.1242) (xy 5.0413 -6.0364) (xy 5.0702 -5.9411) (xy 5.08 -5.842) (xy 5.0702 5.9411)
+						(xy 5.0413 6.0364) (xy 4.9944 6.1242) (xy 4.9312 6.2012) (xy 4.8542 6.2644) (xy 4.7664 6.3113)
+						(xy 4.6711 6.3403) (xy 4.572 6.35) (xy -4.6711 6.3403) (xy -4.7664 6.3113) (xy -4.8542 6.2644)
+						(xy -4.9312 6.2012) (xy -4.9944 6.1242) (xy -5.0413 6.0364) (xy -5.0702 5.9411) (xy -5.08 5.842)
+						(xy -5.0702 -5.9411) (xy -5.0413 -6.0364) (xy -4.9944 -6.1242) (xy -4.9312 -6.2012) (xy -4.8542 -6.2644)
+						(xy -4.7664 -6.3113) (xy -4.6711 -6.3403) (xy -4.572 -6.35) (xy 4.572 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "H2541FV-C762-2X04P_1_1"
+				(pin unspecified line
+					(at -7.62 3.81 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "D_OUT"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "D_IN"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "IO3"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.8128 0.8128)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:MICRO_180_ZB"
 			(pin_names
 				(offset 1.016)
@@ -3089,300 +3374,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:W25Q128JVSIQTR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "W25Q128JVSIQTR"
-				(at 0 -8.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811142111_Winbond-Elec-W25Q128JVSIQ_C97521.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-40℃~+85℃ 100,000 cycles 120ms@(32KB) 128Mbit 133MHz 1uA 2.7V~3.6V 20 Years 3ms SPI SOIC-8-208mil NOR FLASH ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C97521"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Winbond Elec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "W25Q128JVSIQ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C97521 SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL W25Q128JVSIQ Winbond Elec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "W25Q128JVSIQTR_0_1"
-				(circle
-					(center -8.89 5.588)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -8.89 5.588)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 -6.858) (xy 9.7511 -6.8483) (xy 9.8464 -6.8193) (xy 9.9343 -6.7724) (xy 10.0112 -6.7092)
-						(xy 10.0744 -6.6322) (xy 10.1214 -6.5444) (xy 10.1503 -6.4491) (xy 10.16 -6.35) (xy 10.1503 6.4491)
-						(xy 10.1214 6.5444) (xy 10.0744 6.6322) (xy 10.0112 6.7092) (xy 9.9343 6.7724) (xy 9.8464 6.8193)
-						(xy 9.7511 6.8483) (xy 9.652 6.858) (xy -9.7511 6.8483) (xy -9.8464 6.8193) (xy -9.9343 6.7724)
-						(xy -10.0112 6.7092) (xy -10.0744 6.6322) (xy -10.1214 6.5444) (xy -10.1503 6.4491) (xy -10.16 6.35)
-						(xy -10.1503 -6.4491) (xy -10.1214 -6.5444) (xy -10.0744 -6.6322) (xy -10.0112 -6.7092) (xy -9.9343 -6.7724)
-						(xy -9.8464 -6.8193) (xy -9.7511 -6.8483) (xy -9.652 -6.858) (xy 9.652 -6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 3.81 0)
-					(length 2.54)
-					(name "CS#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 1.27 0)
-					(length 2.54)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -1.27 0)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 1.27 180)
-					(length 2.54)
-					(name "IO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 3.81 180)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6584,6 +6575,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 53.34) (xy 152.4 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01091c57-ea31-4916-b998-e5ff7cfe059e")
+	)
+	(wire
+		(pts
 			(xy 43.18 256.54) (xy 67.31 256.54)
 		)
 		(stroke
@@ -6796,6 +6797,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 55.88) (xy 152.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccfbe80-80dd-4c74-978c-594296b69896")
+	)
+	(wire
+		(pts
 			(xy 49.53 124.46) (xy 52.07 124.46)
 		)
 		(stroke
@@ -6906,6 +6917,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 55.88) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df972b7-f455-4c76-8ffc-506bcde6e0cb")
+	)
+	(wire
+		(pts
 			(xy 172.72 52.07) (xy 172.72 53.34)
 		)
 		(stroke
@@ -6943,6 +6964,16 @@
 			(type default)
 		)
 		(uuid "41ab5ad3-89f8-421f-85e6-acb41d971043")
+	)
+	(wire
+		(pts
+			(xy 167.64 60.96) (xy 172.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438a1dc9-2678-4676-8e88-5b61fa0f0de5")
 	)
 	(wire
 		(pts
@@ -7188,6 +7219,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d2eb5a-5637-4b64-8b0f-c58ab9406379")
+	)
+	(wire
+		(pts
 			(xy 87.63 228.6) (xy 133.35 228.6)
 		)
 		(stroke
@@ -7195,6 +7236,16 @@
 			(type default)
 		)
 		(uuid "75782d1e-c23b-47d8-bcfc-88fe60fa6e62")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 152.4 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4f2f57-4778-4436-91ef-0462fd5cffdf")
 	)
 	(wire
 		(pts
@@ -7621,6 +7672,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 53.34) (xy 172.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de27fef8-3759-43de-aea3-dfc82f0cc326")
+	)
+	(wire
+		(pts
 			(xy 157.48 100.33) (xy 157.48 95.25)
 		)
 		(stroke
@@ -7748,6 +7809,16 @@
 			(type default)
 		)
 		(uuid "fe11150d-4318-4f5b-9863-c903fc3e6e28")
+	)
+	(wire
+		(pts
+			(xy 167.64 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7419be-7e42-4763-ba90-82850dbb6b7f")
 	)
 	(wire
 		(pts
@@ -11943,6 +12014,136 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:H2541FV-C762-2X04P")
+		(at 160.02 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60ad5a74-2772-4164-86ea-e7535c23aa2b")
+		(property "Reference" "CN4"
+			(at 160.02 46.482 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q128FVIQ_Connector"
+			(at 160.02 49.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:H2541FV-C762-2X04P"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2405141422_HanElectricity-H2541FV-C762-2x04P_C22387106.pdf"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+105℃ 2.54mm 7.62mm 8P DIP Phosphor bronze Square Hole DIP-8 IC / Transistor Socket ROHS"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22387106"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HanElectricity"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "H2541FV-C762-2x04P"
+			(at 160.02 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "79571975-4491-4036-b489-fc3fef5f4521")
+		)
+		(pin "1"
+			(uuid "7818dc86-80bf-4128-afad-74d20a454afd")
+		)
+		(pin "8"
+			(uuid "46de701f-2586-4652-9949-55c778404f8b")
+		)
+		(pin "3"
+			(uuid "e4024f6b-2f74-49eb-8a1d-bd5130824193")
+		)
+		(pin "5"
+			(uuid "f1222cc8-2fe5-4a77-a63c-a37262801938")
+		)
+		(pin "7"
+			(uuid "6a1ed86c-a066-49c3-8a0d-cda76d49da7b")
+		)
+		(pin "4"
+			(uuid "ffeb4ff0-3f8e-4888-966d-7dee8e343476")
+		)
+		(pin "6"
+			(uuid "c1de17db-9991-4f94-981e-4079147ecb38")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:CL05B104KB54PNC")
 		(at 124.46 160.02 90)
 		(unit 1)
@@ -13631,137 +13832,6 @@
 			(project "serverv2_backplane"
 				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:W25Q128JVSIQTR")
-		(at 160.02 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a97a96eb-7244-4f7e-91e7-fbcb602a3df5")
-		(property "Reference" "U10"
-			(at 160.02 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W25Q128JVSIQTR"
-			(at 160.02 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811142111_Winbond-Elec-W25Q128JVSIQ_C97521.pdf"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 100,000 cycles 120ms@(32KB) 128Mbit 133MHz 1uA 2.7V~3.6V 20 Years 3ms SPI SOIC-8-208mil NOR FLASH ROHS"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Winbond Elec"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "W25Q128JVSIQ"
-			(at 160.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "85b7e508-5239-4aeb-ac64-eccd755eef26")
-		)
-		(pin "4"
-			(uuid "4471222d-24f2-4c36-806e-d0ae807a9666")
-		)
-		(pin "7"
-			(uuid "cba2b899-8e60-44bd-a6fc-ba61ea8ace18")
-		)
-		(pin "8"
-			(uuid "a280b079-2823-4874-a50d-b61ac6d8f66e")
-		)
-		(pin "2"
-			(uuid "49792b0c-c8bc-4879-8345-7215a2d9dd7c")
-		)
-		(pin "5"
-			(uuid "081a909e-e5d5-4d39-a797-331e96eef422")
-		)
-		(pin "6"
-			(uuid "430e9c4c-754e-4e90-a853-18e84b7e8f65")
-		)
-		(pin "1"
-			(uuid "5dd4d115-500e-46a1-909b-aa525af8a119")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
-					(reference "U10")
 					(unit 1)
 				)
 			)

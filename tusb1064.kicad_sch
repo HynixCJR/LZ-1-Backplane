@@ -3378,7 +3378,7 @@
 			)
 		)
 	)
-	(global_label "CTRL_SDA"
+	(global_label "CTRL_SDA3"
 		(shape input)
 		(at 118.11 95.25 0)
 		(fields_autoplaced yes)
@@ -3390,7 +3390,7 @@
 		)
 		(uuid "5be35f52-4197-4017-a11f-c59e3ea02e4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1666 95.25 0)
+			(at 131.3761 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 			)
 		)
 	)
-	(global_label "CTRL_SCL"
+	(global_label "CTRL_SCL3"
 		(shape input)
 		(at 118.11 97.79 0)
 		(fields_autoplaced yes)
@@ -3558,7 +3558,7 @@
 		)
 		(uuid "9a1236a4-6e09-4a5c-ab9d-beceb9bed7fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1061 97.79 0)
+			(at 131.3156 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
