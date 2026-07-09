@@ -700,7 +700,7 @@
         "uuid": "0d9d48e0-de6e-4293-98f7-dbd4142063d6"
       }
     ],
-    "used_designators": "U20-22,#PWR252,#PWR254-255,#PWR268-289,C157,C161-174,R120-133",
+    "used_designators": "U23,#PWR287,#PWR290-311,C168,C175-183,R134-139,X5",
     "variants": []
   },
   "sheets": [
