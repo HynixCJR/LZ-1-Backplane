@@ -11676,7 +11676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "517f1ab6-dcaf-40a8-83e8-3dd1300036a9")
-		(property "Reference" "RESET"
+		(property "Reference" "RESET1"
 			(at 37.338 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11774,7 +11774,7 @@
 		(instances
 			(project "serverv2_backplane"
 				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
-					(reference "RESET")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
@@ -12346,7 +12346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72ba9e6b-3c79-47d9-a820-67f3fd78d702")
-		(property "Reference" "PI0_Debug"
+		(property "Reference" "PI0_Debug1"
 			(at 163.83 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12413,7 +12413,7 @@
 		(instances
 			(project "serverv2_backplane"
 				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
-					(reference "PI0_Debug")
+					(reference "PI0_Debug1")
 					(unit 1)
 				)
 			)
@@ -14917,7 +14917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e717d42d-7f25-4fc7-be09-304668b42036")
-		(property "Reference" "BOOTSEL"
+		(property "Reference" "BOOTSEL1"
 			(at 34.036 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15015,7 +15015,7 @@
 		(instances
 			(project "serverv2_backplane"
 				(path "/1fa8d8fa-b9bb-45b7-bc88-3b533c66ef8d"
-					(reference "BOOTSEL")
+					(reference "BOOTSEL1")
 					(unit 1)
 				)
 			)

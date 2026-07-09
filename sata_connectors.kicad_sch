@@ -5592,8 +5592,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.858 0)
+			(property "Reference" "U6"
+				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5602,8 +5602,8 @@
 					)
 				)
 			)
-			(property "Value" "MCP6002T-I_SN"
-				(at 0 -8.858 0)
+			(property "Value" "MCP6002-E_MC"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5612,19 +5612,8 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:MCP6002T-I_SN"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6002T-I-SN_C7377.pdf"
-				(at 0 0 0)
+			(property "Footprint" "JLCImport:MCP6002-E_MC"
+				(at 0 -24.384 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5634,8 +5623,8 @@
 					)
 				)
 			)
-			(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 76dB 7V Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809051241_Microchip-Tech-MCP6002-E-MC_C185041.pdf"
+				(at 2.286 -30.226 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5645,8 +5634,19 @@
 					)
 				)
 			)
-			(property "LCSC" "C7377"
-				(at 0 0 0)
+			(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 6V 76dB Rail-to-Rail Input, Rail-to-Rail Output DFN-8(2x3) Operational Amplifier ROHS"
+				(at 2.286 -30.226 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C185041"
+				(at 0.254 -34.036 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5657,7 +5657,7 @@
 				)
 			)
 			(property "Manufacturer" "Microchip Tech"
-				(at 0 0 0)
+				(at 0.254 -28.194 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5667,8 +5667,8 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "MCP6002T-I/SN"
-				(at 0 0 0)
+			(property "Manufacturer Part" "MCP6002-E/MC"
+				(at -0.254 -26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7498,6 +7498,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Source MCP6002 from Microchip's\nfree samples <3"
+		(exclude_from_sim no)
+		(at 111.506 108.204 0)
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "242af69d-5e86-468d-8c96-f4ebf3532fed")
 	)
 	(text "To ensure compatability with\nDAS/DSS pin, MCU grounds\nDAS/DSS for <x>s on boot"
 		(exclude_from_sim no)
@@ -17774,7 +17785,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP6002T-I_SN"
+		(property "Value" "MCP6002-I_SN"
 			(at 111.76 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17784,8 +17795,8 @@
 				)
 			)
 		)
-		(property "Footprint" "JLCImport:MCP6002T-I_SN"
-			(at 111.76 96.52 0)
+		(property "Footprint" "JLCImport:MCP6002-I_SN"
+			(at 111.76 120.904 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17795,8 +17806,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Microchip-Tech-MCP6002T-I-SN_C7377.pdf"
-			(at 111.76 96.52 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412041357_Microchip-Tech-MCP6002-I-SN_C116706.pdf"
+			(at 114.046 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17806,8 +17817,8 @@
 				)
 			)
 		)
-		(property "Description" "-40℃~+125℃ 1.8V~6V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 600V/ms 76dB 7V Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS"
-			(at 111.76 96.52 0)
+		(property "Description" "-40℃~+85℃ 1.8V~5.5V 100uA 1MHz 1pA 1pA 2 23mA 28nV/√Hz@1kHz 2uV/℃ 4.5mV 5.5V 600V/ms 76dB Rail-to-Rail Input, Rail-to-Rail Output SOIC-8 Operational Amplifier ROHS"
+			(at 114.046 126.746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17817,8 +17828,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C7377"
-			(at 111.76 96.52 0)
+		(property "LCSC" "C116706"
+			(at 112.014 130.556 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17829,7 +17840,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Tech"
-			(at 111.76 96.52 0)
+			(at 112.014 124.714 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17839,8 +17850,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "MCP6002T-I/SN"
-			(at 111.76 96.52 0)
+		(property "Manufacturer Part" "MCP6002-I/SN"
+			(at 111.506 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

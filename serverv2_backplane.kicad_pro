@@ -683,9 +683,24 @@
         "filename": "tusb1064.kicad_sch",
         "name": "TUSB1064",
         "uuid": "853c0ec2-ee62-433f-8e45-05737c35d52d"
+      },
+      {
+        "filename": "usb7206c.kicad_sch",
+        "name": "USB7206C",
+        "uuid": "77c7b25c-ae60-404c-81d4-31bcb5f76fc0"
+      },
+      {
+        "filename": "sd_card_slot.kicad_sch",
+        "name": "SD_card_slot",
+        "uuid": "0fa490b2-85f2-4d6d-b0e7-b503dc4e7821"
+      },
+      {
+        "filename": "temperature_monitor.kicad_sch",
+        "name": "temperature_monitor",
+        "uuid": "0d9d48e0-de6e-4293-98f7-dbd4142063d6"
       }
     ],
-    "used_designators": "R83-91,#PWR227,#PWR229-232,C115-118,C124,C127-134,U11,CN6",
+    "used_designators": "U20-22,#PWR252,#PWR254-255,#PWR268-289,C157,C161-174,R120-133",
     "variants": []
   },
   "sheets": [
@@ -724,6 +739,18 @@
     [
       "853c0ec2-ee62-433f-8e45-05737c35d52d",
       "TUSB1064"
+    ],
+    [
+      "77c7b25c-ae60-404c-81d4-31bcb5f76fc0",
+      "USB7206C"
+    ],
+    [
+      "0fa490b2-85f2-4d6d-b0e7-b503dc4e7821",
+      "SD_card_slot"
+    ],
+    [
+      "0d9d48e0-de6e-4293-98f7-dbd4142063d6",
+      "temperature_monitor"
     ]
   ],
   "text_variables": {},
