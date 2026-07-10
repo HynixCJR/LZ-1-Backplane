@@ -10025,12 +10025,6 @@
 		(uuid "a0ac739f-34c6-4b13-a6d9-80077860222f")
 	)
 	(junction
-		(at 134.62 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2fe9fba-537e-4f4d-aee5-8b646b2a886a")
-	)
-	(junction
 		(at 144.78 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10113,6 +10107,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8e11f30-ed0f-4f75-b721-c25f76dbeba7")
+	)
+	(junction
+		(at 134.62 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cab69531-ddd4-40ec-8c4c-309b28fa30ac")
 	)
 	(junction
 		(at 143.51 146.05)
@@ -12758,6 +12758,30 @@
 			)
 		)
 	)
+	(global_label "VBUS_SENSE"
+		(shape input)
+		(at 59.69 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e7d5cf2-453b-4a63-aab1-1cd60cd21b61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.5889 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DRAIN2"
 		(shape input)
 		(at 195.58 31.75 0)
@@ -12963,6 +12987,30 @@
 		(uuid "a81e8f70-f3ca-40a7-85bb-e6104b3278b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.0556 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_SENSE"
+		(shape input)
+		(at 59.69 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a93d16f4-cf03-40d7-bee5-ded60586e8a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.5889 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13190,30 +13238,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 59.69 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca65a650-f8cd-4b19-b80d-1602b605a410")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5738 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TX1-"
 		(shape input)
 		(at 29.21 39.37 180)
@@ -13286,30 +13310,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 29.21 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d64211dd-dfc2-4837-973d-8132c040e568")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3262 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ISN"
 		(shape input)
 		(at 251.46 142.24 180)
@@ -13323,6 +13323,30 @@
 		(uuid "d6ad9686-2887-46f5-896e-5e804e913d2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.33 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBUS_SENSE"
+		(shape input)
+		(at 29.21 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d77b924a-a806-4699-b086-822b4a6048d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.3111 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +13454,7 @@
 			)
 		)
 	)
-	(global_label "VBUS"
+	(global_label "VBUS_SENSE"
 		(shape input)
 		(at 29.21 54.61 180)
 		(fields_autoplaced yes)
@@ -13442,7 +13466,7 @@
 		)
 		(uuid "f33a890a-ec1f-4d4b-9a58-842dd698d0c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.3262 54.61 0)
+			(at 14.3111 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,30 +13563,6 @@
 		(uuid "fe05b4bd-3210-4b17-b0f6-5f74c3f73133")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.8952 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 59.69 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe1f0b88-ac36-43f7-9ef6-b58669e6e210")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5738 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22361,7 +22361,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 134.366 150.622 0)
+			(at 136.906 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

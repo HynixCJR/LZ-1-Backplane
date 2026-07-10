@@ -7998,6 +7998,30 @@
 			)
 		)
 	)
+	(global_label "SCL3"
+		(shape input)
+		(at 133.35 251.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1905ff59-0e8b-40a5-928d-5184023fe385")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.0523 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "5V_current_sense_2"
 		(shape input)
 		(at 49.53 134.62 180)
@@ -8811,6 +8835,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SDA3"
+		(shape input)
+		(at 133.35 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8feee1fa-ca2f-4a75-85ec-3a1d5f128753")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.1128 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10435,7 +10483,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 153.67 0)
+		(at 124.46 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10446,7 +10494,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ee015bb-00ea-487b-ba00-3913a10c9215")
 		(property "Reference" "#PWR0131"
-			(at 124.46 157.48 0)
+			(at 124.46 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 124.46 148.59 0)
+			(at 124.46 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10467,7 +10515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 153.67 0)
+			(at 124.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10478,7 +10526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 153.67 0)
+			(at 124.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10489,7 +10537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 153.67 0)
+			(at 124.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

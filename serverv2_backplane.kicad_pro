@@ -695,12 +695,12 @@
         "uuid": "0fa490b2-85f2-4d6d-b0e7-b503dc4e7821"
       },
       {
-        "filename": "temperature_monitor.kicad_sch",
-        "name": "temperature_monitor",
-        "uuid": "0d9d48e0-de6e-4293-98f7-dbd4142063d6"
+        "filename": "sensors.kicad_sch",
+        "name": "Sensors",
+        "uuid": "a90d5657-3125-49af-9845-930d74e449d0"
       }
     ],
-    "used_designators": "U23,#PWR287,#PWR290-311,C168,C175-183,R134-139,X5",
+    "used_designators": "R145-146,#PWR319-324",
     "variants": []
   },
   "sheets": [
@@ -749,8 +749,8 @@
       "SD_card_slot"
     ],
     [
-      "0d9d48e0-de6e-4293-98f7-dbd4142063d6",
-      "temperature_monitor"
+      "a90d5657-3125-49af-9845-930d74e449d0",
+      "Sensors"
     ]
   ],
   "text_variables": {},

@@ -4096,530 +4096,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:HDMI-224-H130"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 29.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HDMI-224-H130"
-				(at 0 -24.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:HDMI-224-H130"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Hanbo-Electronic-HDMI-224-H130_C47326408.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD HDMI Connectors ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C47326408"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Hanbo Electronic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "HDMI-224-H130"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C47326408 HDMI-224-H130 HDMI-SMD_HDMI-224-H130 Hanbo Electronic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HDMI-224-H130_0_1"
-				(polyline
-					(pts
-						(xy 22.352 -22.86) (xy 22.4511 -22.8502) (xy 22.5464 -22.8213) (xy 22.6342 -22.7744) (xy 22.7112 -22.7112)
-						(xy 22.7744 -22.6342) (xy 22.8213 -22.5464) (xy 22.8502 -22.4511) (xy 22.86 -22.352) (xy 22.8502 27.5311)
-						(xy 22.8213 27.6264) (xy 22.7744 27.7142) (xy 22.7112 27.7912) (xy 22.6342 27.8544) (xy 22.5464 27.9013)
-						(xy 22.4511 27.9302) (xy 22.352 27.94) (xy -17.3711 27.9302) (xy -17.4664 27.9013) (xy -17.5542 27.8544)
-						(xy -17.6312 27.7912) (xy -17.6944 27.7142) (xy -17.7413 27.6264) (xy -17.7702 27.5311) (xy -17.78 27.432)
-						(xy -17.7702 -22.4511) (xy -17.7413 -22.5464) (xy -17.6944 -22.6342) (xy -17.6312 -22.7112) (xy -17.5542 -22.7744)
-						(xy -17.4664 -22.8213) (xy -17.3711 -22.8502) (xy -17.272 -22.86) (xy 22.352 -22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 25.4 0)
-					(length 5.08)
-					(name "TMDS_Data_2+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 22.86 0)
-					(length 5.08)
-					(name "TMDS_Data_2_Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 20.32 0)
-					(length 5.08)
-					(name "TMDS_Data_2-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 17.78 0)
-					(length 5.08)
-					(name "TMDS_Data_1+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 15.24 0)
-					(length 5.08)
-					(name "TMDS_Data_1_Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 12.7 0)
-					(length 5.08)
-					(name "TMDS_Data_1-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 10.16 0)
-					(length 5.08)
-					(name "TMDS_Data_0+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 7.62 0)
-					(length 5.08)
-					(name "TMDS_Data_0_Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 5.08 0)
-					(length 5.08)
-					(name "TMDS_Data_0-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 2.54 0)
-					(length 5.08)
-					(name "TMDS_Clock+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 0 0)
-					(length 5.08)
-					(name "TMDS_Clock_Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -2.54 0)
-					(length 5.08)
-					(name "TMDS_Clock-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -5.08 0)
-					(length 5.08)
-					(name "CEC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -7.62 0)
-					(length 5.08)
-					(name "Utility"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -10.16 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -12.7 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -15.24 0)
-					(length 5.08)
-					(name "DDC/CEC_Ground"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -17.78 0)
-					(length 5.08)
-					(name "+5V_Power"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -22.86 -20.32 0)
-					(length 5.08)
-					(name "Hot_Plug_Detect"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 -20.32 180)
-					(length 5.08)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 2.54 180)
-					(length 5.08)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 27.94 25.4 180)
-					(length 5.08)
-					(name "EH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:RClamp0524PATCT"
 			(pin_names
 				(offset 1.016)
@@ -7143,12 +6619,6 @@
 		(uuid "1aaa7b04-1ed4-4dbb-8abd-209e4299d441")
 	)
 	(junction
-		(at 166.37 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28ac9b7e-464f-453d-8b63-9bbf78db0f81")
-	)
-	(junction
 		(at 241.3 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7267,12 +6737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8918a8b3-2af6-49fa-9558-3e00619c3153")
-	)
-	(junction
-		(at 166.37 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d402b97-f9f9-49b7-a26f-77ac196daf58")
 	)
 	(junction
 		(at 120.65 72.39)
@@ -7442,10 +6906,6 @@
 		(at 52.07 63.5)
 		(uuid "d26cd324-2ac1-4430-8e56-bd2b2f546e46")
 	)
-	(no_connect
-		(at 115.57 154.94)
-		(uuid "d53529c6-3e0d-480c-a1a6-7ec6b23b6aeb")
-	)
 	(wire
 		(pts
 			(xy 271.78 73.66) (xy 271.78 68.58)
@@ -7478,16 +6938,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 160.02) (xy 115.57 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04791b55-c0f6-42c9-ae4e-bd896baa9a0f")
-	)
-	(wire
-		(pts
 			(xy 120.65 77.47) (xy 120.65 80.01)
 		)
 		(stroke
@@ -7495,16 +6945,6 @@
 			(type default)
 		)
 		(uuid "063d34da-8206-4d3f-9488-f791289cab07")
-	)
-	(wire
-		(pts
-			(xy 102.87 157.48) (xy 115.57 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07392a6a-82c8-4ead-a7be-43626aaa7a31")
 	)
 	(wire
 		(pts
@@ -7575,16 +7015,6 @@
 			(type default)
 		)
 		(uuid "0b9c5de6-885f-48d9-891a-cdb0dae964da")
-	)
-	(wire
-		(pts
-			(xy 166.37 121.92) (xy 166.37 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df9cb78-282c-4896-8321-816da80aa6cd")
 	)
 	(wire
 		(pts
@@ -8048,16 +7478,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 165.1) (xy 115.57 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e9d5a2-b665-4530-8495-52fba647eb34")
-	)
-	(wire
-		(pts
 			(xy 229.87 88.9) (xy 229.87 81.28)
 		)
 		(stroke
@@ -8218,7 +7638,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 157.48) (xy 88.9 160.02)
+			(xy 143.51 133.35) (xy 143.51 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8358,17 +7778,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 144.78) (xy 166.37 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b353cb25-b2fd-41c2-b98a-bbd8c6ee5e7d")
-	)
-	(wire
-		(pts
-			(xy 102.87 147.32) (xy 88.9 147.32)
+			(xy 157.48 123.19) (xy 143.51 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8794,54 +8204,6 @@
 			)
 		)
 	)
-	(global_label "HDMI_0P"
-		(shape input)
-		(at 115.57 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "070bf52e-f2c4-4ed4-b5e7-1d0d941422bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.481 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HDMI_0N"
-		(shape input)
-		(at 115.57 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "089353f6-5145-4de6-90d4-0087980f688d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CEC"
 		(shape bidirectional)
 		(at 156.21 54.61 0)
@@ -8887,30 +8249,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "HDMI_2P"
-		(shape input)
-		(at 115.57 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e72d93d-e0b7-465f-bfc9-2b8c38559a4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.481 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -8999,30 +8337,6 @@
 		(uuid "1f41b04c-66cf-4e88-9c81-51a20b3d900f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.4324 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HDMI_1N"
-		(shape input)
-		(at 115.57 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f930a1a-37e0-4bd9-b032-a16de40d4d8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,7 +8638,7 @@
 	)
 	(global_label "HDMI_5V"
 		(shape input)
-		(at 106.68 165.1 180)
+		(at 161.29 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9334,7 +8648,7 @@
 		)
 		(uuid "6184f406-45f5-4664-a798-227a9b086555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7724 165.1 0)
+			(at 150.3824 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9562,30 +8876,6 @@
 			)
 		)
 	)
-	(global_label "HDMI_2N"
-		(shape input)
-		(at 115.57 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79ca05e5-122d-4adb-ab8d-6e15c776a7df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "HDMI_HPO"
 		(shape input)
 		(at 243.84 158.75 180)
@@ -9727,30 +9017,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "HDMI_1P"
-		(shape input)
-		(at 115.57 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "865d8fd8-8690-465e-b4f4-6b0880191045")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.481 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9970,30 +9236,6 @@
 			)
 		)
 	)
-	(global_label "HDMI_CP"
-		(shape input)
-		(at 115.57 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0a2c289-73bf-436d-ab13-0dd0d0b4deaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4205 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "A_SCK"
 		(shape input)
 		(at 96.52 52.07 180)
@@ -10044,7 +9286,7 @@
 	)
 	(global_label "HDMI_SDA"
 		(shape input)
-		(at 88.9 160.02 180)
+		(at 143.51 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10054,7 +9296,7 @@
 		)
 		(uuid "bc161646-5c86-431c-8ae0-0a4472c5eb5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7224 160.02 0)
+			(at 131.3324 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,7 +9310,7 @@
 	)
 	(global_label "HDMI_SCL"
 		(shape input)
-		(at 102.87 157.48 180)
+		(at 157.48 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10078,7 +9320,7 @@
 		)
 		(uuid "bff50140-d6b2-455b-bcce-40a25d82e68e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.7529 157.48 0)
+			(at 145.3629 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10474,30 +9716,6 @@
 			)
 		)
 	)
-	(global_label "HPDO"
-		(shape input)
-		(at 115.57 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddfbe234-906d-489e-8766-9c0524d7c927")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.3838 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CEC"
 		(shape input)
 		(at 243.84 148.59 180)
@@ -10511,30 +9729,6 @@
 		(uuid "e5457f4a-5b89-4fbd-b37c-7b940ec012ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.1658 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HDMI_CN"
-		(shape input)
-		(at 115.57 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5cbc994-2ebc-4290-b92d-5e1924e0e7be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.36 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10572,7 +9766,7 @@
 	)
 	(global_label "HDMI_5V"
 		(shape input)
-		(at 88.9 147.32 180)
+		(at 143.51 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10582,7 +9776,7 @@
 		)
 		(uuid "e7733317-688e-4884-8218-09bf3ccc2d41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.9924 147.32 0)
+			(at 132.6024 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,30 +9921,6 @@
 		(uuid "fced6048-7867-4c09-ac2d-9cd113fbdec3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.0729 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CEC"
-		(shape bidirectional)
-		(at 115.57 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fead86ff-aef5-48a5-b0f0-52f8d518545d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7845 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10978,85 +10148,6 @@
 			(project "serverv2_backplane"
 				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 162.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f2b604c-2689-413b-b3b4-4e73db45cfa7")
-		(property "Reference" "#PWR0107"
-			(at 109.22 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 162.5599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c01d822-84b2-4120-abda-89239200c6e9")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11561,7 +10652,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CL10A106KP8NNNC")
-		(at 106.68 170.18 90)
+		(at 161.29 146.05 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11571,7 +10662,7 @@
 		(dnp no)
 		(uuid "1a37ee0a-da9e-4036-a5b8-9e303732b6f9")
 		(property "Reference" "C41"
-			(at 102.362 168.656 90)
+			(at 156.972 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11582,7 +10673,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 101.6 171.958 90)
+			(at 156.21 147.828 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11593,7 +10684,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11604,7 +10695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +10706,7 @@
 			)
 		)
 		(property "Description" "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +10717,7 @@
 			)
 		)
 		(property "LCSC" "C19702"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11637,7 +10728,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11648,7 +10739,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL10A106KP8NNNC"
-			(at 106.68 170.18 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13420,85 +12511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 124.46 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a603c36-cbf5-4442-b833-f0fe4cc1579c")
-		(property "Reference" "#PWR0103"
-			(at 109.22 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 124.4599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "124c95f8-2fce-4150-9e96-155cac8683f5")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:0402WGF1001TCE")
 		(at 182.88 125.73 0)
 		(unit 1)
@@ -15053,7 +14065,7 @@
 	(symbol
 		(lib_name "0402WGF4702TCE_1")
 		(lib_id "JLCImport:0402WGF4702TCE")
-		(at 102.87 152.4 90)
+		(at 157.48 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15063,7 +14075,7 @@
 		(dnp no)
 		(uuid "8c172b2d-160a-432b-8792-1e32ed83f2a2")
 		(property "Reference" "R40"
-			(at 97.536 151.384 90)
+			(at 152.146 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15074,7 +14086,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 97.536 153.924 90)
+			(at 152.146 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15085,7 +14097,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15096,7 +14108,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF4702TCE_C25792.pdf"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15107,7 +14119,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 47kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15118,7 +14130,7 @@
 			)
 		)
 		(property "LCSC" "C25792"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15129,7 +14141,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15140,7 +14152,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF4702TCE"
-			(at 102.87 152.4 0)
+			(at 157.48 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,164 +14172,6 @@
 			(project "serverv2_backplane"
 				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 139.7 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d9c4c7c-86f7-42e6-b75e-9113d2f2c5e9")
-		(property "Reference" "#PWR0105"
-			(at 109.22 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f13f350-a86d-4dc2-bdda-df44328b0f7e")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 132.08 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e990108-96c5-4c68-aceb-360b9446b1af")
-		(property "Reference" "#PWR0104"
-			(at 109.22 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 132.0799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "deb232d1-3f8f-4632-865c-2a39f5286237")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -15430,84 +14284,6 @@
 			(project "serverv2_backplane"
 				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a9252d2-8518-45de-8128-e6f0e17d2e16")
-		(property "Reference" "#PWR0108"
-			(at 166.37 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8011969-6ab5-474b-b410-12b5e8a34f32")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -16190,7 +14966,7 @@
 	(symbol
 		(lib_name "0402WGF4702TCE_1")
 		(lib_id "JLCImport:0402WGF4702TCE")
-		(at 88.9 152.4 90)
+		(at 143.51 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16200,7 +14976,7 @@
 		(dnp no)
 		(uuid "b5b6fcbf-d612-4b49-92b1-2f48acf9113b")
 		(property "Reference" "R41"
-			(at 83.566 151.384 90)
+			(at 138.176 127.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16211,7 +14987,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 83.566 153.924 90)
+			(at 138.176 129.794 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16222,7 +14998,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16233,7 +15009,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF4702TCE_C25792.pdf"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16244,7 +15020,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 47kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16255,7 +15031,7 @@
 			)
 		)
 		(property "LCSC" "C25792"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16266,7 +15042,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16277,7 +15053,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF4702TCE"
-			(at 88.9 152.4 0)
+			(at 143.51 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16376,179 +15152,6 @@
 			(project "serverv2_backplane"
 				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:HDMI-224-H130")
-		(at 138.43 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b86e01af-78a4-4eb6-a40b-d867f8d78a92")
-		(property "Reference" "HDMI0"
-			(at 140.97 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDMI-224-H130"
-			(at 140.97 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:HDMI-224-H130"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_Hanbo-Electronic-HDMI-224-H130_C47326408.pdf"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD HDMI Connectors ROHS"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C47326408"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hanbo Electronic"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "HDMI-224-H130"
-			(at 138.43 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "9c720bea-c787-4d2f-97b6-284d0bab6763")
-		)
-		(pin "11"
-			(uuid "d969510f-d2d9-4a8e-ad7c-bb9e8bed15e0")
-		)
-		(pin "1"
-			(uuid "2386fc65-fd78-43eb-93fa-2d2793e99033")
-		)
-		(pin "2"
-			(uuid "fee54669-0562-42c8-b863-2a51d3c54150")
-		)
-		(pin "3"
-			(uuid "137c0730-3175-40f3-b19b-5343fe5e53cb")
-		)
-		(pin "4"
-			(uuid "f5bc7807-b39f-40cc-bc51-dfe58d8ea772")
-		)
-		(pin "5"
-			(uuid "03cd13e9-d12b-4747-8f59-e7f7aab2ccf0")
-		)
-		(pin "6"
-			(uuid "33c890c1-90b9-4de3-859c-a92451305e47")
-		)
-		(pin "8"
-			(uuid "07343359-cf2e-4fa5-9617-ac5a1bbc197a")
-		)
-		(pin "9"
-			(uuid "636d5e2c-a625-42fc-a556-eede254fb69c")
-		)
-		(pin "10"
-			(uuid "0805b1be-c987-416e-8bbf-8b655062f320")
-		)
-		(pin "13"
-			(uuid "9444bf93-6b5c-4eea-b4d0-3db63a8d6735")
-		)
-		(pin "14"
-			(uuid "e66f01f3-f068-4ec4-b1ef-1e44f6b2c6dc")
-		)
-		(pin "16"
-			(uuid "2a957924-7305-4602-84f4-384d860102ec")
-		)
-		(pin "17"
-			(uuid "f95d1371-03de-4b02-bf33-5db64ae56388")
-		)
-		(pin "18"
-			(uuid "b8e8ea8a-4fea-49a1-9610-12fffeed7983")
-		)
-		(pin "19"
-			(uuid "2543e27c-78d1-407d-89a1-d5e6a8b91112")
-		)
-		(pin "20"
-			(uuid "d6144477-f3b3-4bd3-b8af-d3c1cc87d5e7")
-		)
-		(pin "21"
-			(uuid "c664e102-3da8-49f6-aaf0-3f1c97dcb52f")
-		)
-		(pin "22"
-			(uuid "0d62b11f-53e2-41b0-a12b-27cca726eddf")
-		)
-		(pin "12"
-			(uuid "1cd3b6b3-af7e-4d8d-8b2f-c98ee3d8a86c")
-		)
-		(pin "15"
-			(uuid "927a8419-18e0-4da2-88d5-0024b1536b2b")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "HDMI0")
 					(unit 1)
 				)
 			)
@@ -17435,7 +16038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 175.26 0)
+		(at 161.29 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17446,7 +16049,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccd3e31c-ee39-448c-9e83-3f6de4221386")
 		(property "Reference" "#PWR0109"
-			(at 106.68 181.61 0)
+			(at 161.29 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17457,7 +16060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 180.34 0)
+			(at 161.29 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17467,7 +16070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 175.26 0)
+			(at 161.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17478,7 +16081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 175.26 0)
+			(at 161.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17489,7 +16092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 175.26 0)
+			(at 161.29 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18894,85 +17497,6 @@
 			(project "serverv2_backplane"
 				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 147.32 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6cf7803-6817-4194-b598-bd5dec91b2f4")
-		(property "Reference" "#PWR0106"
-			(at 109.22 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 147.3199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "daf44ab0-540b-437c-a8f2-8f22c1aec0c3")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/347a8f67-ae22-4095-8086-cff5ec6502f7"
-					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
