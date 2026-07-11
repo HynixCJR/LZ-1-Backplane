@@ -6276,6 +6276,12 @@
 		(uuid "12997f0f-979c-44bc-9b11-c8af4ddde7d4")
 	)
 	(junction
+		(at 67.31 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133c7921-1da7-4842-943a-1732f65fb2d7")
+	)
+	(junction
 		(at 33.02 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6400,12 +6406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ade71653-b80f-4fff-b0a6-7f0446fcfd59")
-	)
-	(junction
-		(at 67.31 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aef9ebe6-f2ac-4966-acec-894987627dba")
 	)
 	(junction
 		(at 172.72 52.07)
@@ -7732,7 +7732,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 261.62) (xy 67.31 261.62)
+			(xy 53.34 261.62) (xy 67.31 261.62)
 		)
 		(stroke
 			(width 0)
@@ -12930,7 +12930,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 261.62 0)
+		(at 53.34 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12940,7 +12940,7 @@
 		(dnp no)
 		(uuid "80507c41-ed45-4a6b-85de-f0f7e0dbd12c")
 		(property "Reference" "#PWR073"
-			(at 60.96 265.43 0)
+			(at 53.34 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12950,8 +12950,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 64.008 260.35 0)
+		(property "Value" "+5V_SG2002"
+			(at 60.452 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12961,7 +12961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12972,7 +12972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12983,7 +12983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 261.62 0)
+			(at 53.34 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -5419,7 +5419,7 @@
 	)
 	(text "3V3->1V2\nper WEBENCH"
 		(exclude_from_sim no)
-		(at 185.928 32.766 0)
+		(at 181.864 21.082 0)
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -5486,12 +5486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2c40a9-e7a5-4220-9072-7ca8ed7f4dea")
-	)
-	(junction
-		(at 184.15 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c8103ea-0b7b-45d6-94d7-c1442f9ee59e")
 	)
 	(junction
 		(at 53.34 43.18)
@@ -5566,12 +5560,6 @@
 		(uuid "504a08c0-b387-40d2-9c6d-07345eb3e8ae")
 	)
 	(junction
-		(at 172.72 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5909154c-9668-44ea-b267-0d3616eefb0a")
-	)
-	(junction
 		(at 110.4901 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5582,12 +5570,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595a8607-d100-45f6-8466-097d05fe4bee")
-	)
-	(junction
-		(at 170.18 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ac65f8e-f319-409a-85e4-2f91b3f0c3d1")
 	)
 	(junction
 		(at 110.4901 54.61)
@@ -5624,6 +5606,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ac00b1-1186-479c-a97d-1bc1d3df8d73")
+	)
+	(junction
+		(at 175.26 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72a44d3c-a531-4451-8bf0-8d2760531c70")
 	)
 	(junction
 		(at 132.08 96.52)
@@ -5666,6 +5654,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab80eb99-4aeb-4b05-9afb-61773d351b60")
+	)
+	(junction
+		(at 189.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4f8068-e4db-4ece-b956-edd2cd1ca834")
+	)
+	(junction
+		(at 170.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b99bad7c-ffab-43a6-83a5-b2d921bed851")
 	)
 	(junction
 		(at 58.42 116.84)
@@ -5835,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 49.53) (xy 184.15 49.53)
+			(xy 170.18 49.53) (xy 189.23 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6175,6 +6175,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 39.37) (xy 184.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40572c83-9a05-4ddb-a267-28a0e8aca9e4")
+	)
+	(wire
+		(pts
 			(xy 64.77 43.18) (xy 64.77 45.72)
 		)
 		(stroke
@@ -6245,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 24.13) (xy 180.34 24.13)
+			(xy 189.23 24.13) (xy 180.34 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6475,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 39.37) (xy 184.15 24.13)
+			(xy 189.23 39.37) (xy 189.23 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6575,7 +6585,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 39.37) (xy 172.72 39.37)
+			(xy 170.18 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6655,16 +6665,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 39.37) (xy 173.99 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b649e3c-2f97-4db2-8ad9-1321375ec938")
-	)
-	(wire
-		(pts
 			(xy 158.75 49.53) (xy 162.56 49.53)
 		)
 		(stroke
@@ -6682,6 +6682,16 @@
 			(type default)
 		)
 		(uuid "8e289e88-517b-476d-b195-24a0dd39b758")
+	)
+	(wire
+		(pts
+			(xy 175.26 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937072ed-5523-4fd9-8567-b77aaa8e5cab")
 	)
 	(wire
 		(pts
@@ -10825,7 +10835,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "574bc385-723e-423b-bdc7-fd1dda48e234")
 		(property "Reference" "#PWR0191"
 			(at 160.02 68.58 0)
@@ -10839,7 +10848,7 @@
 			)
 		)
 		(property "Value" "PS176_VDD33"
-			(at 160.02 59.69 0)
+			(at 160.02 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10973,7 +10982,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 184.15 44.45 90)
+		(at 189.23 44.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10983,7 +10992,7 @@
 		(dnp no)
 		(uuid "57b3eb00-38aa-4063-8067-5f562988afa3")
 		(property "Reference" "R68"
-			(at 180.34 42.926 90)
+			(at 185.42 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10993,7 +11002,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 180.34 45.466 90)
+			(at 185.42 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11003,7 +11012,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11014,7 +11023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,7 +11034,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11036,7 +11045,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11047,7 +11056,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11058,7 +11067,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 184.15 44.45 0)
+			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12928,7 +12937,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 39.37 0)
+		(at 175.26 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12938,7 +12947,7 @@
 		(dnp no)
 		(uuid "8b3d16e3-1844-4cdb-99b9-f7d579694e2d")
 		(property "Reference" "#PWR0169"
-			(at 172.72 43.18 0)
+			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,8 +12957,8 @@
 				)
 			)
 		)
-		(property "Value" "PS_VDD12"
-			(at 172.72 35.56 0)
+		(property "Value" "PS_VDD12_SENSE"
+			(at 175.26 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12959,7 +12968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 39.37 0)
+			(at 175.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12970,7 +12979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 39.37 0)
+			(at 175.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12981,7 +12990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 39.37 0)
+			(at 175.26 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15111,7 +15120,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 179.07 39.37 0)
+		(at 184.15 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15121,7 +15130,7 @@
 		(dnp no)
 		(uuid "cd7240ad-4b34-499e-810d-57bbc8a7941b")
 		(property "Reference" "R67"
-			(at 179.07 34.036 0)
+			(at 184.15 34.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15131,7 +15140,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 179.07 36.576 0)
+			(at 184.15 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15141,7 +15150,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +15161,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15163,7 +15172,7 @@
 			)
 		)
 		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +15183,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15194,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +15205,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 179.07 39.37 0)
+			(at 184.15 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

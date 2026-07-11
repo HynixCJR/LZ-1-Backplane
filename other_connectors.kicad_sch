@@ -3500,7 +3500,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5367057a-ffdd-4f1d-b70b-f2bac7ca4c50")
 		(property "Reference" "#PWR0140"
 			(at 39.37 29.21 0)
@@ -3513,15 +3512,14 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 31.75 29.2099 90)
+		(property "Value" "+3V3_DISP"
+			(at 27.178 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
