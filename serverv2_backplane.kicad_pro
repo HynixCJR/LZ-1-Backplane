@@ -671,7 +671,7 @@
       },
       {
         "filename": "rtl9210b_circuit.kicad_sch",
-        "name": "RTL9210b_Circuit",
+        "name": "RTL9210b_0",
         "uuid": "7736e3ac-b95d-4de4-8ae1-42fea29ef2fc"
       },
       {
@@ -700,7 +700,7 @@
         "uuid": "a90d5657-3125-49af-9845-930d74e449d0"
       }
     ],
-    "used_designators": "R161,R163-166,R170-179,#PWR350,#PWR352-355,#PWR357-362,#PWR364-368,#PWR371-401,U27",
+    "used_designators": "M.2_M_KEY_CONN1,L11,L14,#PWR24-31,#PWR373,#PWR379,#PWR404-438,C8,C12-18,C21,C24-25,C33-37,C184-186,CN3,CN7,J6,R13-21,U2-3",
     "variants": []
   },
   "sheets": [
@@ -730,7 +730,7 @@
     ],
     [
       "7736e3ac-b95d-4de4-8ae1-42fea29ef2fc",
-      "RTL9210b_Circuit"
+      "RTL9210b_0"
     ],
     [
       "d0d9b026-c649-4d9b-a037-f2cffa22073f",

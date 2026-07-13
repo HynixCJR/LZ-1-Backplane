@@ -4404,7 +4404,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 73.66) (xy 323.85 73.66)
+			(xy 336.55 73.66) (xy 323.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4574,7 +4574,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 86.36) (xy 323.85 86.36)
+			(xy 336.55 86.36) (xy 323.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5234,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 85.09) (xy 332.74 86.36)
+			(xy 336.55 85.09) (xy 336.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5294,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 72.39) (xy 332.74 73.66)
+			(xy 336.55 72.39) (xy 336.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7933,83 +7933,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 332.74 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "335ed399-05bb-4cb9-9680-38a03a8b1297")
-		(property "Reference" "#PWR0359"
-			(at 332.74 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3_SSD1"
-			(at 332.74 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 332.74 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11d4ac86-73f1-46bc-8cea-7ecff52c0851")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/a90d5657-3125-49af-9845-930d74e449d0"
-					(reference "#PWR0359")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 195.58 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -9497,6 +9420,83 @@
 			(project "serverv2_backplane"
 				(path "/a90d5657-3125-49af-9845-930d74e449d0"
 					(reference "R153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 336.55 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4181747e-8673-4067-89ba-4336b60bd00e")
+		(property "Reference" "#PWR0359"
+			(at 336.55 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SSD1_unfiltered"
+			(at 336.55 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 336.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dcd03c32-1992-45e8-bd37-7fe824e51f1b")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/a90d5657-3125-49af-9845-930d74e449d0"
+					(reference "#PWR0359")
 					(unit 1)
 				)
 			)
@@ -18258,7 +18258,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 332.74 72.39 0)
+		(at 336.55 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18268,7 +18268,7 @@
 		(dnp no)
 		(uuid "fdf4f5d5-0c51-4800-bfd6-5dafbc902027")
 		(property "Reference" "#PWR0357"
-			(at 332.74 76.2 0)
+			(at 336.55 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18278,8 +18278,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SSD0"
-			(at 332.74 68.58 0)
+		(property "Value" "+3V3_SSD0_unfiltered"
+			(at 336.55 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18289,7 +18289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 72.39 0)
+			(at 336.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18300,7 +18300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 72.39 0)
+			(at 336.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18311,7 +18311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 332.74 72.39 0)
+			(at 336.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
