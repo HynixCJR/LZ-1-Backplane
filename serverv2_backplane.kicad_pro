@@ -700,7 +700,7 @@
         "uuid": "a90d5657-3125-49af-9845-930d74e449d0"
       }
     ],
-    "used_designators": "M.2_M_KEY_CONN1,L11,L14,#PWR24-31,#PWR373,#PWR379,#PWR404-438,C8,C12-18,C21,C24-25,C33-37,C184-186,CN3,CN7,J6,R13-21,U2-3",
+    "used_designators": "R10-12,R180-181,L15,#PWR402-403,#PWR439-446,C9-11,C187-190,U28-29",
     "variants": []
   },
   "sheets": [
