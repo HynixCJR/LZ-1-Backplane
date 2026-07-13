@@ -2347,7 +2347,7 @@
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33fe4528-50ef-4a22-962e-e8734280277e")
+		(uuid "66eeff21-c688-4315-80fe-03a9ee2d63ae")
 	)
 	(junction
 		(at 101.6 27.94)
@@ -2401,7 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 30.48) (xy 101.6 30.48)
+			(xy 95.25 30.48) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +3575,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 97.79 30.48 0)
+		(at 95.25 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3585,7 +3585,7 @@
 		(dnp no)
 		(uuid "557f18ab-c366-409a-9633-3a0e1f3c60bb")
 		(property "Reference" "#PWR0124"
-			(at 97.79 34.29 0)
+			(at 95.25 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3595,8 +3595,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 96.012 26.67 0)
+		(property "Value" "+5V_PANEL"
+			(at 89.408 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3607,7 +3607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 30.48 0)
+			(at 95.25 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 30.48 0)
+			(at 95.25 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V1\""
-			(at 97.79 30.48 0)
+			(at 95.25 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

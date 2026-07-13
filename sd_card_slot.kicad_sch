@@ -5673,8 +5673,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 42.672 64.77 0)
+		(property "Value" "+3V3_SD"
+			(at 44.704 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6213,7 +6213,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_SD"
 			(at 104.14 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6290,8 +6290,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 36.83 41.91 0)
+		(property "Value" "+3V3_SD"
+			(at 35.306 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6678,8 +6678,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 125.222 54.864 0)
+		(property "Value" "+3V3_SD"
+			(at 127.254 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7325,7 +7325,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_SD"
 			(at 92.71 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,8 +8227,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 125.222 44.704 0)
+		(property "Value" "+3V3_SD"
+			(at 127.254 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
