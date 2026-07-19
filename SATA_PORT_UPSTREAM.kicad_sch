@@ -1,0 +1,705 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3146f158-b3c8-442e-a92c-b4548c7e3d03")
+	(paper "A5")
+	(lib_symbols
+		(symbol "JLCImport:HYCW04-SATA07-129B"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN2"
+				(at 3.81 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HYCW04-SATA07-129B"
+				(at 3.81 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "JLCImport:HYCW04-SATA07-129B"
+				(at -0.254 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_HOAUC-HYCW04-SATA07-129B_C2926810.pdf"
+				(at 1.016 -20.066 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "7P 8.4mm Female Harpoon Pin (Metal) SATA Through Hole 插件,P=1.27mm Hard Disk Connector (SAS/SATA/M.2) ROHS"
+				(at 1.778 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2926810"
+				(at -0.254 -23.114 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HOAUC"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "HYCW04-SATA07-129B"
+				(at 0 -11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C2926810 CONN-TH_HYC_HYCW04-SATA07-129B HOAUC HYCW04-SATA07-129B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HYCW04-SATA07-129B_0_1"
+				(circle
+					(center -1.27 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -10.16) (xy 2.1311 -10.1503) (xy 2.2264 -10.1214) (xy 2.3142 -10.0744) (xy 2.3912 -10.0112)
+						(xy 2.4544 -9.9343) (xy 2.5013 -9.8464) (xy 2.5302 -9.7511) (xy 2.54 -9.652) (xy 2.5302 9.7511)
+						(xy 2.5013 9.8464) (xy 2.4544 9.9343) (xy 2.3912 10.0112) (xy 2.3142 10.0744) (xy 2.2264 10.1214)
+						(xy 2.1311 10.1503) (xy 2.032 10.16) (xy -2.1311 10.1503) (xy -2.2264 10.1214) (xy -2.3142 10.0744)
+						(xy -2.3912 10.0112) (xy -2.4544 9.9343) (xy -2.5013 9.8464) (xy -2.5302 9.7511) (xy -2.54 9.652)
+						(xy -2.5302 -9.7511) (xy -2.5013 -9.8464) (xy -2.4544 -9.9343) (xy -2.3912 -10.0112) (xy -2.3142 -10.0744)
+						(xy -2.2264 -10.1214) (xy -2.1311 -10.1503) (xy -2.032 -10.16) (xy 2.032 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HYCW04-SATA07-129B_1_1"
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "TX+"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "TX-"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "RX-"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "RX+"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 60.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5142b1f0-298e-4ea5-adf0-408cc8be66f9")
+	)
+	(junction
+		(at 60.96 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6ff700b-a25d-49bf-94d6-5a903fc89ca4")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25162fbd-0bce-47c8-a005-346336b92186")
+	)
+	(wire
+		(pts
+			(xy 60.96 48.26) (xy 60.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bbf7b0-479b-4cf7-8997-4b5ec62891d7")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76826c87-834e-472c-860f-178fb3bb1ae0")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9b5971-cf31-4570-a6aa-e633218fe628")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4be940c-4d75-4f2f-8712-4bf0d54481d7")
+	)
+	(hierarchical_label "TX+"
+		(shape output)
+		(at 71.12 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10b61062-d27e-4e38-b85a-8aee437b1e28")
+	)
+	(hierarchical_label "RX-"
+		(shape input)
+		(at 71.12 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "197b09a1-1670-41ad-b5f4-cef8ce959935")
+	)
+	(hierarchical_label "TX-"
+		(shape output)
+		(at 71.12 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8adb3e1f-4a24-4fdb-8316-f292b221fa5e")
+	)
+	(hierarchical_label "RX+"
+		(shape input)
+		(at 71.12 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef2a7c07-90f6-4df2-a574-36554c21fc04")
+	)
+	(symbol
+		(lib_id "JLCImport:HYCW04-SATA07-129B")
+		(at 76.2 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "758056c9-7d52-4ddc-a489-9ae101456ee4")
+		(property "Reference" "CN2"
+			(at 66.802 58.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HYCW04-SATA07-129B"
+			(at 66.802 61.214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:HYCW04-SATA07-129B"
+			(at 75.946 62.992 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121330_HOAUC-HYCW04-SATA07-129B_C2926810.pdf"
+			(at 77.216 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "7P 8.4mm Female Harpoon Pin (Metal) SATA Through Hole 插件,P=1.27mm Hard Disk Connector (SAS/SATA/M.2) ROHS"
+			(at 77.978 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2926810"
+			(at 75.946 71.374 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HOAUC"
+			(at 76.2 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "HYCW04-SATA07-129B"
+			(at 76.2 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ff73d52-ee77-4194-a9b1-a5ffa0266c10")
+		)
+		(pin "6"
+			(uuid "dd56a9c1-0925-4363-9b6f-87f9636d8ad9")
+		)
+		(pin "4"
+			(uuid "04f75b93-d152-4dd9-a800-50c73d89b9da")
+		)
+		(pin "7"
+			(uuid "dc66f89c-8184-43a1-aa69-f71913dd967e")
+		)
+		(pin "1"
+			(uuid "0e82cacd-fd5e-4d7f-8223-e3ef7ced7012")
+		)
+		(pin "3"
+			(uuid "dbb0f413-7c6c-43f7-815b-253c6fad8633")
+		)
+		(pin "5"
+			(uuid "8c3f2fdf-b089-45fa-a2e3-aea911687291")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/4cfb14a9-2f19-498b-8efa-0b74e4ca5f47/b206925b-e277-4e7f-877f-dbf52e23220e"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd170b20-0531-4713-84ba-b83277c9950a")
+		(property "Reference" "#PWR040"
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d16edf28-67f3-4009-b4f9-37dc93d17d41")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/4cfb14a9-2f19-498b-8efa-0b74e4ca5f47/b206925b-e277-4e7f-877f-dbf52e23220e"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
