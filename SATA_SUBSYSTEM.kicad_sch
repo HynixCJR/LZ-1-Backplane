@@ -4,129 +4,7 @@
 	(generator_version "10.0")
 	(uuid "41fe91e4-2c3c-4c7c-a821-5ef0efc5abb2")
 	(paper "A5")
-	(lib_symbols
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(junction
-		(at 50.8 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba751347-bcd3-4404-9cd3-698f261a263d")
-	)
+	(lib_symbols)
 	(wire
 		(pts
 			(xy 119.38 54.61) (xy 116.84 54.61)
@@ -139,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 128.27 93.98)
+			(xy 130.81 95.25) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -149,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 36.83) (xy 128.27 36.83)
+			(xy 116.84 36.83) (xy 133.35 36.83)
 		)
 		(stroke
 			(width 0)
@@ -159,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 128.27 88.9)
+			(xy 130.81 91.44) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -169,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 116.84 74.93)
+			(xy 119.38 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -179,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 82.55) (xy 50.8 82.55)
+			(xy 50.8 82.55) (xy 53.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -199,17 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 53.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "947b05aa-453b-41ce-8c42-192b7424bc82")
-	)
-	(wire
-		(pts
-			(xy 87.63 78.74) (xy 90.17 78.74)
+			(xy 87.63 80.01) (xy 90.17 80.01)
 		)
 		(stroke
 			(width 0)
@@ -229,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 34.29) (xy 128.27 34.29)
+			(xy 116.84 34.29) (xy 133.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -239,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 40.64) (xy 128.27 40.64)
+			(xy 116.84 40.64) (xy 133.35 40.64)
 		)
 		(stroke
 			(width 0)
@@ -249,13 +117,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 128.27 43.18)
+			(xy 116.84 43.18) (xy 133.35 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb6922ef-7038-45b9-a3fa-78058587cba5")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c738d655-3b5c-4292-9f55-2d6df009acb5")
 	)
 	(wire
 		(pts
@@ -269,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 78.74) (xy 128.27 78.74)
+			(xy 116.84 80.01) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -279,7 +157,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 90.17 74.93)
+			(xy 119.38 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fde80f-f7f5-42c2-b8e8-77f7a31c59fc")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -289,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 128.27 58.42)
+			(xy 116.84 58.42) (xy 133.35 58.42)
 		)
 		(stroke
 			(width 0)
@@ -299,13 +187,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 82.55) (xy 90.17 82.55)
+			(xy 87.63 83.82) (xy 90.17 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e31bed6f-27c8-4839-9d3a-d7c9c0bddb50")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e852e986-b721-49d0-bf01-999aeafc7328")
 	)
 	(wire
 		(pts
@@ -316,6 +214,16 @@
 			(type default)
 		)
 		(uuid "ee090acb-00ce-4ac7-8877-8ab245c18e0d")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 116.84 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea7b51e-29a0-4968-aeec-f691e52e4146")
 	)
 	(wire
 		(pts
@@ -339,7 +247,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 49.53 82.55 180)
+		(at 50.8 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -361,7 +269,7 @@
 	)
 	(hierarchical_label "SATA_12V_EN#"
 		(shape input)
-		(at 87.63 82.55 180)
+		(at 87.63 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -381,9 +289,20 @@
 		)
 		(uuid "3181f27c-3964-4e91-b0f4-4be0e5740fad")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 119.38 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8eac9014-70d0-4490-823d-fd6d7c500b0c")
+	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 119.38 74.93 0)
+		(at 119.38 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -438,7 +357,7 @@
 	)
 	(hierarchical_label "12V_FLT_CTRL"
 		(shape output)
-		(at 87.63 78.74 180)
+		(at 87.63 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -449,7 +368,7 @@
 	)
 	(hierarchical_label "SATA_DSS_CTRL"
 		(shape input)
-		(at 125.73 93.98 180)
+		(at 130.81 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -458,9 +377,20 @@
 		)
 		(uuid "eaf8ed44-e1c9-4b1a-82d5-5b0efd81f41d")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 119.38 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f02324c4-8136-47a8-8e5d-e7d6cdb4f477")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 125.73 88.9 180)
+		(at 130.81 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -469,131 +399,31 @@
 		)
 		(uuid "f7a086a3-5b12-4a99-953b-d06ffa9aaffa")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aba587f-f32e-49d0-9c8f-181fb2a83c4c")
-		(property "Reference" "#PWR0121"
-			(at 50.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 119.38 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 50.8 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "f86231d4-eece-454c-93df-f2ba52a15152")
+	)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 119.38 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Footprint" ""
-			(at 50.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01433dd4-002f-4076-9922-55a9c8ffe4d6")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/1271a149-7432-404a-bbd5-7ae0b7a8d68d"
-					(reference "#PWR0817")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/2b34bdfe-333e-4210-8353-2d6d8e14690a"
-					(reference "#PWR0700")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/2b409005-8f0c-424d-bea3-7f99170f3949"
-					(reference "#PWR0334")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/46262d05-a782-4c24-8fee-232f080edae1"
-					(reference "#PWR0641")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/470b220a-a565-4e43-ab90-9eb03ea2cd43"
-					(reference "#PWR0520")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/4cfb14a9-2f19-498b-8efa-0b74e4ca5f47"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/50af50d7-94b3-4b11-b0b0-fb1dfb06c699"
-					(reference "#PWR0818")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/8533a259-5737-4fce-b4c0-279539c49b16"
-					(reference "#PWR0819")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/a91f2db0-df6c-4013-b7b0-c2c51c5a6ec1"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/bfbdef84-70db-44df-9f2c-b3e154a7a6cb"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/c1d5cf6d-a75d-4df1-9c1d-6d5e2a990df7"
-					(reference "#PWR0748")
-					(unit 1)
-				)
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/ca25108c-b61e-40df-845b-d107b2a6dbc6"
-					(reference "#PWR0953")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fc9ee725-4d06-4570-a09b-a0ee22f6f1df")
 	)
 	(sheet
 		(at 90.17 50.8)
-		(size 26.67 15.24)
+		(size 26.67 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -672,6 +502,26 @@
 		(pin "+5V" input
 			(at 116.84 54.61 0)
 			(uuid "45ea0073-5745-4026-adab-5da9632d5cf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 116.84 62.23 0)
+			(uuid "d9c0e33b-fe7a-4131-a92f-3383d3a746ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 116.84 66.04 0)
+			(uuid "ac66267d-fc04-4e0e-8050-bbfb84baa664")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +650,7 @@
 			)
 		)
 		(pin "12V_ILM" input
-			(at 71.12 74.93 0)
+			(at 71.12 76.2 0)
 			(uuid "fa733ecb-ad8d-4b4d-a446-2b6faa531933")
 			(effects
 				(font
@@ -861,8 +711,8 @@
 		)
 	)
 	(sheet
-		(at 90.17 71.12)
-		(size 26.67 15.24)
+		(at 90.17 72.39)
+		(size 26.67 18.415)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -877,7 +727,7 @@
 		)
 		(uuid "aa340d7a-66d0-4862-ab8a-34395ba33866")
 		(property "Sheetname" "TPS259540"
-			(at 90.17 70.4084 0)
+			(at 90.17 71.6784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -888,7 +738,7 @@
 			)
 		)
 		(property "Sheetfile" "TPS259540.kicad_sch"
-			(at 90.17 86.9446 0)
+			(at 90.17 91.3896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +750,7 @@
 			)
 		)
 		(pin "12V_SATA" input
-			(at 116.84 78.74 0)
+			(at 116.84 80.01 0)
 			(uuid "a77298e8-eaa4-4bd3-b1ab-2b4dd7325bb9")
 			(effects
 				(font
@@ -910,7 +760,7 @@
 			)
 		)
 		(pin "SATA_12V_EN#" input
-			(at 90.17 82.55 180)
+			(at 90.17 83.82 180)
 			(uuid "beb94b4b-bdd0-40b5-a99f-883d6c684a40")
 			(effects
 				(font
@@ -920,7 +770,7 @@
 			)
 		)
 		(pin "12V_FLT_CTRL" output
-			(at 90.17 78.74 180)
+			(at 90.17 80.01 180)
 			(uuid "4cb6677b-e319-420a-87d7-f70f41d4526d")
 			(effects
 				(font
@@ -930,7 +780,7 @@
 			)
 		)
 		(pin "12V_ILM" input
-			(at 90.17 74.93 180)
+			(at 90.17 76.2 180)
 			(uuid "48220c90-01ae-49e2-8547-e1d81f8790d2")
 			(effects
 				(font
@@ -940,8 +790,28 @@
 			)
 		)
 		(pin "+12V" input
-			(at 116.84 74.93 0)
+			(at 116.84 76.2 0)
 			(uuid "3eb0c326-5857-4ced-b855-e2d9f1592c20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 116.84 83.82 0)
+			(uuid "cf105ce4-155a-493f-9418-1e8f945ad7ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 116.84 87.63 0)
+			(uuid "3658af4e-31d9-4892-9191-1683fb5be662")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +981,7 @@
 		)
 	)
 	(sheet
-		(at 128.27 30.48)
+		(at 133.35 30.48)
 		(size 17.78 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1127,7 +997,7 @@
 		)
 		(uuid "eff04965-b872-455d-b224-bd11a9925cb5")
 		(property "Sheetname" "SATA_PORT_DOWNSTREAM"
-			(at 128.27 29.997 0)
+			(at 133.35 29.997 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1138,7 +1008,7 @@
 			)
 		)
 		(property "Sheetfile" "SATA_PORT_DOWNSTREAM.kicad_sch"
-			(at 128.27 99.6446 0)
+			(at 133.35 99.6446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1150,7 +1020,7 @@
 			)
 		)
 		(pin "TX-" input
-			(at 128.27 36.83 180)
+			(at 133.35 36.83 180)
 			(uuid "ad939730-b5fc-44b6-8a6d-8a9b81b7417c")
 			(effects
 				(font
@@ -1160,7 +1030,7 @@
 			)
 		)
 		(pin "+12V" input
-			(at 128.27 78.74 180)
+			(at 133.35 80.01 180)
 			(uuid "9663c07e-5162-45e5-9dca-b7a66c6f1b43")
 			(effects
 				(font
@@ -1170,7 +1040,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 128.27 58.42 180)
+			(at 133.35 58.42 180)
 			(uuid "83552580-33f0-49c8-91ab-6ffcd5300db9")
 			(effects
 				(font
@@ -1180,7 +1050,7 @@
 			)
 		)
 		(pin "RX+" output
-			(at 128.27 40.64 180)
+			(at 133.35 40.64 180)
 			(uuid "52307c06-b0a8-4e12-b84d-45b28eddb12c")
 			(effects
 				(font
@@ -1190,7 +1060,7 @@
 			)
 		)
 		(pin "TX+" input
-			(at 128.27 34.29 180)
+			(at 133.35 34.29 180)
 			(uuid "43306558-7ff4-41a8-9ce9-750065b1b026")
 			(effects
 				(font
@@ -1200,7 +1070,7 @@
 			)
 		)
 		(pin "SATA_DSS_ctrl" input
-			(at 128.27 93.98 180)
+			(at 133.35 95.25 180)
 			(uuid "7ea4233d-b56e-492b-971e-177999d1a2bf")
 			(effects
 				(font
@@ -1210,7 +1080,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 128.27 88.9 180)
+			(at 133.35 91.44 180)
 			(uuid "11032654-37b1-4e63-853a-61c7feb267d0")
 			(effects
 				(font
@@ -1220,7 +1090,7 @@
 			)
 		)
 		(pin "RX-" output
-			(at 128.27 43.18 180)
+			(at 133.35 43.18 180)
 			(uuid "0a3da935-c7e1-433c-938a-549bb8f5fcc6")
 			(effects
 				(font

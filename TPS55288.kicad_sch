@@ -7414,7 +7414,7 @@
 		(uuid "33271dc7-064d-4e47-8d10-4b84d301c0d3")
 	)
 	(hierarchical_label "PWR_FAULT"
-		(shape input)
+		(shape output)
 		(at 127 53.34 0)
 		(effects
 			(font

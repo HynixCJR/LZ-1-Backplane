@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "JLCImport") (type "KiCad") (uri "${KIPRJMOD}/JLCImport.pretty") (options "") (descr ""))
 	(lib (name "RTL9210B-CG") (type "KiCad") (uri "${KIPRJMOD}/manually_imported_components/RTL9210B-CG") (options "") (descr ""))
+	(lib (name "LT6911UXC") (type "KiCad") (uri "${KIPRJMOD}/manually_imported_components/LT6911UXC") (options "") (descr ""))
 )
