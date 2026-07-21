@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -645,7 +645,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "R381-387,C300,C302-317,#PWR105,#PWR121,#PWR320,#PWR322-324,#PWR334,#PWR340,#PWR481,L1,L11,L20,U69-70",
+    "used_designators": "L21-22,#PWR169,#PWR488,#PWR492,#PWR502,C318-320,R388-389,U70",
     "variants": []
   },
   "sheets": [

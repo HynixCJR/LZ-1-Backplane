@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "d38d6818-cf53-410d-afa3-a75a85b7c05a")
 	(paper "A2" portrait)
+	(title_block
+		(title "LAZARUS-1 Backplane PCB")
+		(date "2026-07-21")
+		(rev "1.0")
+		(company "By: Matthew Kong")
+	)
 	(lib_symbols
 		(symbol "power:+5V"
 			(power global)
@@ -1367,7 +1373,7 @@
 		(uuid "c9225b99-38f4-49b1-9358-268dd0ecaafc")
 	)
 	(no_connect
-		(at 124.46 241.3)
+		(at 123.19 241.3)
 		(uuid "de6627e5-46f4-44cd-9b08-ced73c9b466f")
 	)
 	(no_connect
@@ -1381,6 +1387,10 @@
 	(no_connect
 		(at 271.78 361.95)
 		(uuid "e045d813-8446-4329-b59c-6f0301c3e3a3")
+	)
+	(no_connect
+		(at 90.17 281.94)
+		(uuid "f876911d-cb19-41e5-bf70-f54a0d11ca74")
 	)
 	(no_connect
 		(at 271.78 232.41)
@@ -3471,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 281.94) (xy 92.71 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fc5619-997f-46d4-b2ee-9894003219d5")
+	)
+	(wire
+		(pts
 			(xy 330.2 182.88) (xy 356.87 182.88)
 		)
 		(stroke
@@ -4970,7 +4990,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 241.3) (xy 124.46 241.3)
+			(xy 119.38 241.3) (xy 123.19 241.3)
 		)
 		(stroke
 			(width 0)
