@@ -1,0 +1,2 @@
+# LAZARUS-1 Backplane PCB Documentation
+This is the WIP documentation for the LAZARUS-1 Backplane PCB documentation. The LAZARUS-1 is a 2U, 12x3.5 inch bay home server. To enable this, there is a relatively sophisticated backplane PCB to support all of additional functions of the system.

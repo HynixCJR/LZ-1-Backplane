@@ -645,7 +645,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "L21-22,#PWR169,#PWR488,#PWR492,#PWR502,C318-320,R388-389,U70",
+    "used_designators": "L21-22,#PWR76,#PWR169,#PWR197,#PWR488,#PWR492,#PWR502,#PWR514,C48,C143,C150,C314,C318-320,R29-30,R388-389,U70,Y2",
     "variants": []
   },
   "sheets": [
