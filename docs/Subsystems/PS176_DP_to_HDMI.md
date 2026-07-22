@@ -62,6 +62,7 @@ A 27MHz crystal oscillator is used in this subsystem to control timing. The data
 | ---------------- | ----------------------- | ---------------- | ------------------- | ------------------- | --- |
 | C156249          | Reference design        | 8pF              | ±30ppm              | ±20ppm              | 50Ω |
 | C37635384        | LAZARUS-1 Backplane PCB | 9pF              | ±10ppm              | ±10ppm              | 30Ω |
+
 For frequency stability, frequency tolerance, and ESR, lower values are generally better. the oscillator used in this design is therefore a good choice. However, the load capacitance is not the same, and so different capacitor values are used.
 
 > Note: the reference design uses 15pF capacitors, which seems to imply that there is only ~0.5pF stray board capacitance. This seems too low, so 10pF capacitors are used in this design, which nets a stray board capacitance of 4pF.
