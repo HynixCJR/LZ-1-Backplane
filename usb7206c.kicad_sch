@@ -9504,7 +9504,7 @@
 		(uuid "1bcc8f79-910d-4a49-9e97-ee84c9b1d511")
 	)
 	(hierarchical_label "P1_USB3.0_RX-"
-		(shape output)
+		(shape input)
 		(at 160.02 166.37 0)
 		(effects
 			(font
@@ -9526,7 +9526,7 @@
 		(uuid "2828cb8c-e954-4127-b26d-6fde68618e90")
 	)
 	(hierarchical_label "P1_USB3.0_TX+"
-		(shape input)
+		(shape output)
 		(at 160.02 173.99 0)
 		(effects
 			(font
@@ -9548,7 +9548,7 @@
 		(uuid "308584b4-57f2-462d-afba-5e1ac51e065e")
 	)
 	(hierarchical_label "P1_USB3.0_RX+"
-		(shape output)
+		(shape input)
 		(at 160.02 168.91 0)
 		(effects
 			(font
@@ -9680,7 +9680,7 @@
 		(uuid "8d200284-08fb-444f-bdef-6d026aa01f00")
 	)
 	(hierarchical_label "P1_USB3.0_TX-"
-		(shape input)
+		(shape output)
 		(at 160.02 171.45 0)
 		(effects
 			(font

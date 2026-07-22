@@ -2698,7 +2698,7 @@
 		(uuid "03291864-bd8a-4de9-b74e-2a0024f3a6c7")
 	)
 	(hierarchical_label "RX-"
-		(shape output)
+		(shape input)
 		(at 73.66 48.26 180)
 		(effects
 			(font
@@ -2775,7 +2775,7 @@
 		(uuid "7622dabc-670f-4af9-b926-88a8c3b526c5")
 	)
 	(hierarchical_label "RX+"
-		(shape output)
+		(shape input)
 		(at 88.9 49.53 0)
 		(effects
 			(font
@@ -2797,7 +2797,7 @@
 		(uuid "8aa89839-e1e0-45b0-a4af-ff689419c287")
 	)
 	(hierarchical_label "TX-"
-		(shape input)
+		(shape output)
 		(at 73.66 45.72 180)
 		(effects
 			(font
@@ -2852,7 +2852,7 @@
 		(uuid "d5895ddb-5ba5-4fab-a053-7f1d9a035232")
 	)
 	(hierarchical_label "TX+"
-		(shape input)
+		(shape output)
 		(at 88.9 44.45 0)
 		(effects
 			(font

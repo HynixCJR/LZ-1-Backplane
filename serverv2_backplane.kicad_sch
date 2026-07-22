@@ -739,9 +739,9 @@
 		)
 		(uuid "7d7167fc-9810-47f3-806a-4b8be3194858")
 	)
-	(text "Audio output disabled due to Sipeed's LT6911C\nimplementation not including audio pin connections."
+	(text "Audio output disabled due to Sipeed's LT6911C\nimplementation not including audio pin connections.\n\nAlso LicheeRV Nano does not have spare I2S pins for audio."
 		(exclude_from_sim no)
-		(at 237.49 255.016 0)
+		(at 236.22 256.286 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -1430,16 +1430,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 361.95) (xy 152.4 361.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d028fc-ff6a-436b-828b-c055e6883225")
-	)
-	(wire
-		(pts
 			(xy 173.99 71.12) (xy 200.66 71.12)
 		)
 		(stroke
@@ -1479,16 +1469,6 @@
 			(color 53 217 18 1)
 		)
 		(uuid "05d05592-5fba-46d9-a51d-539c95cd96e7")
-	)
-	(wire
-		(pts
-			(xy 182.88 325.12) (xy 199.39 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069d33b2-a138-4ced-b57e-8b25044138b5")
 	)
 	(wire
 		(pts
@@ -1613,6 +1593,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 340.36) (xy 199.39 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d46d05b-1d78-4621-8ba1-af343f43c330")
+	)
+	(wire
+		(pts
 			(xy 316.23 386.08) (xy 356.87 386.08)
 		)
 		(stroke
@@ -1630,6 +1620,16 @@
 			(type default)
 		)
 		(uuid "0d72217f-49e6-415e-b42b-f92ed56c9994")
+	)
+	(wire
+		(pts
+			(xy 119.38 361.95) (xy 152.4 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7d7171-d306-4f84-8277-3d6de2070363")
 	)
 	(wire
 		(pts
@@ -1671,16 +1671,6 @@
 			(type default)
 		)
 		(uuid "0f72b751-7a90-459b-9628-0a12e214bf0a")
-	)
-	(wire
-		(pts
-			(xy 78.74 304.8) (xy 92.71 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1051a23e-85ea-4b48-aa6c-b73f9e13e0ee")
 	)
 	(wire
 		(pts
@@ -1731,6 +1721,16 @@
 			(type default)
 		)
 		(uuid "11955593-b003-4db6-aad1-4bf6c9426716")
+	)
+	(wire
+		(pts
+			(xy 182.88 325.12) (xy 199.39 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12188d9c-533a-4700-bf20-748ce42df690")
 	)
 	(wire
 		(pts
@@ -2202,6 +2202,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 327.66) (xy 199.39 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca53052-f904-4bef-8fbc-b5a9415a7a92")
+	)
+	(wire
+		(pts
+			(xy 119.38 304.8) (xy 152.4 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d27bc04-a63d-4f54-81a3-b097f732e6e4")
+	)
+	(wire
+		(pts
 			(xy 44.45 283.21) (xy 58.42 283.21)
 		)
 		(stroke
@@ -2418,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 364.49) (xy 152.4 364.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339cccd9-4671-4ffc-9f5b-e7889f965472")
+	)
+	(wire
+		(pts
 			(xy 119.38 373.38) (xy 152.4 373.38)
 		)
 		(stroke
@@ -2448,13 +2478,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 322.58) (xy 199.39 322.58)
+			(xy 119.38 359.41) (xy 152.4 359.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3480964e-3ebd-450a-bc5a-e6728835aa49")
+		(uuid "3475155b-bd77-42bd-a119-6da44a09b680")
 	)
 	(wire
 		(pts
@@ -2568,16 +2598,6 @@
 			(type default)
 		)
 		(uuid "38984772-0176-40e0-a10a-f8a28bffc856")
-	)
-	(wire
-		(pts
-			(xy 78.74 307.34) (xy 92.71 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39142a3d-4201-4a7a-ba93-56191a583de1")
 	)
 	(wire
 		(pts
@@ -2699,6 +2719,16 @@
 			(type default)
 		)
 		(uuid "3e8fac78-684d-4a8b-8746-36353a8241be")
+	)
+	(wire
+		(pts
+			(xy 88.9 373.38) (xy 92.71 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eed651b-3f96-4bb2-be8b-2dc5dddedaf8")
 	)
 	(wire
 		(pts
@@ -2947,6 +2977,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 312.42) (xy 152.4 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5048b0-bd09-4d9b-b848-c699cf815ac8")
+	)
+	(wire
+		(pts
 			(xy 149.86 463.55) (xy 152.4 463.55)
 		)
 		(stroke
@@ -3139,16 +3179,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 327.66) (xy 199.39 327.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54743a3d-1ec3-4641-a24e-11ecd10839f2")
-	)
-	(wire
-		(pts
 			(xy 119.38 476.25) (xy 152.4 476.25)
 		)
 		(stroke
@@ -3156,6 +3186,16 @@
 			(type default)
 		)
 		(uuid "55b0d28f-9da0-4ecb-906f-d6dd2b4b3c02")
+	)
+	(wire
+		(pts
+			(xy 78.74 312.42) (xy 92.71 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ca454f-bd7e-4b80-bbb1-06ab71407933")
 	)
 	(wire
 		(pts
@@ -3177,26 +3217,6 @@
 			(color 220 155 18 1)
 		)
 		(uuid "5692a4f3-4a48-4525-91ec-3dc327b056fb")
-	)
-	(wire
-		(pts
-			(xy 119.38 307.34) (xy 152.4 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5699531f-b541-4efd-bf8a-b7ae147a3b14")
-	)
-	(wire
-		(pts
-			(xy 119.38 359.41) (xy 152.4 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "569dc29b-3a99-419e-b0ae-ec8e2f96f336")
 	)
 	(wire
 		(pts
@@ -3237,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "587a0cf2-5097-40c2-9e6c-de776355ce63")
-	)
-	(wire
-		(pts
-			(xy 78.74 309.88) (xy 92.71 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e74a7c-2758-4fd6-831d-a4b008304e92")
 	)
 	(wire
 		(pts
@@ -3585,16 +3595,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 309.88) (xy 152.4 309.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6de71a-7e61-4277-a7ca-deb62d7e62d2")
-	)
-	(wire
-		(pts
 			(xy 44.45 46.99) (xy 90.17 46.99)
 		)
 		(stroke
@@ -3613,16 +3613,6 @@
 			(type default)
 		)
 		(uuid "6b2f9953-aae7-4a4b-9e9e-f42acb698e26")
-	)
-	(wire
-		(pts
-			(xy 182.88 330.2) (xy 199.39 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb5aba5-61a5-4a67-a8b1-d1d5301b7de3")
 	)
 	(wire
 		(pts
@@ -4004,6 +3994,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 307.34) (xy 92.71 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8041a2bb-7a52-441b-8f12-3e54f9a58915")
+	)
+	(wire
+		(pts
 			(xy 316.23 271.78) (xy 356.87 271.78)
 		)
 		(stroke
@@ -4095,16 +4095,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 364.49) (xy 152.4 364.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8344d0d1-bb66-4b47-9764-7877a23252a7")
-	)
-	(wire
-		(pts
 			(xy 316.23 337.82) (xy 356.87 337.82)
 		)
 		(stroke
@@ -4112,6 +4102,16 @@
 			(type default)
 		)
 		(uuid "848ef664-8121-4ff3-b704-d54a738d8801")
+	)
+	(wire
+		(pts
+			(xy 119.38 307.34) (xy 152.4 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f61480-23ed-4d37-9de0-8b9df799d0c8")
 	)
 	(wire
 		(pts
@@ -4152,16 +4152,6 @@
 			(type default)
 		)
 		(uuid "866cbca1-7954-4a44-b592-3979a9c9e98e")
-	)
-	(wire
-		(pts
-			(xy 182.88 340.36) (xy 199.39 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86942a5a-d110-48cf-aa5e-dd9d6a6ee13e")
 	)
 	(wire
 		(pts
@@ -4216,6 +4206,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 337.82) (xy 199.39 337.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a59aa93-ac0a-47fb-babf-3c464b70d2b9")
+	)
+	(wire
+		(pts
 			(xy 119.38 255.27) (xy 152.4 255.27)
 		)
 		(stroke
@@ -4236,7 +4236,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 335.28) (xy 92.71 335.28)
+			(xy 88.9 487.68) (xy 92.71 487.68)
 		)
 		(stroke
 			(width 0)
@@ -4253,16 +4253,6 @@
 			(type default)
 		)
 		(uuid "8d134b20-0d51-4e00-8dac-69604c3eed9e")
-	)
-	(wire
-		(pts
-			(xy 182.88 332.74) (xy 199.39 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d361bde-026c-454b-9100-362adbcb85f7")
 	)
 	(wire
 		(pts
@@ -4334,6 +4324,16 @@
 			(color 118 118 118 1)
 		)
 		(uuid "91c575e8-cde2-4313-aff1-b872d79ddf9d")
+	)
+	(wire
+		(pts
+			(xy 78.74 309.88) (xy 92.71 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9297f530-a3c3-43a4-bf0c-99cfc868d2b7")
 	)
 	(wire
 		(pts
@@ -4517,6 +4517,16 @@
 			(type default)
 		)
 		(uuid "99fe0cab-25e1-477e-8357-85b30f67bdcb")
+	)
+	(wire
+		(pts
+			(xy 78.74 304.8) (xy 92.71 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa1f009-930f-4871-a062-fff25c869aa7")
 	)
 	(wire
 		(pts
@@ -4762,6 +4772,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 309.88) (xy 152.4 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9dad90d-245b-4868-a7d6-094cc9449621")
+	)
+	(wire
+		(pts
 			(xy 236.22 140.97) (xy 242.57 140.97)
 		)
 		(stroke
@@ -4779,16 +4799,6 @@
 			(type default)
 		)
 		(uuid "aab900aa-a08f-469e-940e-52deee15511c")
-	)
-	(wire
-		(pts
-			(xy 78.74 312.42) (xy 92.71 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac2219d6-a194-48f4-a656-b9d456914f17")
 	)
 	(wire
 		(pts
@@ -4974,13 +4984,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 367.03) (xy 152.4 367.03)
+			(xy 182.88 330.2) (xy 199.39 330.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba91dae6-7217-4e3c-a662-aabd7153d0bf")
+		(uuid "b9785b96-2129-486f-b907-072dbee80201")
 	)
 	(wire
 		(pts
@@ -5105,13 +5115,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 304.8) (xy 152.4 304.8)
+			(xy 182.88 322.58) (xy 199.39 322.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0aed3ef-ebf2-4d71-b3ec-3ded7f4258f5")
+		(uuid "c0aafc04-163c-4d8a-b7da-8892e06d6272")
 	)
 	(wire
 		(pts
@@ -5135,16 +5145,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 337.82) (xy 199.39 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ceb99e-ae7a-461a-9f7b-3909865c78d7")
-	)
-	(wire
-		(pts
 			(xy 217.17 200.66) (xy 240.03 200.66)
 		)
 		(stroke
@@ -5152,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "c4238bc0-f732-4f70-a5b9-a3d2c0f4316e")
+	)
+	(wire
+		(pts
+			(xy 119.38 367.03) (xy 152.4 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53f18bb-7461-4bb2-8ca6-986cb3f6e72c")
 	)
 	(wire
 		(pts
@@ -5358,16 +5368,6 @@
 			(color 193 0 0 1)
 		)
 		(uuid "cd136f21-19b7-4497-8f90-8ee00398ddb0")
-	)
-	(wire
-		(pts
-			(xy 119.38 312.42) (xy 152.4 312.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf9ffdf-02a6-42fa-9223-d8608de896b6")
 	)
 	(wire
 		(pts
@@ -5612,6 +5612,16 @@
 			(type default)
 		)
 		(uuid "dbe8d214-c1c6-4076-86f1-1c25d7f3c132")
+	)
+	(wire
+		(pts
+			(xy 182.88 335.28) (xy 199.39 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc59a37c-68d8-4cb8-bc5f-8ab7463951dc")
 	)
 	(wire
 		(pts
@@ -6052,13 +6062,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 335.28) (xy 199.39 335.28)
+			(xy 182.88 332.74) (xy 199.39 332.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3bfe81f-73ce-4c12-9679-a072e02199f7")
+		(uuid "f3bf4f00-f088-4b3f-9334-69ea3572ac60")
 	)
 	(wire
 		(pts
@@ -7707,6 +7717,84 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 88.9 373.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05da750f-f451-4a93-b14b-327ca755d426")
+		(property "Reference" "#PWR083"
+			(at 88.9 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 88.9 368.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85c7ab60-f517-4855-b2c1-a525f3b70c2a")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -14007,7 +14095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 335.28 0)
+		(at 88.9 487.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14018,7 +14106,7 @@
 		(fields_autoplaced yes)
 		(uuid "d336a8e2-5dbd-470a-afe7-16576c3a85ca")
 		(property "Reference" "#PWR0419"
-			(at 88.9 341.63 0)
+			(at 88.9 494.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14029,7 +14117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 340.36 0)
+			(at 88.9 492.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14039,7 +14127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 335.28 0)
+			(at 88.9 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14050,7 +14138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 335.28 0)
+			(at 88.9 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14061,7 +14149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 335.28 0)
+			(at 88.9 487.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17329,8 +17417,8 @@
 				(justify left)
 			)
 		)
-		(pin "PCIE_TXO_1-" input
-			(at 182.88 325.12 0)
+		(pin "PCIE_TXO_1-" output
+			(at 182.88 330.2 0)
 			(uuid "67cd5b84-a4dc-40b7-9fec-bbd5102864f2")
 			(effects
 				(font
@@ -17339,8 +17427,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_TXO_1+" input
-			(at 182.88 322.58 0)
+		(pin "PCIE_TXO_1+" output
+			(at 182.88 327.66 0)
 			(uuid "ce9b85ba-65a2-4caa-9a12-36153911f513")
 			(effects
 				(font
@@ -17349,8 +17437,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_RXI_1+" output
-			(at 182.88 327.66 0)
+		(pin "PCIE_RXI_1+" input
+			(at 182.88 322.58 0)
 			(uuid "758197ec-f6c6-4cda-843a-2853012ec88d")
 			(effects
 				(font
@@ -17369,8 +17457,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_RXI_1-" output
-			(at 182.88 330.2 0)
+		(pin "PCIE_RXI_1-" input
+			(at 182.88 325.12 0)
 			(uuid "d89eca7d-77af-4f05-be87-5896e32153fc")
 			(effects
 				(font
@@ -17389,8 +17477,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_RXI0+" output
-			(at 182.88 337.82 0)
+		(pin "PCIE_RXI0+" input
+			(at 182.88 332.74 0)
 			(uuid "4a6efaea-2f5f-4940-96af-c64a399450ae")
 			(effects
 				(font
@@ -17399,8 +17487,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_RXI0-" output
-			(at 182.88 340.36 0)
+		(pin "PCIE_RXI0-" input
+			(at 182.88 335.28 0)
 			(uuid "2a185355-157a-403b-81a4-1125e184fce1")
 			(effects
 				(font
@@ -17409,8 +17497,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_TXO_0+" input
-			(at 182.88 332.74 0)
+		(pin "PCIE_TXO_0+" output
+			(at 182.88 337.82 0)
 			(uuid "a337ddf7-8854-478f-9a11-c452d99c66ff")
 			(effects
 				(font
@@ -17419,8 +17507,8 @@
 				(justify right)
 			)
 		)
-		(pin "PCIE_TXO_0-" input
-			(at 182.88 335.28 0)
+		(pin "PCIE_TXO_0-" output
+			(at 182.88 340.36 0)
 			(uuid "9ae581e1-5798-448b-b192-d1c93face77d")
 			(effects
 				(font
@@ -17832,6 +17920,303 @@
 		)
 	)
 	(sheet
+		(at 152.4 355.6)
+		(size 30.48 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2d27b7d6-19c9-4d7b-8d3e-1d25beee2b3c")
+		(property "Sheetname" "RTL9210B_1"
+			(at 152.4 354.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTL9210B_0.kicad_sch"
+			(at 152.4 406.9846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB3.0_RX-" input
+			(at 152.4 361.95 180)
+			(uuid "34f363a9-4d9f-457a-b481-66426f38183b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3.0_RX+" input
+			(at 152.4 359.41 180)
+			(uuid "a362f461-8541-4d76-a211-39b81aa60b60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3.0_TX+" output
+			(at 152.4 364.49 180)
+			(uuid "6fd4fc5e-268e-453d-a636-0dd1754ffb10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB3.0_TX-" output
+			(at 152.4 367.03 180)
+			(uuid "cae1a532-858a-4054-85f3-2d5c1a012d9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PDET" output
+			(at 182.88 372.11 0)
+			(uuid "23bf4c53-2279-4c1a-908f-f7e61c74c5cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2.0_D-" bidirectional
+			(at 152.4 373.38 180)
+			(uuid "73e028e2-e7b7-4adf-bee0-819c4692d96a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB2.0_D+" bidirectional
+			(at 152.4 370.84 180)
+			(uuid "d011badc-7c48-42fb-a88e-4a5c3ad9423a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PCIE_TXO_1-" output
+			(at 182.88 384.81 0)
+			(uuid "77d79790-1ece-43d4-a5b6-2e6256fa0343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TXO_1+" output
+			(at 182.88 382.27 0)
+			(uuid "119bb97d-8bfe-4e9d-b0ac-258c09869706")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RXI_1+" input
+			(at 182.88 377.19 0)
+			(uuid "bef1ae4c-45f8-4703-bbc6-3632a7a10836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_REFCLK-" output
+			(at 182.88 402.59 0)
+			(uuid "7e531153-9ae2-4eab-bb24-1eff88455b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RXI_1-" input
+			(at 182.88 379.73 0)
+			(uuid "97970935-011a-4fa9-8310-841fa4e57863")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_REFCLK+" output
+			(at 182.88 400.05 0)
+			(uuid "35410925-e731-41a9-8f13-89e6033e07e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RXI0+" input
+			(at 182.88 387.35 0)
+			(uuid "20591390-3d5d-4aad-b18a-18448c0d1c0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_RXI0-" input
+			(at 182.88 389.89 0)
+			(uuid "1a2637a1-800e-454a-9c30-06c4cbaa2725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TXO_0+" output
+			(at 182.88 392.43 0)
+			(uuid "8e44e224-0c3e-41c3-bec3-5871c414c036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PCIE_TXO_0-" output
+			(at 182.88 394.97 0)
+			(uuid "9293481b-b000-4dce-a55e-e73fcc2f9ec8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PERST#" output
+			(at 182.88 369.57 0)
+			(uuid "a093a9cb-5c36-4815-8606-c52e463e5346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3_SSD" output
+			(at 182.88 359.41 0)
+			(uuid "5539852e-efbc-4a99-b665-805c694d7ea3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 152.4 402.59 180)
+			(uuid "6c17bcb0-0220-4560-91ec-e4ff50d83c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DEVSLP" output
+			(at 182.88 364.49 0)
+			(uuid "5d68ef70-a3e8-479a-ac74-c62b634d7a2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLKREQ#" output
+			(at 182.88 367.03 0)
+			(uuid "1f611a76-c734-4fbe-9be0-6fdcf68beda0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" input
+			(at 152.4 382.27 180)
+			(uuid "810cc7aa-ba42-4078-a468-62243d77706b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 152.4 384.81 180)
+			(uuid "3d042b20-5817-4655-929d-e8010a575915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN#" input
+			(at 152.4 392.43 180)
+			(uuid "97ecb1d3-5f2b-41c0-9a72-95aaf8d2073e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 212.09 134.62)
 		(size 13.97 24.13)
 		(exclude_from_sim no)
@@ -18117,8 +18502,8 @@
 				(justify left)
 			)
 		)
-		(pin "SSTX+" input
-			(at 78.74 304.8 0)
+		(pin "SSTX+" output
+			(at 78.74 309.88 0)
 			(uuid "c3c91945-90e7-4d40-a05b-6416fa5d0f18")
 			(effects
 				(font
@@ -18127,8 +18512,8 @@
 				(justify right)
 			)
 		)
-		(pin "SSTX-" input
-			(at 78.74 307.34 0)
+		(pin "SSTX-" output
+			(at 78.74 312.42 0)
 			(uuid "d12139c4-7b55-4d8d-a082-09e617fca24e")
 			(effects
 				(font
@@ -18137,8 +18522,8 @@
 				(justify right)
 			)
 		)
-		(pin "SSRX+" output
-			(at 78.74 309.88 0)
+		(pin "SSRX+" input
+			(at 78.74 304.8 0)
 			(uuid "305974bb-2a13-490a-ae30-6dcebe970222")
 			(effects
 				(font
@@ -18147,8 +18532,8 @@
 				(justify right)
 			)
 		)
-		(pin "SSRX-" output
-			(at 78.74 312.42 0)
+		(pin "SSRX-" input
+			(at 78.74 307.34 0)
 			(uuid "1218b870-b4f7-44c8-84d2-753704b0100f")
 			(effects
 				(font
@@ -20155,7 +20540,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 92.71 335.28 180)
+			(at 92.71 487.68 180)
 			(uuid "4787b5b5-560a-4ee3-9b08-7adae6d9ee04")
 			(effects
 				(font
@@ -20165,7 +20550,7 @@
 			)
 		)
 		(pin "+3V3" input
-			(at 92.71 318.77 180)
+			(at 92.71 373.38 180)
 			(uuid "4a129644-a91b-4ec6-b2c9-162160927a9a")
 			(effects
 				(font
@@ -20324,8 +20709,8 @@
 				(justify right)
 			)
 		)
-		(pin "P1_USB3.0_RX+" output
-			(at 119.38 304.8 0)
+		(pin "P1_USB3.0_RX+" input
+			(at 119.38 309.88 0)
 			(uuid "f8ee61bf-5685-4e5d-9cbf-88d7ac9d262b")
 			(effects
 				(font
@@ -20334,8 +20719,8 @@
 				(justify right)
 			)
 		)
-		(pin "P1_USB3.0_TX+" input
-			(at 119.38 309.88 0)
+		(pin "P1_USB3.0_TX+" output
+			(at 119.38 304.8 0)
 			(uuid "e3281cea-6ac2-473a-90e2-9a8badaa8032")
 			(effects
 				(font
@@ -20344,8 +20729,8 @@
 				(justify right)
 			)
 		)
-		(pin "P1_USB3.0_RX-" output
-			(at 119.38 307.34 0)
+		(pin "P1_USB3.0_RX-" input
+			(at 119.38 312.42 0)
 			(uuid "21e8c718-7aaf-45ea-b49b-09ed660b61fe")
 			(effects
 				(font
@@ -20354,8 +20739,8 @@
 				(justify right)
 			)
 		)
-		(pin "P1_USB3.0_TX-" input
-			(at 119.38 312.42 0)
+		(pin "P1_USB3.0_TX-" output
+			(at 119.38 307.34 0)
 			(uuid "bc218d94-189c-42c1-8c8d-749433d28999")
 			(effects
 				(font
@@ -20365,7 +20750,7 @@
 			)
 		)
 		(pin "P2_USB3.0_RX+" output
-			(at 119.38 359.41 0)
+			(at 119.38 364.49 0)
 			(uuid "785601d5-e463-420c-a387-7d130a39aa8d")
 			(effects
 				(font
@@ -20375,7 +20760,7 @@
 			)
 		)
 		(pin "P2_USB3.0_RX-" output
-			(at 119.38 361.95 0)
+			(at 119.38 367.03 0)
 			(uuid "bf85d9a3-ebff-46ab-8652-9ca7bebd6360")
 			(effects
 				(font
@@ -20385,7 +20770,7 @@
 			)
 		)
 		(pin "P2_USB3.0_TX+" input
-			(at 119.38 364.49 0)
+			(at 119.38 359.41 0)
 			(uuid "496c8077-34c0-4a7b-bfe3-a10a3d8f037f")
 			(effects
 				(font
@@ -20395,7 +20780,7 @@
 			)
 		)
 		(pin "P2_USB3.0_TX-" input
-			(at 119.38 367.03 0)
+			(at 119.38 361.95 0)
 			(uuid "413bc3f7-8868-4fc1-9662-412901fc3580")
 			(effects
 				(font
@@ -23511,303 +23896,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
 					(page "33")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 152.4 355.6)
-		(size 30.48 50.8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d732ef76-2eb3-4402-9279-e18a8f87e353")
-		(property "Sheetname" "RTL9210B_1"
-			(at 152.4 354.8884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RTL9210B_0.kicad_sch"
-			(at 152.4 406.9846 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB3.0_RX-" input
-			(at 152.4 361.95 180)
-			(uuid "f061d6dc-d76b-4937-8ea9-19e6daec66a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB3.0_RX+" input
-			(at 152.4 359.41 180)
-			(uuid "8bceb189-18d5-41f3-b6f5-27fe9cbd392e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB3.0_TX+" output
-			(at 152.4 364.49 180)
-			(uuid "9202688e-5636-4bbd-9a44-6d6c569fd5de")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB3.0_TX-" output
-			(at 152.4 367.03 180)
-			(uuid "a9f4436b-00d8-4656-80b6-01a735a8eddc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PDET" output
-			(at 182.88 372.11 0)
-			(uuid "71f35fd2-65fa-4834-8a95-6de8cd00eeed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB2.0_D-" bidirectional
-			(at 152.4 373.38 180)
-			(uuid "407c2124-df3f-4f02-9f4e-31a57647b451")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB2.0_D+" bidirectional
-			(at 152.4 370.84 180)
-			(uuid "166bb957-37d0-4cb6-bf22-dc96f834baec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_TXO_1-" input
-			(at 182.88 379.73 0)
-			(uuid "53e51a34-9a07-4612-98c9-8018f0f9ef46")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TXO_1+" input
-			(at 182.88 377.19 0)
-			(uuid "dedac9f0-06ba-401b-8207-c77e714d74c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RXI_1+" output
-			(at 182.88 382.27 0)
-			(uuid "823673ba-ff4e-4bd8-b6d4-0850ad609319")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_REFCLK-" output
-			(at 182.88 402.59 0)
-			(uuid "f9ab9f57-da1e-41fb-97ba-9c00a50a7df0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RXI_1-" output
-			(at 182.88 384.81 0)
-			(uuid "9060c16e-43b8-40e9-88ae-e557b86dbbb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_REFCLK+" output
-			(at 182.88 400.05 0)
-			(uuid "7a4e525c-ca1d-4492-80ae-b16dea219a82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RXI0+" output
-			(at 182.88 392.43 0)
-			(uuid "0c7e0a5e-a3df-44d8-8f9d-855236bfa209")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RXI0-" output
-			(at 182.88 394.97 0)
-			(uuid "afa6480a-da61-46ac-9aaa-92038e22e50e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TXO_0+" input
-			(at 182.88 387.35 0)
-			(uuid "5a1277e2-4d10-407a-bb4c-604b1b42f641")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TXO_0-" input
-			(at 182.88 389.89 0)
-			(uuid "1f96ada4-79b6-4738-9eb7-d6aa25989651")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PERST#" output
-			(at 182.88 369.57 0)
-			(uuid "f4b345e9-a14f-46e8-b6fe-3839ad88f31b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+3V3_SSD" output
-			(at 182.88 359.41 0)
-			(uuid "cb729fe3-5dcc-4ccf-abce-1b935ffcbcc3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GND" input
-			(at 152.4 402.59 180)
-			(uuid "9b49ba5c-89cf-48cf-b0f6-3842375ca891")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DEVSLP" output
-			(at 182.88 364.49 0)
-			(uuid "f5f931bf-d2e2-40bf-812f-b53ba50c27d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CLKREQ#" output
-			(at 182.88 367.03 0)
-			(uuid "68a4ff0d-e696-4de5-92cc-c0b8aa78e389")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "+5V" input
-			(at 152.4 382.27 180)
-			(uuid "c03f9497-f52a-4a4a-be32-52d3417d9dd2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "+3V3" input
-			(at 152.4 384.81 180)
-			(uuid "1aaf67bf-e599-46b0-804b-c2a2fd0c7f6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "EN#" input
-			(at 152.4 392.43 180)
-			(uuid "5a4afc43-5340-4361-b273-60bb39ce25e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
-					(page "39")
 				)
 			)
 		)
