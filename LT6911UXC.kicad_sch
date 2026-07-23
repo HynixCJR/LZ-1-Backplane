@@ -7896,7 +7896,7 @@
 		(uuid "41e03e89-9c17-468c-9aaf-c38b01480e04")
 	)
 	(hierarchical_label "HDMI_HPD"
-		(shape input)
+		(shape output)
 		(at 123.19 68.58 0)
 		(effects
 			(font

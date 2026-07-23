@@ -16329,7 +16329,7 @@
 				(justify left)
 			)
 		)
-		(pin "HDMI_HPD" input
+		(pin "HDMI_HPD" output
 			(at 152.4 237.49 180)
 			(uuid "f544b8e6-5374-4ad6-9059-7f96f57790ca")
 			(effects
@@ -18352,7 +18352,7 @@
 				(justify left top)
 			)
 		)
-		(pin "DP_HPD" output
+		(pin "DP_HPD" bidirectional
 			(at 78.74 237.49 0)
 			(uuid "98c3526d-8d0c-4c6b-a7ed-394ee7c968c2")
 			(effects
@@ -18362,7 +18362,7 @@
 				(justify right)
 			)
 		)
-		(pin "AUX+" output
+		(pin "AUX+" bidirectional
 			(at 78.74 245.11 0)
 			(uuid "87002751-f2e5-4e73-9cc7-6036b2d7d78b")
 			(effects
@@ -18372,7 +18372,7 @@
 				(justify right)
 			)
 		)
-		(pin "AUX-" output
+		(pin "AUX-" bidirectional
 			(at 78.74 247.65 0)
 			(uuid "c646af40-e41c-4a08-870a-63204a7a993c")
 			(effects
@@ -21995,7 +21995,7 @@
 				(justify left top)
 			)
 		)
-		(pin "AUX-" input
+		(pin "AUX-" bidirectional
 			(at 92.71 247.65 180)
 			(uuid "00159df0-a7f4-48f1-a5d7-b440e16f616e")
 			(effects
@@ -22005,7 +22005,7 @@
 				(justify left)
 			)
 		)
-		(pin "HDMI_HPD" output
+		(pin "HDMI_HPD" input
 			(at 119.38 237.49 0)
 			(uuid "1a029810-737b-49e3-a739-9991a1dab2a1")
 			(effects
@@ -22015,7 +22015,7 @@
 				(justify right)
 			)
 		)
-		(pin "AUX+" input
+		(pin "AUX+" bidirectional
 			(at 92.71 245.11 180)
 			(uuid "4c405611-e61f-4c65-8897-9e7573b564b7")
 			(effects
@@ -22025,7 +22025,7 @@
 				(justify left)
 			)
 		)
-		(pin "DP_HPD" input
+		(pin "DP_HPD" output
 			(at 92.71 237.49 180)
 			(uuid "206d7be9-14a9-41d2-9345-a1fee1db1bb2")
 			(effects

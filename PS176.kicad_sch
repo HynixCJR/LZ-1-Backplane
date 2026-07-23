@@ -7498,7 +7498,7 @@
 		(uuid "2802c2bf-1e78-409c-8ab6-99aa58568434")
 	)
 	(hierarchical_label "AUX-"
-		(shape input)
+		(shape bidirectional)
 		(at 72.39 29.21 0)
 		(effects
 			(font
@@ -7674,7 +7674,7 @@
 		(uuid "899673ba-b61a-4785-a45e-af0bed2689bc")
 	)
 	(hierarchical_label "DP_HPD"
-		(shape input)
+		(shape output)
 		(at 24.13 57.15 180)
 		(effects
 			(font
@@ -7707,7 +7707,7 @@
 		(uuid "a2704a11-c0c0-42f8-94e2-ff3e866726ef")
 	)
 	(hierarchical_label "AUX+"
-		(shape input)
+		(shape bidirectional)
 		(at 69.85 29.21 180)
 		(effects
 			(font
@@ -7784,7 +7784,7 @@
 		(uuid "b246bacd-922b-428b-8845-596cb209892f")
 	)
 	(hierarchical_label "HDMI_HPD"
-		(shape output)
+		(shape input)
 		(at 115.57 57.15 0)
 		(effects
 			(font
