@@ -1,4 +1,4 @@
-# TUSB1064 USB Switch
+# TUSB1064 USB Switch Subsystem
 
 # Description
 The TUSB1064 is a USB-C redriving switch supporting up to 10Gbps data rates and DP 1.4. In other words, it connects to the TX and RX pins of the upstream USB-C port, and flips them depending on the orientation of the USB-C cable, as controlled by the TPS65987D PD controller over I2C. This ensures that the devices further down the USB data and DP paths do not need to account for orientation.

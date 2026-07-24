@@ -1,10 +1,9 @@
-# PS176 DP to HDMI Converter Subsystem
+# PS176 DP to HDMI Subsystem
 
 # Description
 The [PS176](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/PS176_DP_to_HDMI_System/PS176_DP_to_HDMI_Datasheet.pdf) is a native DisplayPort 1.2a to HDMI 2.0 converter IC that does not rely on DP++ support. In this backplane PCB, it's used to convert the DP signal from the TUSB1064 switch (and thus from the upstream USB-C port, connected to the laptop) to a native HDMI signal, which is then converted to a CSI to be used as an input to the Lichee RV Nano for IPKVM purposes.
 
 This design is largely based on the [reference design](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/PS176_DP_to_HDMI_System/PS176_Reference_Schematic.pdf), which is an open source design created by [lemon_wifi on OSHWHUB](https://oshwhub.com/lemon_wifi/PS176). However, changes were made to suit the embedded design (i.e., no ports) of this subsystem.
-
 
 # Revision Progress
 
@@ -14,8 +13,6 @@ This design is largely based on the [reference design](https://github.com/HynixC
 | Basic Function Review/Documentation  | ✅ 2026-07-21 | ✅ 2026-07-21 |
 | Extended Design Review/Documentation |              |              |
 | Initial PCB layout                   |              |              |
-
-
 
 # Design
 
@@ -44,6 +41,8 @@ HDMI uses 3 TMDS data lanes (HDMI_xP and HDMI_xN), 1 TMDS clock lane (HDMI_CP an
 
 The TMDS data lanes do not require additional components, such as clamps/diodes or other ESD protection, as forfeiting the physical HDMI port makes them largely unnecessary. The reference design only includes diodes on the 5V line; however, they are excluded from this design since there is no physical HDMI port.
 
+The CEC pin is not used by the LT6911C, and so it is left floating.
+
 ---
 ### Control I2C
 > *Pins: CSCL (29), CSDA (28), I2C_ADDR (3)*
@@ -64,6 +63,8 @@ A 27MHz crystal oscillator is used in this subsystem to control timing. The data
 | C37635384        | LAZARUS-1 Backplane PCB | 9pF              | ±10ppm              | ±10ppm              | 30Ω |
 
 For frequency stability, frequency tolerance, and ESR, lower values are generally better. the oscillator used in this design is therefore a good choice. However, the load capacitance is not the same, and so different capacitor values are used.
+
+The reference design also omits the usual 1MΩ resistor between the oscillator pins, though the datasheet does not mention anything about internal resistance between the two pins. So, a 1MΩ resistor footprint is added, but labelled as Do Not Populate (DNP).
 
 > Note: the reference design uses 15pF capacitors, which seems to imply that there is only ~0.5pF stray board capacitance. This seems too low, so 10pF capacitors are used in this design, which nets a stray board capacitance of 4pF.
 

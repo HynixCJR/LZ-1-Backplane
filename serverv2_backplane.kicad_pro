@@ -645,7 +645,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "C5-7,C32,C101-108,C135,U19,R42-43,R61",
+    "used_designators": "C5-7,C32,C101-108,C135,C137,C147,C166,C302,U19,DNP1-3,R42-43,R61-63,L3,L18-20,Q65",
     "variants": []
   },
   "sheets": [
