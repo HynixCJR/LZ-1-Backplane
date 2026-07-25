@@ -6500,6 +6500,12 @@
 		(uuid "1059d219-2a3e-49e2-bbbc-09cc391cdc3d")
 	)
 	(junction
+		(at 62.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "150f6c11-90ad-4ecf-890b-fa118f77847b")
+	)
+	(junction
 		(at 251.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6560,16 +6566,16 @@
 		(uuid "37b930f9-f209-43ec-ad4c-1f25fb5229ea")
 	)
 	(junction
+		(at 45.72 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a76e81e-f16c-49ea-acdc-2031d7f49c66")
+	)
+	(junction
 		(at 236.22 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "454c03d7-d7f7-46cb-89a4-ce6bff2ac3c8")
-	)
-	(junction
-		(at 48.26 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b8beb3b-dc9d-4695-9da6-3289b33f2f8a")
 	)
 	(junction
 		(at 109.22 25.4)
@@ -6738,6 +6744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfce260e-f663-4e78-8885-9ea18bf17092")
+	)
+	(junction
+		(at 45.72 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3937fb1-659f-42e3-9f6c-73745dadffbb")
 	)
 	(junction
 		(at 226.06 87.63)
@@ -6997,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 72.39) (xy 35.56 72.39)
+			(xy 27.94 72.39) (xy 33.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7037,7 +7049,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 69.85) (xy 49.53 69.85)
+			(xy 33.02 69.85) (xy 49.53 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7057,6 +7069,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7999fa-066d-4107-be1c-67b84b01fab0")
+	)
+	(wire
+		(pts
 			(xy 73.66 25.4) (xy 76.2 25.4)
 		)
 		(stroke
@@ -7067,6 +7089,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5792b3-eb2c-4d6c-a8e0-eb28bcc8b19b")
+	)
+	(wire
+		(pts
 			(xy 224.79 24.13) (xy 236.22 24.13)
 		)
 		(stroke
@@ -7074,6 +7106,16 @@
 			(type default)
 		)
 		(uuid "2099dbba-8bc4-4472-91de-287c2236dbb3")
+	)
+	(wire
+		(pts
+			(xy 59.69 76.2) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d49c5b-2748-43ca-984f-659700ec495f")
 	)
 	(wire
 		(pts
@@ -7387,6 +7429,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1b1fa2-4cdc-4d07-bad2-8c9cd1043cd7")
+	)
+	(wire
+		(pts
 			(xy 90.17 21.59) (xy 99.06 21.59)
 		)
 		(stroke
@@ -7417,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 72.39) (xy 48.26 72.39)
+			(xy 43.18 72.39) (xy 45.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7517,6 +7569,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 76.2) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ebbca8-6786-492d-aa68-9dbec8c47512")
+	)
+	(wire
+		(pts
 			(xy 109.22 25.4) (xy 116.84 25.4)
 		)
 		(stroke
@@ -7577,7 +7639,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 80.01) (xy 64.77 80.01)
+			(xy 59.69 80.01) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7977,16 +8039,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 49.53 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd455e9-c421-400c-9bfa-80e816fb9d06")
-	)
-	(wire
-		(pts
 			(xy 218.44 96.52) (xy 218.44 97.79)
 		)
 		(stroke
@@ -8114,6 +8166,16 @@
 			(type default)
 		)
 		(uuid "f493d0ca-5ce2-492e-be05-8249615ec827")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 45.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59b643e-290e-4d5f-9c1e-23a0cd785762")
 	)
 	(wire
 		(pts
@@ -8276,7 +8338,7 @@
 		(uuid "8fa2be6f-73c7-40ee-a013-1b01120c44f6")
 	)
 	(label "+1V2"
-		(at 30.48 72.39 0)
+		(at 27.94 72.39 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -10383,6 +10445,120 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:JMK105BJ225MVHF")
+		(at 54.61 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2403b7a7-a24e-484b-ae86-faa5d519fd38")
+		(property "Reference" "C189"
+			(at 53.848 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 55.626 75.184 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Taiyo-Yuden-JMK105BJ225MVHF_C386010.pdf"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C386010"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "JMK105BJ225MVHF"
+			(at 54.61 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "274de80b-3cf2-4aa3-aa01-57cb2878b4cc")
+		)
+		(pin "2"
+			(uuid "955bca7d-af88-4e6f-bd74-a9b732bbf6a8")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
+					(reference "C189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "CL05B104KB54PNC_1")
 		(lib_id "JLCImport:CL05B104KB54PNC")
 		(at 222.25 82.55 90)
@@ -10691,8 +10867,122 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:0402WGF1003TCE")
+		(at 54.61 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b88885c-5a26-400f-a256-2d1d1b02398d")
+		(property "Reference" "R63"
+			(at 51.816 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 57.404 68.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1003TCE"
+			(at 54.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ff10f3f-46f4-4e64-a268-bec21cf19ed2")
+		)
+		(pin "2"
+			(uuid "fa36617d-dee5-40dd-b251-c58879eca948")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:JMK105BJ225MVHF")
-		(at 40.64 72.39 90)
+		(at 38.1 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10702,7 +10992,7 @@
 		(dnp no)
 		(uuid "34c39f86-838a-447a-a03b-28ced482cd47")
 		(property "Reference" "C166"
-			(at 39.878 71.374 90)
+			(at 37.338 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10713,7 +11003,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 41.656 71.374 90)
+			(at 39.116 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10724,7 +11014,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10735,7 +11025,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1912111437_Taiyo-Yuden-JMK105BJ225MVHF_C386010.pdf"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10746,7 +11036,7 @@
 			)
 		)
 		(property "Description" "2.2uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10757,7 +11047,7 @@
 			)
 		)
 		(property "LCSC" "C386010"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10768,7 +11058,7 @@
 			)
 		)
 		(property "Manufacturer" "Taiyo Yuden"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,7 +11069,7 @@
 			)
 		)
 		(property "Manufacturer Part" "JMK105BJ225MVHF"
-			(at 40.64 72.39 0)
+			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10997,7 +11287,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 69.85 270)
+		(at 33.02 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11007,7 +11297,7 @@
 		(dnp no)
 		(uuid "3b120ec4-4828-413e-8cde-6939f4763adc")
 		(property "Reference" "#PWR026"
-			(at 29.21 69.85 0)
+			(at 26.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 69.85 90)
+			(at 27.94 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11028,7 +11318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 69.85 0)
+			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11039,7 +11329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 69.85 0)
+			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11050,7 +11340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 69.85 0)
+			(at 33.02 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,120 +11438,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
 					(reference "DNP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 54.61 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43699a3d-b581-4b30-9bbe-a12a2ce2a348")
-		(property "Reference" "NC1"
-			(at 51.816 68.834 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 57.404 68.834 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 54.61 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc40d113-39ad-4580-ade0-83ae67d1f6e3")
-		)
-		(pin "2"
-			(uuid "4c43ebdb-d949-4b2c-83cb-ae4cf9708c2a")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "NC1")
 					(unit 1)
 				)
 			)
@@ -11821,6 +11997,120 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:0402WGF1003TCE")
+		(at 54.61 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e234027-a94a-4f48-8e49-ff42fe474ca9")
+		(property "Reference" "R64"
+			(at 51.816 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 57.404 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1003TCE"
+			(at 54.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "867b1222-1ccc-470d-8150-449607e8c00e")
+		)
+		(pin "2"
+			(uuid "0cc78830-cb01-46bb-9b20-fc01cc0e94c9")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 264.16 157.48 0)
 		(unit 1)
@@ -12120,197 +12410,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 54.61 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66f14841-401f-4472-8e41-ac34a3a96fa1")
-		(property "Reference" "NC3"
-			(at 51.816 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 57.404 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 54.61 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "549da890-9c18-4515-ac31-1c171f646ac1")
-		)
-		(pin "2"
-			(uuid "8fea113a-88fa-4923-bcdb-1acf3b546815")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "NC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 48.26 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69c59fe7-557c-43ff-9d34-45f07fdd9033")
-		(property "Reference" "#PWR025"
-			(at 48.26 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 76.454 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "588e5cfd-fd33-4e4d-926f-744b0e37de9d")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13273,8 +13372,8 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 54.61 82.55 0)
+		(lib_id "power:GND")
+		(at 45.72 76.2 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13282,31 +13381,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8b0681ad-0592-43d3-b5e5-30aa2914875b")
-		(property "Reference" "NC2"
-			(at 51.816 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 57.404 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 54.61 82.55 0)
+		(uuid "8da3a60f-15d5-45c5-917e-2d6cd2189bb7")
+		(property "Reference" "#PWR084"
+			(at 39.37 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13316,8 +13393,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 54.61 82.55 0)
+		(property "Value" "GND"
+			(at 40.64 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13327,8 +13414,8 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 54.61 82.55 0)
+		(property "Datasheet" ""
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13338,30 +13425,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25741"
-			(at 54.61 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 54.61 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 54.61 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13372,15 +13437,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "172b1b4f-e067-47ba-ae68-9b5b093ac090")
-		)
-		(pin "2"
-			(uuid "648f87a5-b834-4473-bd1b-929dbe985222")
+			(uuid "4ce8c698-3289-4149-b687-ac6932e02aa0")
 		)
 		(instances
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "NC2")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -14031,6 +14093,120 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
 					(reference "R384")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:0402WGF1003TCE")
+		(at 54.61 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc2cc9bf-bdcc-4f45-b65c-5b65f7f05fec")
+		(property "Reference" "R65"
+			(at 51.816 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 57.404 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1003TCE"
+			(at 54.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69257d28-89b2-4ac8-8996-09b0a598020b")
+		)
+		(pin "2"
+			(uuid "0f2b65e4-5c79-4a42-b316-7a79097a2e01")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
+					(reference "R65")
 					(unit 1)
 				)
 			)
