@@ -6859,7 +6859,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 33.02) (xy 21.59 35.56)
+			(xy 25.4 33.02) (xy 25.4 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7349,7 +7349,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 22.86) (xy 30.48 22.86)
+			(xy 25.4 22.86) (xy 34.29 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7519,7 +7519,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 35.56) (xy 30.48 35.56)
+			(xy 25.4 35.56) (xy 34.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7780,7 +7780,7 @@
 	)
 	(hierarchical_label "HDMI_SDA"
 		(shape bidirectional)
-		(at 30.48 33.02 0)
+		(at 34.29 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7802,7 +7802,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 30.48 22.86 0)
+		(at 34.29 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8187,7 +8187,7 @@
 	)
 	(hierarchical_label "HDMI_SCL"
 		(shape output)
-		(at 30.48 35.56 0)
+		(at 34.29 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8653,118 +8653,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
 					(reference "#PWR0198")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:BLM18KG331SN1D")
-		(at 29.21 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1b0ee0c3-275c-46b5-a0a7-cda4fd7c3d29")
-		(property "Reference" "L2"
-			(at 29.21 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330Ω@100MHz"
-			(at 29.21 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9144 0.9144)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:BLM18KG331SN1D"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409292303_Murata-Electronics-BLM18KG331SN1D_C85832.pdf"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 1.7A 330Ω@100MHz 80mΩ ±25% 0603 Ferrite Beads ROHS"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C85832"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "BLM18KG331SN1D"
-			(at 29.21 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e71cb43b-dd27-4fb3-ab9a-56952071483a")
-		)
-		(pin "1"
-			(uuid "d46d6c12-89cc-4ee2-b2ca-a587495ef749")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -10752,7 +10640,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:1RC0402J0202")
-		(at 21.59 27.94 90)
+		(at 25.4 27.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10763,7 +10651,7 @@
 		(fields_autoplaced yes)
 		(uuid "672c4308-459b-49f6-a713-cde62ab90d1c")
 		(property "Reference" "R30"
-			(at 24.13 26.6699 90)
+			(at 27.94 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10774,7 +10662,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 24.13 29.2099 90)
+			(at 27.94 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10785,7 +10673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10684,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/323315.html"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +10695,7 @@
 			)
 		)
 		(property "Description" "0402 Chip Resistor - Surface Mount ROHS"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +10706,7 @@
 			)
 		)
 		(property "LCSC" "C54531046"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10829,7 +10717,7 @@
 			)
 		)
 		(property "Manufacturer" "SAE"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +10728,7 @@
 			)
 		)
 		(property "Manufacturer Part" "1RC0402J0202"
-			(at 21.59 27.94 0)
+			(at 25.4 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10974,118 +10862,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
 					(reference "C143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:BLM18KG331SN1D")
-		(at 120.65 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e1f9fc6-6a0b-4071-a6c3-de49cf70b05f")
-		(property "Reference" "L17"
-			(at 120.65 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330Ω@100MHz"
-			(at 120.65 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.9144 0.9144)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:BLM18KG331SN1D"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409292303_Murata-Electronics-BLM18KG331SN1D_C85832.pdf"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1 1.7A 330Ω@100MHz 80mΩ ±25% 0603 Ferrite Beads ROHS"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C85832"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "BLM18KG331SN1D"
-			(at 120.65 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4cbc5d4-7e12-4429-b779-2b4004a8371b")
-		)
-		(pin "1"
-			(uuid "fbf851bd-22bd-4e07-a7d8-7491776141df")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
-					(reference "L17")
 					(unit 1)
 				)
 			)
@@ -11549,7 +11325,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:1RC0402J0202")
-		(at 30.48 27.94 90)
+		(at 34.29 27.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11560,7 +11336,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e69c0d-600a-482e-9d94-19c1ee905ec3")
 		(property "Reference" "R29"
-			(at 33.02 26.6699 90)
+			(at 36.83 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11571,7 +11347,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 33.02 29.2099 90)
+			(at 36.83 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11582,7 +11358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11593,7 +11369,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/323315.html"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11604,7 +11380,7 @@
 			)
 		)
 		(property "Description" "0402 Chip Resistor - Surface Mount ROHS"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11615,7 +11391,7 @@
 			)
 		)
 		(property "LCSC" "C54531046"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,7 +11402,7 @@
 			)
 		)
 		(property "Manufacturer" "SAE"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11637,7 +11413,7 @@
 			)
 		)
 		(property "Manufacturer Part" "1RC0402J0202"
-			(at 30.48 27.94 0)
+			(at 34.29 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14446,6 +14222,118 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:GDPZ2012M121-4A0TF")
+		(at 29.21 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc0f278b-7651-4b40-af99-041f31a4e642")
+		(property "Reference" "L23"
+			(at 29.21 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+			)
+		)
+		(property "Value" "120Ω@100MHz"
+			(at 29.21 67.056 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/344132.html"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 120Ω@100MHz 20mΩ 4A ±25% 0805 Ferrite Beads ROHS"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C51018428"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GUDIAN"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GDPZ2012M121-4A0TF"
+			(at 29.21 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "952e4947-d937-4f7f-9d58-0493801384df")
+		)
+		(pin "2"
+			(uuid "c2be0302-6fe5-4974-9e4d-3fcb1d734fa2")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
+					(reference "L23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:CL05B104KB54PNC")
 		(at 116.84 91.44 90)
 		(unit 1)
@@ -15052,6 +14940,118 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
 					(reference "C138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:GDPZ2012M121-4A0TF")
+		(at 120.65 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc4cf2fe-2daa-4f07-b145-1b4dc6112801")
+		(property "Reference" "L22"
+			(at 120.65 46.228 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+			)
+		)
+		(property "Value" "120Ω@100MHz"
+			(at 120.65 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8128 0.8128)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/344132.html"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 120Ω@100MHz 20mΩ 4A ±25% 0805 Ferrite Beads ROHS"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C51018428"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GUDIAN"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "GDPZ2012M121-4A0TF"
+			(at 120.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7d5bd14-a7e6-4fb2-9384-3da121056571")
+		)
+		(pin "2"
+			(uuid "35742ecc-bb6c-468c-bdb9-eee92e9aa2f6")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b2ce6f0d-8f63-4237-bcdd-37e6f2c1382e"
+					(reference "L22")
 					(unit 1)
 				)
 			)

@@ -1,11 +1,19 @@
 # PS176 DP to HDMI Subsystem
+## Preamble
+The PS176 is used in the pathway between the laptop and the IPKVM; it converts the DisplayPort signal (from the USB-C port, through DP Alt-mode) to HDMI, which is then converted by the LT6911C to MIPI CSI to be interpreted by the LicheeRV Nano SBC. DisplayPort to MIPI CSI ICs do exist, and would theoretically use significantly less board space and consume slightly less power; however, these ICs would require substantial software configuration. The LT6911C is used in the official NanoKVM, so the same device tree and firmware can be used, whereas chips like the ITE IT6510 or LT7911D would require custom firmware (that is not publicly available). Hence, the PS176 is required as an additional step to convert the DisplayPort to HDMI.
 
-# Description
+This specific chip was chosen for the following reasons:
+1. There is already a pre-existing open source design by lemon_wifi on [OSHWHub](https://oshwhub.com/lemon_wifi/PS176), which does not require significant modification to work in this embedded system.
+2. Unlike the TI SN65DP159, which is a passive retimer that requires dual-mode DisplayPort (DP++), the PS176 is an active chip that works with any native DisplayPort port. This is important because USB-C DP Alt-mode generally does not support dual mode operation, and hence the SN65DP159 would not function in this case. This is rather unfortunate because TI's documentation and openness is unmatched by any of the other chips contending for use in this step.
+3. The PS176 is rather cheap; it is available for <$2 CAD + shipping on Aliexpress, and does not require any expensive external components.
+4. Despite the PS196 being newer and more advanced (supporting higher resolutions, using less power), the PS176 was still chosen because it is more purchasable in individual quantities. Additionally, the PS176 uses a smaller footprint.
+
+## Description
 The [PS176](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/PS176_DP_to_HDMI_System/PS176_DP_to_HDMI_Datasheet.pdf) is a native DisplayPort 1.2a to HDMI 2.0 converter IC that does not rely on DP++ support. In this backplane PCB, it's used to convert the DP signal from the TUSB1064 switch (and thus from the upstream USB-C port, connected to the laptop) to a native HDMI signal, which is then converted to a CSI to be used as an input to the Lichee RV Nano for IPKVM purposes.
 
 This design is largely based on the [reference design](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/PS176_DP_to_HDMI_System/PS176_Reference_Schematic.pdf), which is an open source design created by [lemon_wifi on OSHWHUB](https://oshwhub.com/lemon_wifi/PS176). However, changes were made to suit the embedded design (i.e., no ports) of this subsystem.
 
-# Revision Progress
+## Revision Progress
 
 | Stages                               |    PS176     |   MCP1602    |
 | ------------------------------------ | :----------: | :----------: |
@@ -14,7 +22,7 @@ This design is largely based on the [reference design](https://github.com/HynixC
 | Extended Design Review/Documentation |              |              |
 | Initial PCB layout                   |              |              |
 
-# Design
+## Design
 
 ### Power
 The PS176 uses three voltage rails: 5V, 3.3V, and 1.2V. However, it draws most of its current (per the datasheet) from the 1.2V rail. Since this system is embedded onto the backplane PCB, no additional power connectors are needed for the 3.3V rail or 5V rail; the PS176 can simply draw from the main 3.3V or 5V ATX PSU rails. However, 1.2V is supplied using a simple 3.3V->1.2V buck converter. 5V is only used for HDMI I2C pull up voltages.
@@ -37,7 +45,7 @@ A 1kΩ resistor is included in series on the DP_HPD pin for power sequencing pro
 
 ---
 ### HDMI Output Pins
-HDMI uses 3 TMDS data lanes (HDMI_xP and HDMI_xN), 1 TMDS clock lane (HDMI_CP and HDMI_CN), 1 CEC pin for control (CEC), 1 HPD pin to signal connection (HDMI_HPD), 1 I2C line (HDMI_SCL and HDMI_SDA), and 5V/GND pins. Since the subsystem is embedded, the GND and 5V pins are supplied by the main ATX PSU voltage rails. However 2k pull up resistors (to 5V) on the I2C line are still required per the HDMI specification. This is paired with a 33k pull up resistor in the LT6911C subsystem, which receives the HDMI output of the PS176.
+HDMI uses 3 TMDS data lanes (HDMI_xP and HDMI_xN), 1 TMDS clock lane (HDMI_CP and HDMI_CN), 1 CEC pin for control (CEC), 1 HPD pin to signal connection (HDMI_HPD), 1 I2C line (HDMI_SCL and HDMI_SDA), and 5V/GND pins. Since the subsystem is embedded, the GND and 5V pins are supplied by the main ATX PSU voltage rails. However 2kΩ pull up resistors (to 5V) on the I2C line are still required per the HDMI specification. This is paired with a 33kΩ pull up resistor in the LT6911C subsystem, which receives the HDMI output of the PS176.
 
 The TMDS data lanes do not require additional components, such as clamps/diodes or other ESD protection, as forfeiting the physical HDMI port makes them largely unnecessary. The reference design only includes diodes on the 5V line; however, they are excluded from this design since there is no physical HDMI port.
 
@@ -49,7 +57,7 @@ The CEC pin is not used by the LT6911C, and so it is left floating.
 
 These pins are for the control I2C slave line, which is used for debugging. The pins are pulled up to 3.3V by a 4.7k pull up resistor, with no further connection to an MCU to simplify routing (they aren't necessary for functionality). Pads may be included on these traces for debugging purposes.
 
-The I2C_ADDR pin is pulled high by a 4.7k resistor to 3.3V, which sets the I2C address of the CSCL and CSDA line to `90h – 9Fh, D0h – DFh`, per the datasheet.
+The I2C_ADDR pin is pulled high by a 4.7kΩ resistor to 3.3V, which sets the I2C address of the CSCL and CSDA line to `90h – 9Fh, D0h – DFh`, per the datasheet.
 
 ---
 ### Crystal Oscillator

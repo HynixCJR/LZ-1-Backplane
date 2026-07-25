@@ -2118,6 +2118,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:1RC0402J0202"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1RC0402J0202"
+				(at 0 -3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/323315.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C54531046"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SAE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "1RC0402J0202"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1RC0402J0202 C54531046 R0402 SAE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1RC0402J0202_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:2N7002_C916396"
 			(pin_numbers
 				(hide yes)
@@ -4754,167 +4915,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:WR04X3302FTL"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "WR04X3302FTL"
-				(at 0 -3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Walsin-Tech-Corp-WR04X3302FTL_C163824.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C163824"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Walsin Tech Corp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "WR04X3302FTL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C163824 R0402 WR04X3302FTL Walsin Tech Corp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "WR04X3302FTL_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LT6911UXC:LT6911UXC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6407,17 +6407,6 @@
 		)
 		(uuid "afbb95ea-42bf-44b1-8ec6-7f48ffed1f4e")
 	)
-	(text "Sipeed's design has a diode here, but I didn't\ninclude it because I am not including the HDMI port"
-		(exclude_from_sim no)
-		(at 149.86 56.642 0)
-		(effects
-			(font
-				(size 0.8128 0.8128)
-			)
-			(justify left)
-		)
-		(uuid "cc53c8d1-10b3-4fa8-9ae8-970fe45273aa")
-	)
 	(text "MIPI TX Port1/Lane1"
 		(exclude_from_sim no)
 		(at 123.698 85.852 0)
@@ -6528,6 +6517,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a9955ac-8bb8-448a-be72-2464e6f301e2")
+	)
+	(junction
+		(at 137.16 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d34b6f3-2995-4ea5-8d75-9e7c5d304098")
 	)
 	(junction
 		(at 200.66 147.32)
@@ -7019,16 +7014,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 135.89 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1432eb20-6f1c-4e52-aeef-0dde2aba35f4")
-	)
-	(wire
-		(pts
 			(xy 218.44 106.68) (xy 228.6 106.68)
 		)
 		(stroke
@@ -7439,6 +7424,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515a131d-4956-4525-9de4-83b14db80e1a")
+	)
+	(wire
+		(pts
 			(xy 90.17 21.59) (xy 99.06 21.59)
 		)
 		(stroke
@@ -7629,6 +7624,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 68.58) (xy 137.16 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b19803d-f3de-432f-8f48-c2d993217944")
+	)
+	(wire
+		(pts
 			(xy 224.79 34.29) (xy 222.25 34.29)
 		)
 		(stroke
@@ -7746,16 +7751,6 @@
 			(type default)
 		)
 		(uuid "9e355cdd-b365-4e20-acbc-b1f2d423dc8c")
-	)
-	(wire
-		(pts
-			(xy 148.59 55.88) (xy 148.59 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08dec32-3f05-47b9-a73f-c9bbac498cb2")
 	)
 	(wire
 		(pts
@@ -8019,6 +8014,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 58.42) (xy 137.16 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f10056-9b50-4316-9cd6-53238029d714")
+	)
+	(wire
+		(pts
 			(xy 172.72 82.55) (xy 172.72 83.82)
 		)
 		(stroke
@@ -8079,16 +8084,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 148.59 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1a9ef7d-6aef-4910-b8cd-0241e5dce585")
-	)
-	(wire
-		(pts
 			(xy 25.4 55.88) (xy 22.86 55.88)
 		)
 		(stroke
@@ -8106,16 +8101,6 @@
 			(type default)
 		)
 		(uuid "e9036461-f31c-4368-8428-958ba5e48f61")
-	)
-	(wire
-		(pts
-			(xy 148.59 53.34) (xy 135.89 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3ae0ce-64bb-4dbf-be14-ceb1acf61ce3")
 	)
 	(wire
 		(pts
@@ -8505,20 +8490,9 @@
 		)
 		(uuid "395f7406-bb61-4f32-a4ad-1b889015da34")
 	)
-	(hierarchical_label "+5V"
-		(shape input)
-		(at 148.59 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41e03e89-9c17-468c-9aaf-c38b01480e04")
-	)
 	(hierarchical_label "HDMI_HPD"
 		(shape output)
-		(at 123.19 68.58 0)
+		(at 138.43 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8592,6 +8566,17 @@
 			(justify left)
 		)
 		(uuid "830b8031-d088-4c3b-895a-0d87d93de87c")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 138.43 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b253b6b-5f23-45c1-b128-b11b2e5b6245")
 	)
 	(hierarchical_label "CSI_2P"
 		(shape output)
@@ -8672,7 +8657,7 @@
 	)
 	(hierarchical_label "HDMI_SCL"
 		(shape input)
-		(at 135.89 63.5 0)
+		(at 123.19 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8683,7 +8668,7 @@
 	)
 	(hierarchical_label "HDMI_SDA"
 		(shape bidirectional)
-		(at 148.59 66.04 0)
+		(at 123.19 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13984,121 +13969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:WR04X3302FTL")
-		(at 135.89 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbd2b715-8fae-4baf-b687-2779103a70fb")
-		(property "Reference" "R384"
-			(at 138.43 57.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33k"
-			(at 138.43 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Walsin-Tech-Corp-WR04X3302FTL_C163824.pdf"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C163824"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Walsin Tech Corp"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "WR04X3302FTL"
-			(at 135.89 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9c05bc63-4108-4695-a306-671970f19757")
-		)
-		(pin "1"
-			(uuid "37637345-e49a-4c46-96f6-6418e9c10641")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "R384")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:0402WGF1003TCE")
 		(at 54.61 85.09 0)
 		(unit 1)
@@ -14443,121 +14313,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:WR04X3302FTL")
-		(at 148.59 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c90abc62-6041-4158-9b6c-d154c0cc574c")
-		(property "Reference" "R385"
-			(at 151.13 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33k"
-			(at 151.13 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Walsin-Tech-Corp-WR04X3302FTL_C163824.pdf"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 33kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C163824"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Walsin Tech Corp"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "WR04X3302FTL"
-			(at 148.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30e6830c-ce3f-4574-97e5-a4ecc90601c1")
-		)
-		(pin "1"
-			(uuid "993b8777-c1ca-4934-8483-3444e1593ff1")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
-					(reference "R385")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CL05B104KB54PNC_2")
 		(lib_id "JLCImport:CL05B104KB54PNC")
 		(at 200.66 152.4 90)
@@ -14896,6 +14651,121 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
 					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:1RC0402J0202")
+		(at 137.16 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d56285da-f7d6-4225-8a98-b0f70f5674e1")
+		(property "Reference" "R66"
+			(at 139.7 62.2299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2k"
+			(at 139.7 64.7699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/323315.html"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 Chip Resistor - Surface Mount ROHS"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C54531046"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAE"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "1RC0402J0202"
+			(at 137.16 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc37a5ab-7921-41ea-8b26-f9d6fbc7bdab")
+		)
+		(pin "1"
+			(uuid "66bb4c93-2ed2-46af-8e80-9fc0c09761c3")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/015864d7-0a23-41c2-95b4-7da7ee4af384"
+					(reference "R66")
 					(unit 1)
 				)
 			)

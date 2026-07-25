@@ -1,23 +1,27 @@
 # LT6911C HDMI to MIPI CSI Converter Subsystem
+## Preamble
+The LT6911C is used in the pathway between the laptop and the IPKVM; it converts the HDMI signal from the PS176 into a MIPI CSI signal that can be used by the LicheeRV Nano to deliver video output over IP, thus enabling IPKVM functionality. DisplayPort to MIPI CSI ICs do exist, and would theoretically use significantly less board space and consume slightly less power; however, these ICs would require substantial software configuration. The LT6911C is used in the official NanoKVM, so the same device tree and firmware can be used, whereas chips like the ITE IT6510 or LT7911D would require custom firmware (that is not publicly available). Hence, the LT6911C was chosen.
 
-# Description
-The [LT6911C](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/LT6911C_HDMI_to_CSI_system/LT6911C_HDMI_to_CSI_datasheet.pdf) is an HDMI 1.4 to MIPI CSI converter IC. In the LAZARUS-1 Backplane PCB, it is used to convert the HDMI signal from the PS176 (whose video signal originates from the connected host device) to a MIPI CSI signal that can be interpreted by the LicheeRV Nano. The LicheeRV Nano can use this display signal to enable IPKVM capabilities.
+This step was originally occupied by the TC358743XBG; however, it was replaced with the LT6911C because the TC358743XBG uses a BGA footprint, which is substantially harder to solder and design for.
+
+## Description
+The [LT6911C](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/LT6911C_HDMI_to_CSI_System/LT6911C_HDMI_to_CSI_datasheet.pdf) is an HDMI 1.4 to MIPI CSI converter IC. In the LAZARUS-1 Backplane PCB, it is used to convert the HDMI signal from the PS176 (whose video signal originates from the connected host device) to a MIPI CSI signal that can be interpreted by the LicheeRV Nano. The LicheeRV Nano can use this display signal to enable IPKVM capabilities.
 
 Unfortunately, the LT6911C is not very well documented, with only proprietary firmware options. Furthermore, there are no official reference designs or schematics, and the (leaked) datasheet is quite barebones. So, the design of the LT6911C circuit used on this PCB is largely reverse engineered from the publicly released [3D model](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/LT6911C_HDMI_to_CSI_system/LT6911C_Sipeed_3D_model.html) of the official adapter HDMI->CSI adapter board used in Sipeed's NanoKVM Lite. Modifications were made to this design using (generally) cheaper components and to adapt it to the embedded architecture of the Backplane PCB. This was all cross-referenced with an open source [LT6911C HDMI->MIPI DSI board](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/LT6911C_HDMI_to_CSI_system/LT6911C_HDMI_to_DSI_reference_schematic.pdf) designed by Hyper12 on [OSHWHub](https://oshwhub.com/cnflysky/h2d_lt6911c). Unfortunately, this is implemented for DSI rather than MIPI CSI, so an exact copy wasn't possible.
 
 The design very closely mirrors the official HDMI->CSI adapter used in the NanoKVM Lite, as the NanoKVM's binary file for this adapter is unfortunately the only way to use the LT6911C for this purpose without a license.
 
-# Revision Progress
+## Revision Progress
 
 | Stages                               |    PS176     |   MCP1602    | Logic Level Shifter |
 | ------------------------------------ | :----------: | :----------: | ------------------- |
 | Initial Design                       | ✅ 2026-07-20 | ✅ 2026-07-20 | ✅ 2026-07-20        |
-| Basic Function Review/Documentation  |              | ✅ 2026-07-22 |                     |
+| Basic Function Review/Documentation  | ✅ 2026-07-25 | ✅ 2026-07-22 | ✅ 2026-07-23        |
 | Extended Design Review/Documentation |              |              |                     |
 | Initial PCB layout                   |              |              |                     |
 
 
-# Design
+## Design
 
 ### Power
 There are three voltage rails used in this design: 3.3V, 1.8V, and 1.2V. The 3.3V and 1.2V rails are the main power rails, whereas the 1.8V rail is only for logic interfacing with the MIPI CSI connector.
@@ -65,4 +69,60 @@ The level shifter used in this design is a simple enhancement MOSFET-based imple
 
 In effect, the logic on each side will match. This is essentially the same design as is used on the official NanoKVM Lite LT6911C board. However, in this design, this is accomplished with a 2 N-channel enhancement MOSFET ([EM6K7T2R](https://github.com/HynixCJR/serverv2_backplane/blob/main/datasheets/LT6911C_HDMI_to_CSI_system/ROHM_EM6K7T2R_Nch_MOSFET_datasheet.pdf)), as opposed to the official design, which uses a similar MOSFET ([DMN31D5UDJ](https://www.diodes.com/assets/Datasheets/DMN31D5UDJ.pdf)). The EM6K7T2R has the same max V_GS(th) of 1.0V (so the MOSFET should still turn on when the source is pulled low), but with lower R_DS(on) at 1.8V. However, the capacitance is higher (25pF vs. 22.6pF), but it should still be fine enough, as long as the FPC cable is short enough (which it will be, I think).
 
-A 2kΩ pull up resistor is placed on the SCL/SDA lines on the LT6911C side, but the official design does not include them on the FPC side. 
+A 2kΩ pull up resistor is placed on the SCL/SDA lines on the LT6911C side, but the official design does not include them on the FPC side. This is likely because there are already 5.1kΩ pull up resistors on those pins on the LicheeRV Nano, per its schematic. However, just in case they aren't present, empty footprints for 10kΩ resistors are added to the I2C lines on the FPC side.
+
+---
+### INTIO/GPIO5 Pin
+> *Pin: INTIO_GPIO5 (26)*
+
+This pin is rather confusing because the datasheet just labels this pin as "GPIO", with no further explanation. Moreover, the LicheeRV Nano schematic wires up pin 17 of the CSI connector (which INTIO_GPIO5 is connected to) to "CAM_IO0", despite the LT6911C here not serving as a camera. In fact, the table below details the configuration description from the datasheet:
+
+| Camera + FPC                                     | CAM_IO0  | CAM_IO1                                      |
+| ------------------------------------------------ | -------- | -------------------------------------------- |
+| Sipeed GC4653 + 70416 FPC                        | RESET    | MCLK(connect to MIPI 0N with R72 by default) |
+| Sipeed OS04A10 + same direction FPC              | RESET    | NC                                           |
+| Raspberry Pi camera (level matching<br>required) | Power EN | LED Indicator                                |
+
+There is no mention of the NanoKVM's use of this pin. Additionally, CAM_IO1 (pin 18 of the CSI connector) is just left as NC on Sipeed's official 3D model of the LT6911C PCB. None of these pins are mentioned anywhere in the official documentation.
+
+Regardless, this design mirrors the implementation in Sipeed's official 3D model of the LT6911C PCB. Just like with the I2C pins, a MOSFET level shifter is used - which, in this case, is a 2N7002 because (presumably) this GPIO pin is not as fast as the I2C pins. The INTIO_GPIO5 pin connects to the drain of the 2N7002 with a pull up to 3.3V, pin 17 of the CSI connector connects to the source pin with a pull up to 1.8V, and the gate is connected to the 1.8V LDO. Same general config as the I2C pins in this design. This mirrors the official design almost exactly; however, the purpose of this pin is still under question. Unfortunately, this question may never be answered because the firmware is proprietary. Great!
+
+---
+### Other Pins
+> *Pins: RSVD (17, 18), SLEEP_33 (19), RST_N (20)*
+
+- RSVD (17, 18): The datasheet says to leave these pins floating, but the official implementation pulls these down to GND using a 100kΩ resistor. Thus, the footprint of 100kΩ resistors are placed, and can be left unsoldered if the pins need to be floating.
+- SLEEP_33 (19): Labelled as "External Sleep Mode Control Signal" in the datasheet; pulled low by a 100k resistor to prevent external sleep control, as in the official implementation.
+- RST_N (20): Active low reset for the LT6911C. Pulled to 3.3V by a 10kΩ resistor to prevent random resets; same as official implementation. A 2.2uF capacitor is also added to filter noise.
+
+---
+### I2S Pins
+> *Pins: IIS_WS (27), IIS_SCLK (28), IIS_MCLK (29), IIS_D0/SPDIF (31)*
+
+These pins are used for audio output; however, they are not used in this design, as the LicheeRV Nano does not support I2S audio input (the I2S is used up by the microphone). So, just like in the official implementation, these pins are left floating.
+
+---
+### HDMI Input Pins
+> *Pins: HDMI_CP (3), HDMI_CN (2), HDMI_xP/HDMI_xN, HDMI_SCL (16), HDMI_SDA (15), HDMI_HPD (23)*
+
+HDMI uses 3 TMDS data lanes (HDMI_xP and HDMI_xN), 1 TMDS clock lane (HDMI_CP and HDMI_CN), 1 CEC pin for control (CEC), 1 HPD pin to signal connection (HDMI_HPD), 1 I2C line (HDMI_SCL and HDMI_SDA), and 5V/GND pins. The LT6911C doesn't seem to have a pin dedicated to CEC, so on the PS176, that pin is left floating, which is fine for functionality since it is optional for manufacturers (I think). Additionally, 5V and GND is supplied by the ATX PSU.
+
+In the official design, the I2C traces are connected to the HDMI port, with 33kΩ pull ups to 5V, and a diode between the pull ups and 5V (presumably) to prevent back feeding. However, the diode was removed in this design because the HDMI traces go straight to the PS176 without an intermediary HDMI port/receptacle. Moreover, the pull ups on the LT6911C side were removed, since the LT6911C will physically be close enough to the PS176 that additional pull ups will not be needed. This saves on board space, which is desperately needed.
+
+The HDMI clock and data lanes are wired directly to their corresponding pins on the LT6911C. On the official design, there is a TVS diode on each trace to protect against ESD, but they are also not needed in this design because of a lack of a physical port.
+
+On the official design, the HPD trace goes straight to the HDMI port's HPD pin. The datasheet does not say if there is an internal pull up, but the reference schematic includes a 2kΩ pull up to 5V despite its absence in the official 3D model. Thus, a 2kΩ pull up resistor is included; if it is not needed, it can be excluded in assembly.
+
+---
+### MIPI CSI Pins
+There are several MIPI lanes that are left as NC, as the LT6911C supports more channels than are available on the FPC connector. Below is a table of the pins and their descriptions:
+
+| Channel name (datasheet) | Pin number     | Description                        | Connection on PCB                       |
+| ------------------------ | -------------- | ---------------------------------- | --------------------------------------- |
+| M0_L3_1                  | 49 (+), 50 (-) | MIPI TX Port1/Lane0                | CSI_0P (CSI pin 3)/CSI_0N (CSI pin 2)   |
+| M1_LCK_1                 | 51 (+), 52 (-) | MIPI TX Port1/Lane1                | CSI_1P (CSI pin 6)/CSI_1N (CSI pin 5)   |
+| M2_L1_1                  | 55 (+), 56 (-) | MIPI TX Port1/Lane2                | CSI_2P (CSI pin 12)/CSI_2N (CSI pin 11) |
+| M3_L0_1                  | 57 (+), 58 (-) | MIPI TX Port1/Lane3                | CSI_3P (CSI pin 15)/CSI_3N (CSI pin 14) |
+| MCK_L2_1                 | 53 (+), 54 (-) | MIPI TX Port1/Clock Channel Output | CSI_CP (CSI pin 9)/CSI_3N (CSI pin 8)   |
+
+The rest of the pins are left as NC; in the reference schematic, the remaining pins are routed to the FPC connector, which has more pins than the one used in this design. The unused pins are for the second port (which, for some reason, is labelled as "port 3" in the datasheet), presumably to allow for multiple display connections. This single port configuration is exactly as depicted in the official 3D model.
