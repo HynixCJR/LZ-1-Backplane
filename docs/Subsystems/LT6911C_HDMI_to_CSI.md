@@ -13,7 +13,7 @@ The design very closely mirrors the official HDMI->CSI adapter used in the NanoK
 
 ## Revision Progress
 
-| Stages                               |    PS176     |   MCP1602    | Logic Level Shifter |
+| Stages                               |    LT6911C     |   MCP1602    | Logic Level Shifter |
 | ------------------------------------ | :----------: | :----------: | ------------------- |
 | Initial Design                       | ✅ 2026-07-20 | ✅ 2026-07-20 | ✅ 2026-07-20        |
 | Basic Function Review/Documentation  | ✅ 2026-07-25 | ✅ 2026-07-22 | ✅ 2026-07-23        |
