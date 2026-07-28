@@ -16232,7 +16232,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL1" input
+		(pin "SCL1" output
 			(at 278.13 226.06 180)
 			(uuid "d2dcc2d1-28fd-4d5b-b222-8ab03cc43b34")
 			(effects
@@ -17016,7 +17016,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL1" input
+		(pin "SCL1" output
 			(at 200.66 59.69 180)
 			(uuid "b87a831d-c88f-4f8b-b5b7-34a3311fc184")
 			(effects
@@ -20506,7 +20506,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8b68a21d-b75d-4ac8-b286-2eeb4ac9eb24")
-		(property "Sheetname" "USB7206C"
+		(property "Sheetname" "USB7205C"
 			(at 92.71 300.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20517,7 +20517,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB7206C.kicad_sch"
+		(property "Sheetfile" "USB7205C.kicad_sch"
 			(at 92.71 500.9646 0)
 			(hide yes)
 			(show_name no)
@@ -23574,7 +23574,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL1" input
+		(pin "SCL1" output
 			(at 278.13 367.03 180)
 			(uuid "00cffbfb-856b-4499-a694-6bcc2d75a130")
 			(effects

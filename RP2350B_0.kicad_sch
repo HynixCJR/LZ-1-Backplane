@@ -4242,6 +4242,18 @@
 		)
 		(uuid "a592b3d3-45d3-4e54-bbe2-9e46516e6901")
 	)
+	(rectangle
+		(start 129.54 111.76)
+		(end 153.67 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ab1a9266-8512-48de-8063-0cbce28ee63f")
+	)
 	(text "Additional SATA GPIO pins\nspread across other RP2350B's\nfor easier routing"
 		(exclude_from_sim no)
 		(at 179.578 110.998 0)
@@ -4263,6 +4275,17 @@
 			(justify left)
 		)
 		(uuid "0a8d8e1b-f693-4ee9-bd5e-d75b7f3192aa")
+	)
+	(text "I2C, to\nslave devices"
+		(exclude_from_sim no)
+		(at 139.7 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "120edde7-2df4-4903-bf26-3af540d24896")
 	)
 	(text "Dual 33pF capacitors is to achieve\n16.5pF + ~3pF (parasitic) = ~19.5pF total,\nbut 220ohm res is eyeballed, needs testing"
 		(exclude_from_sim no)
@@ -4642,14 +4665,6 @@
 		(uuid "824cc211-d20c-448a-9305-3196efcb816b")
 	)
 	(no_connect
-		(at 128.27 115.57)
-		(uuid "adf5cb30-243e-45f0-a89d-76b9196eb4fa")
-	)
-	(no_connect
-		(at 128.27 113.03)
-		(uuid "c97a430a-1961-428b-b036-6f18adc9d91f")
-	)
-	(no_connect
 		(at 128.27 67.31)
 		(uuid "cfeb9b51-06ef-49cf-9a23-1afffb6e410d")
 	)
@@ -4706,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "07152388-ddbc-4f27-8394-109586120f16")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d19642-6560-4b32-8368-c236c2554a90")
 	)
 	(wire
 		(pts
@@ -5599,6 +5624,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 113.03) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65d3826-9b09-4c37-bb7c-40fb0e170ae5")
+	)
+	(wire
+		(pts
 			(xy 210.82 48.26) (xy 209.55 48.26)
 		)
 		(stroke
@@ -5947,6 +5982,17 @@
 		)
 		(uuid "e6d1e98d-1c3a-46a3-8104-8a7c67b21b2c")
 	)
+	(hierarchical_label "SDA1"
+		(shape bidirectional)
+		(at 130.81 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "103e7123-1c42-4bad-a708-b9390a9337d3")
+	)
 	(hierarchical_label "GPIO18"
 		(shape output)
 		(at 130.81 82.55 0)
@@ -6245,7 +6291,7 @@
 		(uuid "9bf9cbbb-8663-4d81-aac8-3516633d48db")
 	)
 	(hierarchical_label "SCL1"
-		(shape input)
+		(shape output)
 		(at 132.08 135.89 0)
 		(effects
 			(font
@@ -6353,6 +6399,17 @@
 			(justify left)
 		)
 		(uuid "bf8c08e7-e3e7-4cfe-a8fb-6d01a5cceb58")
+	)
+	(hierarchical_label "SCL1"
+		(shape output)
+		(at 130.81 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6272779-654e-4fc3-8bd7-43243d59841b")
 	)
 	(hierarchical_label "SDA0"
 		(shape bidirectional)

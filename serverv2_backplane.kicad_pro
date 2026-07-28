@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -645,7 +661,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "R8,R22,R66-70,R79,R104-106,R113,R121,R129,R183-184,R224,R232,R240,R248,R256,R264,R272,R284,R292,R300,R308,R320,R328,R336,Q64,Q66-124,L1,L22-23,U19-21,C156-159,C190-194",
+    "used_designators": "R8,R22,R66-70,R79,R104-106,R113,R121,R129,R183-184,R200-203,R224,R232,R240,R248,R256,R264,R272,R284,R292,R300,R308,R320,R328,R336,R344,R352,R360,R368,R376,R384-385,R390-394,Q64,Q66-124,U19-21,L1,L22-23,C156-159,C190-195",
     "variants": []
   },
   "sheets": [
@@ -683,7 +699,7 @@
     ],
     [
       "8b68a21d-b75d-4ac8-b286-2eeb4ac9eb24",
-      "USB7206C"
+      "USB7205C"
     ],
     [
       "472432e8-070d-4670-9e79-56fb7b85e109",
