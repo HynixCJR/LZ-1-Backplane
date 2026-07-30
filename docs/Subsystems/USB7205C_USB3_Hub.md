@@ -1,5 +1,4 @@
 # USB7205C USB 3.2 Gen 2 5-port Hub Subsystem
-
 ## Preamble
 The LAZARUS-1 Backplane PCB has several downstream USB devices (two SSDs, an SD card, a USB port for the LicheeRV Nano to emulate keyboard/mouse input, and a USB port to go to the external front panel USB hub). To ensure that they can all communicate with the host laptop device through a single USB-C port, and to ensure that data transfer speeds can be efficiently negotiated between each device, a USB hub is needed. The upstream USB-C port operates at USB 3.2 Gen 2 (10Gbps) speeds, with five downstream USB devices connected, and hence a 5-port USB 3.2 Gen 2 hub IC is needed.
 
@@ -14,20 +13,20 @@ The USB7205C is a 5 port USB 3.2 Gen 2 Hub IC. It has one upstream USB 3.2 Gen 2
 
 ## Revision Progress
 
-| Stages                               | USB7205C |   LX7167A    |
-| ------------------------------------ | :------: | :----------: |
-| Initial Design                       |          | ✅ 2026-07-25 |
-| Basic Function Review/Documentation  |          |              |
-| Extended Design Review/Documentation |          |              |
-| Initial PCB layout                   |          |              |
+| Stages                               |   USB7205C   |   LX7167A    |
+| ------------------------------------ | :----------: | :----------: |
+| Initial Design                       | ✅ 2026-07-29 | ✅ 2026-07-25 |
+| Basic Function Review/Documentation  |              |              |
+| Extended Design Review/Documentation |              |              |
+| Initial PCB layout                   |              |              |
 
 ## Design
 
 ### Power
 
+---
 ### Configuration Straps
-The USB7205C can be configured through its CFG pins, which control behaviours such as battery charging and non-removable ports when the chip is being reset (and before the SPI flash chip, OTP, or MCU can be read). The following are the 
-
+The USB7205C can be configured through its CFG pins, which control behaviours such as battery charging and non-removable ports when the chip is being reset (and before the SPI flash chip, OTP, or MCU can be read). The following are the strap configurations:
 
 | Pin # | Pin name    | Configuration   | Description                            |
 | ----- | ----------- | --------------- | -------------------------------------- |
@@ -36,4 +35,27 @@ The USB7205C can be configured through its CFG pins, which control behaviours su
 | 21    | CFG_STRAP1  | 10kΩ pull down  | Enables Config 3 (only config option)  |
 | 22    | CFG_STRAP2  | 200kΩ pull down | Enables Config 3 (only config option)  |
 | 23    | CFG_STRAP3  | 200kΩ pull down | Pin unused, so must be pulled down     |
-|       |             |                 |                                        |
+
+Additionally, these are the configurations for power enable/overcurrent sense for the downstream ports and PortSplit:
+
+| Pin # | Pin name | Configuration | Description |
+| ----- | -------- | ------------- | ----------- |
+|       |          |               |             |
+
+
+---
+### Crystal Oscillator
+> *Pins: XTALO (97), XTALI (98)*
+
+The USB7205C accepts a 25MHz crystal oscillator input with the following specifications, per the datasheet:
+
+| Parameter                     | Nominal      | Maximum |
+| ----------------------------- | ------------ | ------- |
+| Frequency                     | 25.000 MHz   | -       |
+| Frequency tolerance @ 25C     | -            | ±50 PPM |
+| Frequency Deviation Over Time | ±3 to ±5 PPM | -       |
+| Load Capacitance              | 20 pF        | -       |
+| ESR                           | -            | 60Ω     |
+
+The oscillator ([SOSET 25M 10PF 50PPM](https://www.lcsc.com/product-detail/C4944018.html?s_z=n_q_C4944018&globalKeyword=C4944018)) meets all of these specifications, with the exception of the load capacitance, which is 10pF instead of 20pF. However, the [EVB](https://www.microchip.com/en-us/development-tool/evb-usb7206) also uses a 10pF crystal as well, and so it is likely that the load capacitance can feasibly vary (with the support of the right capacitors). Hence, this design uses the same crystal implementation as the EVB; however, the EVB designs it for 5pF stray capacitance, which is quite high. This design halves the estimated stray capacitance, as the crystal will be placed very close to the USB7205C. So, the capacitor values are 15pF.
+

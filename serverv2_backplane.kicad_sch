@@ -20579,7 +20579,7 @@
 				(justify right)
 			)
 		)
-		(pin "PRT_CTL5" output
+		(pin "PRT_CTL5" input
 			(at 119.38 471.17 0)
 			(uuid "ffe47754-6d28-42e2-8c5e-6239b2683c74")
 			(effects
