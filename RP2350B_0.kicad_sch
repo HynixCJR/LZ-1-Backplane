@@ -4371,9 +4371,9 @@
 		)
 		(uuid "7f63918a-bb6d-4f85-95e1-f761c675fd4a")
 	)
-	(text "I2C, to\nSG2002"
+	(text "Slave I2C,\nto SG2002"
 		(exclude_from_sim no)
-		(at 143.51 38.354 0)
+		(at 142.494 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4445,9 +4445,9 @@
 		)
 		(uuid "ec9eb7d7-bb4f-48ab-a362-b54c214561ce")
 	)
-	(text "I2C\nLine 1"
+	(text "Master I2C\nChannel 1"
 		(exclude_from_sim no)
-		(at 143.51 134.874 0)
+		(at 142.24 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)

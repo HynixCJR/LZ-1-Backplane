@@ -1972,8 +1972,8 @@
 		)
 		(uuid "eda34569-11ed-4ff4-aea0-a893dceca46b")
 	)
-	(hierarchical_label "PRT_CTL6"
-		(shape input)
+	(hierarchical_label "PRT_CTL4"
+		(shape output)
 		(at 121.92 68.58 0)
 		(effects
 			(font
@@ -1994,7 +1994,7 @@
 		)
 		(uuid "4f476f86-174d-47f5-8a99-9cc83570f972")
 	)
-	(hierarchical_label "P6_USB2.0_VCC"
+	(hierarchical_label "P4_USB2.0_VCC"
 		(shape output)
 		(at 120.65 77.47 0)
 		(effects
@@ -2017,7 +2017,7 @@
 		(uuid "5547ea0a-0823-4ab6-a6ff-d9f4d3c55c5b")
 	)
 	(hierarchical_label "PRT_CTL5"
-		(shape input)
+		(shape output)
 		(at 85.09 55.88 180)
 		(effects
 			(font
@@ -2060,7 +2060,7 @@
 		)
 		(uuid "a4257dbe-0d40-4cd6-8388-bdde450efe44")
 	)
-	(hierarchical_label "P6_USB2.0_ALERT#"
+	(hierarchical_label "P4_USB2.0_ALERT#"
 		(shape output)
 		(at 146.05 66.04 0)
 		(effects

@@ -661,7 +661,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "R50",
+    "used_designators": "R50,R398,R401-402",
     "variants": []
   },
   "sheets": [
@@ -771,7 +771,7 @@
     ],
     [
       "88629c19-0af3-4feb-a19d-2db988e1e4f3",
-      "PORT6_USB"
+      "PORT4_USB"
     ],
     [
       "ed95f4dd-0500-4b68-8234-f3e0f9cd2ae3",
