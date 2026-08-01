@@ -1323,7 +1323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d9a3953-fbd2-478c-bdd3-a570a8b3cc89")
-		(property "Reference" "USB4"
+		(property "Reference" "USB5"
 			(at 100.33 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1430,7 +1430,7 @@
 		(instances
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/ed95f4dd-0500-4b68-8234-f3e0f9cd2ae3"
-					(reference "USB4")
+					(reference "USB5")
 					(unit 1)
 				)
 			)
