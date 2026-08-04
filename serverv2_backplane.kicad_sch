@@ -1828,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 213.36) (xy 88.9 213.36)
+			(xy 92.71 213.36) (xy 87.63 213.36)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 213.36) (xy 88.9 232.41)
+			(xy 87.63 213.36) (xy 87.63 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5294,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 193.04) (xy 240.03 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca260518-4396-4aaa-af52-45f9319a744f")
+	)
+	(wire
+		(pts
 			(xy 237.49 240.03) (xy 240.03 240.03)
 		)
 		(stroke
@@ -6189,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 232.41) (xy 92.71 232.41)
+			(xy 87.63 232.41) (xy 92.71 232.41)
 		)
 		(stroke
 			(width 0)
@@ -14954,7 +14964,7 @@
 		)
 	)
 	(global_label "USB7205C_SCL"
-		(shape input)
+		(shape output)
 		(at 276.86 227.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -21046,6 +21056,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 236.22 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad5370bf-a523-464b-b472-7de49a071d30")
+		(property "Reference" "#PWR0641"
+			(at 236.22 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 236.22 188.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 236.22 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2719cf02-c8c8-4ae6-a970-e196c8cb3556")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a"
+					(reference "#PWR0641")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 393.7 391.16 0)
 		(unit 1)
@@ -24243,7 +24330,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "006c079d-4614-4195-aba0-490136f2e0f6")
-		(property "Sheetname" "RP2350B_1"
+		(property "Sheetname" "RP2354B_1"
 			(at 278.13 185.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24254,7 +24341,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RP2350B_0.kicad_sch"
+		(property "Sheetfile" "RP2354B_0.kicad_sch"
 			(at 278.13 310.4646 0)
 			(hide yes)
 			(show_name no)
@@ -25027,7 +25114,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "05e5bb0f-1db9-4528-94e9-eca9d2b11022")
-		(property "Sheetname" "RP2350B_0"
+		(property "Sheetname" "RP2354B_0"
 			(at 200.66 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25038,7 +25125,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RP2350B_0.kicad_sch"
+		(property "Sheetfile" "RP2354B_0.kicad_sch"
 			(at 200.66 109.1696 0)
 			(hide yes)
 			(show_name no)
@@ -31605,7 +31692,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "cee7d531-8df6-482f-955c-20fa4717f056")
-		(property "Sheetname" "RP2350B_2"
+		(property "Sheetname" "RP2354B_2"
 			(at 278.13 326.9484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31616,7 +31703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RP2350B_0.kicad_sch"
+		(property "Sheetfile" "RP2354B_0.kicad_sch"
 			(at 278.13 431.1146 0)
 			(hide yes)
 			(show_name no)
@@ -32329,6 +32416,16 @@
 		(pin "TOUCH_RST" input
 			(at 240.03 220.98 180)
 			(uuid "395c7203-c8c5-453f-b63b-719632a66eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3" input
+			(at 240.03 193.04 180)
+			(uuid "767e8597-42bf-4072-b17e-98870c035529")
 			(effects
 				(font
 					(size 1.27 1.27)
