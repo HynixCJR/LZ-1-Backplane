@@ -5,171 +5,6 @@
 	(uuid "3d3d70a6-8d64-4752-aeb2-1cd6c0d054b3")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Diode:PMEG3020EH"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PMEG3020EH"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123F"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3020EH_EJ.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "30V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-123F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "forward voltage diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?123F*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMEG3020EH_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMEG3020EH_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:0402WGF1002TCE"
 			(pin_numbers
 				(hide yes)
@@ -1076,6 +911,271 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:ESTVS2200DRVR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESTVS2200DRVR"
+				(at 0 -7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:ESTVS2200DRVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_ElecSuper-ESTVS2200DRVR_C42400188.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "115pF 22V 25.8V 28.6V 2kW@8/20us 500pA 70A@8/20us IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN-6-EP(2x2) ESD and Surge Protection (TVS/ESD) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C42400188"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ElecSuper"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "ESTVS2200DRVR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C42400188 DFN-6_L2.0-W2.0-P0.65-BL-EP1.6 ESTVS2200DRVR ElecSuper"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESTVS2200DRVR_0_1"
+				(circle
+					(center -7.62 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.922 -5.08) (xy 11.0211 -5.0702) (xy 11.1164 -5.0413) (xy 11.2042 -4.9944) (xy 11.2812 -4.9312)
+						(xy 11.3444 -4.8542) (xy 11.3913 -4.7664) (xy 11.4202 -4.6711) (xy 11.43 -4.572) (xy 11.4202 4.6711)
+						(xy 11.3913 4.7664) (xy 11.3444 4.8542) (xy 11.2812 4.9312) (xy 11.2042 4.9944) (xy 11.1164 5.0413)
+						(xy 11.0211 5.0702) (xy 10.922 5.08) (xy -8.4811 5.0702) (xy -8.5764 5.0413) (xy -8.6642 4.9944)
+						(xy -8.7412 4.9312) (xy -8.8044 4.8542) (xy -8.8513 4.7664) (xy -8.8802 4.6711) (xy -8.89 4.572)
+						(xy -8.8802 -4.6711) (xy -8.8513 -4.7664) (xy -8.8044 -4.8542) (xy -8.7412 -4.9312) (xy -8.6642 -4.9944)
+						(xy -8.5764 -5.0413) (xy -8.4811 -5.0702) (xy -8.382 -5.08) (xy 10.922 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "VDD/IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "VDD/IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "VDD/IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2814,6 +2914,12 @@
 		(uuid "7b3269b6-9c82-46a5-b7cb-851d65c11690")
 	)
 	(junction
+		(at 132.08 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f1329b4-5606-403b-ad81-f7dab1559a01")
+	)
+	(junction
 		(at 170.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2824,12 +2930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "215ee28d-20b6-433b-bc95-0b604bc7029a")
-	)
-	(junction
-		(at 127 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cb044f5-6183-448a-b309-b4d7b3ccc4e7")
 	)
 	(junction
 		(at 151.13 24.13)
@@ -2850,12 +2950,6 @@
 		(uuid "3e3f6154-5a90-481a-bfa6-cb7c49c2bd9e")
 	)
 	(junction
-		(at 132.08 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a9760ee-71dc-4c03-bd07-41679d4a520b")
-	)
-	(junction
 		(at 82.55 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2868,10 +2962,22 @@
 		(uuid "548a07e7-0c8d-4f96-a681-3643abf49187")
 	)
 	(junction
+		(at 139.7 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55bae38c-7c2a-4bcd-a352-f5cac7c2b163")
+	)
+	(junction
 		(at 82.55 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5907b667-46dc-4d38-b4d9-b70cd2ac6abe")
+	)
+	(junction
+		(at 132.08 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62e9235e-d766-4e2a-ac7d-faf5187cf9e9")
 	)
 	(junction
 		(at 80.01 25.4)
@@ -2898,6 +3004,12 @@
 		(uuid "92a5baad-6549-41f3-91ee-fa3b361a929e")
 	)
 	(junction
+		(at 165.1 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92cb11aa-87f1-41b3-b400-aa3a61f11aad")
+	)
+	(junction
 		(at 144.78 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2910,22 +3022,16 @@
 		(uuid "c4631600-53bf-4730-8deb-cf2e77515d1e")
 	)
 	(junction
-		(at 132.08 24.13)
+		(at 139.7 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0b4404b-d18a-4e71-8ccb-9706516467fa")
+		(uuid "c912339f-2040-4bf7-a981-d7b0d2e713ed")
 	)
 	(junction
 		(at 151.13 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d30c9ae1-2b0f-4748-9e19-9fe81e5711e2")
-	)
-	(junction
-		(at 127 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcad8972-0d2f-4d9d-adaa-a89cec6c69f5")
 	)
 	(junction
 		(at 80.01 78.74)
@@ -3028,16 +3134,6 @@
 			(type default)
 		)
 		(uuid "0f572299-90a8-434d-a001-5895746d2554")
-	)
-	(wire
-		(pts
-			(xy 127 24.13) (xy 132.08 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "113bee2b-2020-4d70-88d7-9b94f072cb3a")
 	)
 	(wire
 		(pts
@@ -3211,16 +3307,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 38.1) (xy 127 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41243b88-27a0-4394-9ddb-2229cb9580d5")
-	)
-	(wire
-		(pts
 			(xy 97.79 25.4) (xy 97.79 33.02)
 		)
 		(stroke
@@ -3241,6 +3327,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 59.69) (xy 139.7 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d905f02-0926-4339-9d39-f1123ecc83d8")
+	)
+	(wire
+		(pts
 			(xy 66.04 53.34) (xy 67.31 53.34)
 		)
 		(stroke
@@ -3248,16 +3344,6 @@
 			(type default)
 		)
 		(uuid "56a36169-9200-4179-917d-21ed8c3a18ba")
-	)
-	(wire
-		(pts
-			(xy 127 24.13) (xy 127 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5728b92b-a6c9-47a4-adaa-768b718af41d")
 	)
 	(wire
 		(pts
@@ -3381,13 +3467,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 44.45) (xy 132.08 44.45)
+			(xy 139.7 62.23) (xy 139.7 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7992e573-a068-4508-8351-e3c11fb2ba0a")
+		(uuid "77f4e072-9970-4ed8-9e9a-56447fea17bc")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a3ca1c-1b2a-4e2c-83a3-bb1683598d7f")
 	)
 	(wire
 		(pts
@@ -3411,7 +3507,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 44.45) (xy 127 44.45)
+			(xy 130.81 44.45) (xy 132.08 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3531,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 24.13) (xy 127 24.13)
+			(xy 130.81 24.13) (xy 132.08 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3558,6 +3654,16 @@
 			(type default)
 		)
 		(uuid "9beb426b-61fa-4381-80a9-fb630ad3fa0d")
+	)
+	(wire
+		(pts
+			(xy 165.1 59.69) (xy 165.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f81a7ea-67c3-47d7-99e5-27747b4e79d7")
 	)
 	(wire
 		(pts
@@ -3658,6 +3764,16 @@
 			(type default)
 		)
 		(uuid "b3da30fa-f8b0-4005-a96f-bab6d2a1d565")
+	)
+	(wire
+		(pts
+			(xy 139.7 54.61) (xy 139.7 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5889fcc-832e-4b2f-9605-36bf881e0ddf")
 	)
 	(wire
 		(pts
@@ -3778,6 +3894,16 @@
 			(type default)
 		)
 		(uuid "cf72f7c6-b181-4502-b88d-dbc8f630b6c8")
+	)
+	(wire
+		(pts
+			(xy 165.1 62.23) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2535f24-ff8c-41c6-bd47-2d47cea16766")
 	)
 	(wire
 		(pts
@@ -4306,7 +4432,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 125.73 44.45 180)
+		(at 130.81 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4314,6 +4440,17 @@
 			(justify right)
 		)
 		(uuid "1e159298-a044-4554-8eeb-12dfedc5a83b")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 165.1 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f446003-0adf-4b13-bff8-d2947f3db57d")
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
@@ -4471,7 +4608,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape input)
-		(at 125.73 24.13 180)
+		(at 130.81 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4556,6 +4693,17 @@
 			(justify left)
 		)
 		(uuid "d746805e-1840-4eaa-9324-b175383f497d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 139.7 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1bbb6a-63a3-4628-a7c1-473c9e91dcfb")
 	)
 	(hierarchical_label "RX2+"
 		(shape input)
@@ -5507,6 +5655,134 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:ESTVS2200DRVR")
+		(at 151.13 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91df28ad-d4c1-4682-97e5-514445702ba2")
+		(property "Reference" "U15"
+			(at 152.4 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESTVS2200DRVR"
+			(at 152.4 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:ESTVS2200DRVR"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2504101957_ElecSuper-ESTVS2200DRVR_C42400188.pdf"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "115pF 22V 25.8V 28.6V 2kW@8/20us 500pA 70A@8/20us IEC 61000-4-2、IEC 61000-4-5、IEC 61000-4-4 DFN-6-EP(2x2) ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42400188"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ElecSuper"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "ESTVS2200DRVR"
+			(at 151.13 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5f2027-80d4-4810-af25-fa9b6c3523a5")
+		)
+		(pin "5"
+			(uuid "d2b7b347-58c9-4266-9e9e-47c3f98729f9")
+		)
+		(pin "7"
+			(uuid "0898cbeb-2a41-45f9-9843-7d1fa7fc65c7")
+		)
+		(pin "3"
+			(uuid "d6ec538c-475f-4e33-a778-2c0e7bf05a51")
+		)
+		(pin "2"
+			(uuid "d0809b4c-2c7f-484c-b919-55a3a5815cf4")
+		)
+		(pin "4"
+			(uuid "170c3775-c95c-42c8-b06b-c75ceba3718b")
+		)
+		(pin "6"
+			(uuid "ca8eba71-e6da-4c3e-a4a1-9deba08fde72")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/3c4f89a0-50a7-4973-9d07-1756122c8dda"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:0402WGF3300TCE")
 		(at 80.01 73.66 90)
 		(unit 1)
@@ -6311,121 +6587,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/3c4f89a0-50a7-4973-9d07-1756122c8dda"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:PMEG3020EH")
-		(at 127 34.29 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c37fa6da-6bc4-4ad9-b557-c54f5c226119")
-		(property "Reference" "D53"
-			(at 124.968 34.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PMEG3020EH"
-			(at 129.54 35.2424 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 122.555 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3020EH_EJ.pdf"
-			(at 127 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V, 2A ultra low Vf MEGA Schottky barrier rectifier, SOD-123F"
-			(at 127 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52747979"
-			(at 127 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "PMEG3020EH-FS"
-			(at 127 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FUXINSEMI"
-			(at 127 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fffad6aa-49e9-4f24-813b-27b11128492d")
-		)
-		(pin "2"
-			(uuid "9b6ef095-3649-4953-91bc-aab742d40e0f")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/3c4f89a0-50a7-4973-9d07-1756122c8dda"
-					(reference "D53")
 					(unit 1)
 				)
 			)

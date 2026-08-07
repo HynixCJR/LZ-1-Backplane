@@ -1326,7 +1326,7 @@
 		(at 81.28 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cc37b5d-5b12-4d22-a46e-d675ccc7b9d2")
+		(uuid "9f561429-c21f-43fc-b1ee-80c4c4a375f7")
 	)
 	(no_connect
 		(at 196.85 232.41)
@@ -1890,7 +1890,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 106.68) (xy 90.17 106.68)
+			(xy 81.28 101.6) (xy 90.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1971,16 +1971,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 107.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e48c5c3-62e9-4937-872a-99e86f967fc7")
-	)
-	(wire
-		(pts
 			(xy 182.88 420.37) (xy 199.39 420.37)
 		)
 		(stroke
@@ -2039,16 +2029,6 @@
 			(type default)
 		)
 		(uuid "2139d60c-2940-451c-9daf-42e6fab662ad")
-	)
-	(wire
-		(pts
-			(xy 81.28 237.49) (xy 92.71 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d438ba-f87f-48b0-8eb0-dd3225adcf1e")
 	)
 	(wire
 		(pts
@@ -2593,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 106.68) (xy 81.28 237.49)
+			(xy 81.28 101.6) (xy 81.28 237.49)
 		)
 		(stroke
 			(width 0)
@@ -2803,6 +2783,16 @@
 			(type default)
 		)
 		(uuid "43dc1f5d-26ea-4c82-8238-3b7ab51aadba")
+	)
+	(wire
+		(pts
+			(xy 107.95 110.49) (xy 107.95 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dfc359-31da-4945-a20a-1762a6ef2e08")
 	)
 	(wire
 		(pts
@@ -5882,6 +5872,16 @@
 			(type default)
 		)
 		(uuid "e70579b7-443e-4b6d-8360-7928235606e5")
+	)
+	(wire
+		(pts
+			(xy 81.28 237.49) (xy 92.71 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e714a0c6-133d-4d77-aced-4d0e0bfa11d9")
 	)
 	(wire
 		(pts
@@ -30883,9 +30883,9 @@
 				(justify right)
 			)
 		)
-		(pin "PP_HV" input
-			(at 107.95 118.11 90)
-			(uuid "bf62a463-bc5f-4272-9cb2-4dd2e17d335c")
+		(pin "GND" input
+			(at 138.43 146.05 0)
+			(uuid "9ad61c06-41d4-48bd-ba4d-9ddf5bd99c7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30893,9 +30893,9 @@
 				(justify right)
 			)
 		)
-		(pin "GND" input
-			(at 138.43 146.05 0)
-			(uuid "9ad61c06-41d4-48bd-ba4d-9ddf5bd99c7b")
+		(pin "PP_HV" output
+			(at 107.95 118.11 90)
+			(uuid "bf4c99d0-175d-4c2d-8ec3-f076a48dae8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32617,7 +32617,7 @@
 			)
 		)
 		(pin "DP_HPD" input
-			(at 90.17 106.68 180)
+			(at 90.17 101.6 180)
 			(uuid "b5d59551-04e3-4f28-85e6-0e2f2c6b99aa")
 			(effects
 				(font
