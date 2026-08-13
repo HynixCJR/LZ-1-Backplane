@@ -5077,7 +5077,7 @@
 	)
 	(text "This inductor does not meet the recommended\nDCR spec; hopefully it still works!!"
 		(exclude_from_sim no)
-		(at 138.684 37.338 0)
+		(at 142.494 37.338 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -5276,12 +5276,6 @@
 		(uuid "97acf33c-cb5f-46d7-953e-00e557bc54c1")
 	)
 	(junction
-		(at 132.08 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dad0212-26a1-432e-8196-fa1dd0d1d461")
-	)
-	(junction
 		(at 44.45 49.53)
 		(diameter 0)
 		(color 139 0 0 1)
@@ -5292,6 +5286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac0ef651-ee84-4e3d-ba76-9a3301eff87a")
+	)
+	(junction
+		(at 135.89 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3a993f-8b63-4373-b253-9b18ce7c6ab8")
 	)
 	(junction
 		(at 59.69 36.83)
@@ -5354,12 +5354,6 @@
 		(uuid "d9ac8182-4342-41f9-9172-b08d5d8759b6")
 	)
 	(junction
-		(at 132.08 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9b719f5-f2ad-4abe-a0ce-578cceb1e3b6")
-	)
-	(junction
 		(at 127 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,6 +5364,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f23c1d90-f8e8-4e5f-b873-6edfc2a6b614")
+	)
+	(junction
+		(at 121.92 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb68cb46-8753-49e8-a2d5-9bb5e69402b4")
+	)
+	(junction
+		(at 135.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc81bfad-429b-419d-93a9-b203e6571fb6")
 	)
 	(junction
 		(at 156.21 82.55)
@@ -5585,7 +5591,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 33.02) (xy 132.08 33.02)
+			(xy 134.62 33.02) (xy 135.89 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5644,6 +5650,16 @@
 			(type default)
 		)
 		(uuid "428e5b37-2296-4686-9710-9734c1dd8bfd")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 121.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a3f3b1-879f-4d49-85d7-68c29162386f")
 	)
 	(wire
 		(pts
@@ -5721,7 +5737,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 38.1) (xy 116.84 38.1)
+			(xy 124.46 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5782,16 +5798,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 38.1) (xy 130.81 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe61675-5f96-4d5a-b95f-1493d8a5cd02")
-	)
-	(wire
-		(pts
 			(xy 44.45 59.69) (xy 50.8 59.69)
 		)
 		(stroke
@@ -5833,7 +5839,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 40.64) (xy 129.54 40.64)
+			(xy 139.7 40.64) (xy 133.35 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5979,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 30.48) (xy 116.84 30.48)
+			(xy 116.84 30.48) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6010,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 35.56) (xy 132.08 38.1)
+			(xy 135.89 35.56) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6050,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 120.65 33.02)
+			(xy 116.84 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6081,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 135.89 27.94)
+			(xy 135.89 27.94) (xy 139.7 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6204,6 +6210,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 38.1) (xy 134.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4ca546-efeb-4d9e-9f9e-d4c3be9c58c3")
+	)
+	(wire
+		(pts
 			(xy 59.69 45.72) (xy 59.69 46.99)
 		)
 		(stroke
@@ -6297,7 +6313,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 38.1) (xy 132.08 38.1)
+			(xy 139.7 38.1) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6328,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 132.08 30.48)
+			(xy 135.89 27.94) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6410,6 +6426,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 40.64) (xy 121.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc892282-81d1-49d8-b31f-b29a277d5e5f")
+	)
+	(wire
+		(pts
 			(xy 149.86 90.17) (xy 146.05 90.17)
 		)
 		(stroke
@@ -6420,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 33.02) (xy 132.08 30.48)
+			(xy 135.89 33.02) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6512,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 35.56) (xy 132.08 35.56)
+			(xy 116.84 35.56) (xy 135.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6606,7 +6632,7 @@
 		(uuid "55637e11-29f7-478d-817c-5b0b89d4de64")
 	)
 	(label "AGND"
-		(at 135.89 40.64 180)
+		(at 139.7 40.64 180)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -6639,7 +6665,7 @@
 		(uuid "8058ea2b-0fc7-4870-a22c-218591e2b08b")
 	)
 	(label "SW2"
-		(at 116.84 35.56 0)
+		(at 118.11 35.56 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -6817,6 +6843,17 @@
 		)
 		(uuid "3ef6ed10-725c-4d46-af2f-5cb830d628e9")
 	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 121.92 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49728431-842a-4ba2-8b48-abcc52f713e3")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 125.73 63.5 0)
@@ -6852,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CL21A475KAQNNNE")
-		(at 125.73 40.64 180)
+		(at 129.54 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6862,7 +6899,7 @@
 		(dnp no)
 		(uuid "01ed2fa2-a7eb-4fd7-8d53-99c91ca7d94c")
 		(property "Reference" "C121"
-			(at 129.032 39.37 0)
+			(at 132.842 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6872,7 +6909,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 121.92 39.37 0)
+			(at 125.73 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6882,7 +6919,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6893,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6904,7 +6941,7 @@
 			)
 		)
 		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6952,7 @@
 			)
 		)
 		(property "LCSC" "C1779"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6926,7 +6963,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +6974,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL21A475KAQNNNE"
-			(at 125.73 40.64 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7326,7 +7363,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:SL1040-4R7M")
-		(at 135.89 33.02 270)
+		(at 139.7 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7337,7 +7374,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e91b25a-4b91-4222-95aa-b0385f44bb72")
 		(property "Reference" "L12"
-			(at 138.43 31.7499 90)
+			(at 142.24 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7348,7 +7385,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 138.43 34.2899 90)
+			(at 142.24 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7359,7 +7396,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:SL1040-4R7M"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,7 +7407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C41407182.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=FFULX1FQRFAIBgJTFFBZAgBSQgJZU1VSE1ZbX1ECRlIxVlNeRFNXUF1fQlNWUDsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVlYX1xSRE8GEwkK"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7381,7 +7418,7 @@
 			)
 		)
 		(property "Description" "4.7uH ±20% 15A"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7392,7 +7429,7 @@
 			)
 		)
 		(property "LCSC" "C41407182"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7403,7 +7440,7 @@
 			)
 		)
 		(property "Manufacturer" "dehongganying"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7414,7 +7451,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DH1040H-4R7M"
-			(at 135.89 33.02 0)
+			(at 139.7 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9681,7 +9718,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CL05B104KB54PNC")
-		(at 125.73 38.1 0)
+		(at 129.54 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9691,7 +9728,7 @@
 		(dnp no)
 		(uuid "ab1840a0-f4f0-4b46-af4e-99652c7b0191")
 		(property "Reference" "C119"
-			(at 129.032 36.83 0)
+			(at 132.842 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9701,7 +9738,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 36.83 0)
+			(at 125.73 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9711,7 +9748,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9722,7 +9759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9733,7 +9770,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9744,7 +9781,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,7 +9792,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +9803,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05B104KB54PNC"
-			(at 125.73 38.1 0)
+			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10463,7 +10500,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:CL05B104KB54PNC")
-		(at 125.73 33.02 0)
+		(at 129.54 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10473,7 +10510,7 @@
 		(dnp no)
 		(uuid "ea6d8aa6-796f-4ba0-aa6a-410bbe924eb8")
 		(property "Reference" "C120"
-			(at 129.032 31.75 0)
+			(at 132.842 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10483,7 +10520,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 31.75 0)
+			(at 125.73 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10493,7 +10530,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10504,7 +10541,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10515,7 +10552,7 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10526,7 +10563,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10537,7 +10574,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10548,7 +10585,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05B104KB54PNC"
-			(at 125.73 33.02 0)
+			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -61,3 +61,17 @@ To ensure that the EN/UVLO pin is not triggered prematurely (i.e., within tolera
 When considering the resistor tolerances, the effective worst-case resistor tolerance would be if the resistor between V_IN and EN/UVLO was at its highest value, and the resistor between EN/UVLO and GND was at its lowest value. Thus, the worst-case resistor divider value ratio should be `1.26 / 11.4V = 0.1105`. By choosing a top resistor of 220kΩ±1% and a bottom resistor of 28kΩ±1%, the lowest possible resistor divider ratio becomes 1.264, which is above the maximum UVLO voltage of 1.26V.
 
 These calculations are very important, as the TPS55288 shutting down in high current scenarios is catastrophic to the operation of the LAZARUS-1 server; for example, when performing a critical render or other important computationally intensive operation on the laptop connected to the device, any drop out in power would be highly detrimental. To further aid this, and in accordance with the EVM, a 100nF capacitor is added between EN/UVLO and GND to filter noise.
+
+### I2C Pins
+>*Pins: SCL (5), SDA (6)*
+
+The I2C channel of the TPS55288 connects directly to the TPS65987D, with 10kΩ pull up resistors on both SCL and SDA; the pull up resistance is very straightforward to choose because there are no other devices on this channel. This is an I2C slave interface on the TPS55288 side, which allows the TPS65987D to set the output voltage of the TPS55288, along with configuring any of its internal registers.
+
+### MODE Pin: I2C Address Selection and Operating Mode at Light Load
+> *Pin: MODE (15)*
+
+Per the datasheet, the MODE pin serves two functions, based on the resistor value between it and VCC (either internal or external). Internal VCC is provided by an internal regulator to the VCC pin (19), and external VCC is +5V provided by the +5V ATX PSU rail. However, to minimize power dissipation, +5V is applied to the VCC pin of the TPS55288 in this application, and so only external VCC can be used for the MODE pin.
+
+The first function of the MODE pin is to select the slave address of the TPS55288. The exact address chosen does not really matter for this application, since the TPS55288 is the only device on the TPS65987D's I2C1 interface; it matters only for programming the TPS65987D, where the exact address that the TPS65987D must target on startup is important to pinpoint.
+
+The second function of the MODE pin is to select if the TPS55288 operates in PFM (Pulse Frequency Modulation) or PWM (Pulse Width Modulation). Per the datasheet, PFM has much higher low current efficiency (~90% at 12V input with 0.01A @ 20V output vs. ~30%) but increased switching frequency, 
