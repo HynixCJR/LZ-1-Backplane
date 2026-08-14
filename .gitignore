@@ -3,3 +3,9 @@
 *-backups/
 *-backups/*
 ~*.kicad_pro.lck
+
+*/~*.kicad_pro.lck
+*/.history/
+*/.history/*
+*/*-backups/
+*/*-backups/*
