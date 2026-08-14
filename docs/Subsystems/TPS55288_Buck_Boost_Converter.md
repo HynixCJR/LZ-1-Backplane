@@ -74,4 +74,57 @@ Per the datasheet, the MODE pin serves two functions, based on the resistor valu
 
 The first function of the MODE pin is to select the slave address of the TPS55288. The exact address chosen does not really matter for this application, since the TPS55288 is the only device on the TPS65987D's I2C1 interface; it matters only for programming the TPS65987D, where the exact address that the TPS65987D must target on startup is important to pinpoint.
 
-The second function of the MODE pin is to select if the TPS55288 operates in PFM (Pulse Frequency Modulation) or PWM (Pulse Width Modulation). Per the datasheet, PFM has much higher low current efficiency (~90% at 12V input with 0.01A @ 20V output vs. ~30%) but increased switching frequency, 
+The second function of the MODE pin is to select if the TPS55288 operates in PFM (Pulse Frequency Modulation) or PWM (Pulse Width Modulation). Per the datasheet, PFM decreases the switching frequency to decrease switching loss and achieve much higher low-current efficiency (~90% at 12V input with 0.01A @ 20V output vs. ~30%), with the tradeoff of less-predictable EMI/noise. On the other hand, PWM (or rather, forced-PWM) keeps the switching frequency constant during light loads, which leads to no low-frequency noise, but worse efficiency. For this application, PFM is selected for its higher efficiency; low-frequency noise is not as detrimental to this system, as are not really any particularly noise-sensitive parts (e.g. RF, audio, etc.) on this PCB.
+
+To set PFM, the MODE pin is floated in this design. This is chosen over the other options in the datasheet, which all use a pull up or pull down resistor, as this still achieves PFM while using one less component.
+
+That said, the actual mode used for this system is decided entirely based on the value written to the `6h` register, after the system has received programming over I2C. 
+
+### DITH/SYNC Pin
+> *Pin: DITH/SYNC (7)*
+
+The TPS55288 operates at a fixed PWM frequency, and as a result, has significant EMI concentrated at that frequency (known as narrowband). This can pose challenges for testing and certification (which is not really all that important for this application), but also just makes the voltage rails and surrounding areas on the PCB noisier at the specific frequency that the TPS55288 operates at. Aside from specific layout considerations to reduce noise, bypass filtering, snubbers, and shielding, dithering — which wobbles the switching frequency over time to spread out EMI over a wider band (i.e., broadband) — can help handle large EMI spikes.
+
+The TPS55288 enables and adjusts dithering through its DITH/SYNC pin. By adding a capacitor between this pin and ground, the TPS55288 can charge and discharge the capacitor to create a triangular voltage waveform that modulates the TPS55288's fixed PWM frequency by ±7%. The capacitance of the dithering can be set by the value of the capacitor, the equation for which is provided by:
+```
+C_DITH = (2.8 × R_FSW × F_MOD)^-1 [F]
+```
+
+...where `R_FSW` is the resistor value at the FSW pin, and `F_MOD` is the desired modulation frequency.
+
+For the purposes of this application, a 100nF capacitor is used, which matches the datasheet.
+
+The DITH/SYNC pin also disables dithering if the voltage at that pin is below 0.4V or above 1.2V, or when an external synchronous clock is used (which it isn't, in this application). If dithering must be disabled, the 100nF capacitor can simply be shorted to GND to achieve this.
+
+### FSW Pin
+> *Pin: FSW (8)*
+
+The FSW pin sets the frequency at which the TPS55288 switches at in PWM mode. The value of the resistor between this pin and GND dictates this frequency, and is calculated using the following formula:
+```
+f_FSW = 1000 / (0.05 × R_FSW + 20) [MHz]
+```
+
+...where `R_FSW` is the resistor value, and `f_FSW` is the frequency that results from it. The EVM and datasheet's example circuit both use a 49.9kΩ resistor, and so that is what is used in this application.
+
+### PGND and AGND
+> *Pins: PGND (9, 24), AGND (10)*
+
+PGND is Power Ground, and AGND is Analog Ground. The tl;dr is that PGND and AGND should be separated except at the terminal of the capacitor at VCC, to prevent the noise from the MOSFETs switching and parasitic inductance to affect the sensitive analog pins of the TPS55288.
+
+### VOUT Bypass Capacitors
+> *Pin: VOUT (11)*
+
+The VOUT pin is, as the name suggests, the voltage output of the TPS55288. It is connected directly to the 10mΩ sense resistor and the ISP pin for current sensing, which then connects to the VBUS pin of the USB-C connector to power the laptop. This pin has several bypass capacitors attached to it, which must all be rated for 25V or higher (ideally >35V), as the voltage can be as high as 20V sustained at this pin.
+
+The EVM has more capacitors on this pin than the datasheet, and the LAZARUS-1 PCB follows the EVM (for this specific pin). So, 4x10uF, 1x1uF, 1x100nF,  and 1x220uF capacitors are placed between this pin and PGND, placed close to the pin itself. Note that the 220uF capacitor used here is an aluminum electrolytic capacitor, which has polarity; the positive end *must* be connected to VOUT for proper functionality.
+
+Additionally, in accordance with the EVM, a 1uF bypass capacitor is placed immediately following the current sense resistor.
+
+### SWx and BOOTx Pins
+> *Pins: SW1 (23), SW2 (21, 25), BOOT1 (22), BOOT2 (20)*
+
+Per the datasheet, the SW1 is the switching node of the buck side of the TPS55288, and it connects to the drain of the external low-side power MOSFET, as well as the source of the external high-side power MOSFET. On the other hand, SW2 is the switching node of the boost side of the TPS55288, which means that it connects to the drain of the *internal* low-side power MOSFET and the source of the *internal* high-side power MOSFET. For layout purposes, only SW1 has to be routed to anything else; SW2 only connects to an inductor between it and SW1. 
+
+An inductor is placed between SW1 and SW2. The EVM and datasheet both recommend the `XAL1010-472ME` 4.7uH inductor, but this inductor is far too expensive and is not in stock at LCSC. The datasheet also lists two other alternatives, one of which is the Sumida `125CDMCCDS-4R7MC`. This is available on LCSC, and has an alternative part (the XR `XR XR1265-4R7M`) that is substantially cheaper and has lower DCR, higher I_SAT, and is otherwise the exact same. That is the inductor used for this application.
+
+BOOT1 and BOOT2 are the power supply pins for the high-side gate driver on the buck and boost sides respectively. A 100nF capacitor connects this pin to SW1 (for BOOT1) and SW2 (for BOOT2).
