@@ -14,7 +14,7 @@ The TPS55288 is a four-switch buck-boost converter that can output 0.8V to 22V f
 | Stages                               |   RP2354B    |
 | ------------------------------------ | :----------: |
 | Initial Design                       | ✅ 2026-07-06 |
-| Basic Function Review/Documentation  |              |
+| Basic Function Review/Documentation  | ✅ 2026-08-16 |
 | Extended Design Review/Documentation |              |
 | Initial PCB layout                   |              |
 ## Relevant Docs
@@ -32,7 +32,18 @@ The overall power path of the TPS65987D and TPS55288 is as follows:
 In essence, the TPS65987D communicates to the TPS55288 over I2C to control its voltage output, and then the TPS55288 converts the 12V from the ATX PSU rail to whatever voltage is needed for USB-C PD, and outputs that back to the TPS65987D's internal power path, which is connected to the VBUS pin of the UBS-C port.
 
 ### Gate Drivers
+> *Pins: DR1L (1), DR1H (2)*
 
+Buck and boost converters both operate using switches that repeatedly open and close a circuit to step up the current while decreasing the voltage (buck) or step down the current while increasing the voltage (boost). The switches that are used for these converters are typically MOSFETs, and to prevent the current from flowing back into the inductor during the OFF cycles (for buck), a diode is typically used for basic buck designs. However, the TPS55288 replaces this with another MOSFET, leading to a four-switch design split into two internal MOSFETs for the boost side, and two external N-MOSFETs for the buck side. This negates the voltage drop across the diode, leading to greater efficiency (97% peak), which is highly important for this subsystem given its high current nature.
+
+The two external MOSFETs on the buck side are labelled as either "high-side" or "low-side"; high-side refers to the MOSFET that has its drain connected to the input voltage, whereas low-side refers to the MOSFET that has its source connected to ground. The high-side's source is connected to the low-side's drain, and both gates are controlled by DR1H and DR1L respectively. During buck operation, DR1L and DR1H are repeatedly switched on and off (never both at the same time?) to achieve a lowered voltage.
+
+In the datasheet, DR1L and DR1H are directly connected to their respective MOSFET gates. However, in the EVM, a 1Ω series resistor is placed between DR1L/DR1H and the MOSFET gates. This is likely for EMI reasons, and so it is replicated in this design.
+
+SW1 is also connected to the high-side source/low-side drain; this is so that the current sense inductor (and thereby the boost side) can still receive the input voltage during boost mode.
+
+>[!WARNING] Note: the EVM uses the `Infineon IPZ40N04S5L4R8ATMA1` MOSFET, whereas this design uses the `HUASHUO HSBB4056`.
+>This needs to be verified still; the specs seem to line up, but further verification is still needed due to the importance and sensitivity of this part of the subsystem.
 ### Output Current Limit Pin
 > *Pin: ISP (12), ISN (13)*
 
