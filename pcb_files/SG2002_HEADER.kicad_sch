@@ -1624,10 +1624,6 @@
 		(at 62.23 62.23)
 		(uuid "bec367f5-c5a0-4e0c-82f8-21ebb9c72e59")
 	)
-	(no_connect
-		(at 134.62 54.61)
-		(uuid "dad74c19-c61f-44fd-afc3-502826e95c12")
-	)
 	(wire
 		(pts
 			(xy 78.74 77.47) (xy 86.36 77.47)
@@ -1741,17 +1737,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 54.61) (xy 134.62 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 118 114 117 1)
-		)
-		(uuid "5db87d9b-aa8f-4087-98f6-25e9c5e81380")
-	)
-	(wire
-		(pts
 			(xy 149.86 74.93) (xy 106.68 74.93)
 		)
 		(stroke
@@ -1810,6 +1795,17 @@
 			(type default)
 		)
 		(uuid "79a9feef-4ee4-4ca7-8e7a-a7642bdb5836")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 118 114 117 1)
+		)
+		(uuid "83f5c9c5-0662-472c-a765-6b2878fa85e8")
 	)
 	(wire
 		(pts
@@ -2035,6 +2031,18 @@
 			(justify right)
 		)
 		(uuid "8877ffad-5809-4255-b4fd-9039ce80fd83")
+	)
+	(hierarchical_label "ADC"
+		(shape input)
+		(at 152.4 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 118 114 117 1)
+			)
+			(justify left)
+		)
+		(uuid "a3328b52-30fe-4b46-8258-a1d8543128f0")
 	)
 	(hierarchical_label "SCL1"
 		(shape output)

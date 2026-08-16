@@ -661,7 +661,7 @@
         "uuid": "d38d6818-cf53-410d-afa3-a75a85b7c05a"
       }
     ],
-    "used_designators": "LED1-13,C26,C84-85,C87-88,C112-116,C132,C207,C209-212,C236,C247,C250,#PWR7,#PWR25,L12,D53,R5,R67,R72-73,R75-78,R83,R110,R126,R194-195,R204-207,R218-223,R229,U15,Q1-2",
+    "used_designators": "C117-118,R78,R80,R84",
     "variants": []
   },
   "sheets": [

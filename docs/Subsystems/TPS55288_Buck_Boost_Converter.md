@@ -92,7 +92,7 @@ C_DITH = (2.8 × R_FSW × F_MOD)^-1 [F]
 
 ...where `R_FSW` is the resistor value at the FSW pin, and `F_MOD` is the desired modulation frequency.
 
-For the purposes of this application, a 100nF capacitor is used, which matches the datasheet.
+For the purposes of this application, a 10nF capacitor is used, which matches the EVM. Matching the EVM here is helpful because it permits replicating the same COMP resistor/capacitor network.
 
 The DITH/SYNC pin also disables dithering if the voltage at that pin is below 0.4V or above 1.2V, or when an external synchronous clock is used (which it isn't, in this application). If dithering must be disabled, the 100nF capacitor can simply be shorted to GND to achieve this.
 
@@ -104,7 +104,7 @@ The FSW pin sets the frequency at which the TPS55288 switches at in PWM mode. Th
 f_FSW = 1000 / (0.05 × R_FSW + 20) [MHz]
 ```
 
-...where `R_FSW` is the resistor value, and `f_FSW` is the frequency that results from it. The EVM and datasheet's example circuit both use a 49.9kΩ resistor, and so that is what is used in this application.
+...where `R_FSW` is the resistor value, and `f_FSW` is the frequency that results from it. The EVM and datasheet's example circuit both use a 49.9kΩ resistor, and so that is what is used in this application. This results in a 400 kHz switching frequency.
 
 ### PGND and AGND
 > *Pins: PGND (9, 24), AGND (10)*
@@ -128,3 +128,27 @@ Per the datasheet, the SW1 is the switching node of the buck side of the TPS5528
 An inductor is placed between SW1 and SW2. The EVM and datasheet both recommend the `XAL1010-472ME` 4.7uH inductor, but this inductor is far too expensive and is not in stock at LCSC. The datasheet also lists two other alternatives, one of which is the Sumida `125CDMCCDS-4R7MC`. This is available on LCSC, and has an alternative part (the XR `XR XR1265-4R7M`) that is substantially cheaper and has lower DCR, higher I_SAT, and is otherwise the exact same. That is the inductor used for this application.
 
 BOOT1 and BOOT2 are the power supply pins for the high-side gate driver on the buck and boost sides respectively. A 100nF capacitor connects this pin to SW1 (for BOOT1) and SW2 (for BOOT2).
+
+### COMP Pin
+> *Pin: COMP (18)*
+
+The COMP pin, per the datasheet, is the output of the internal voltage amplifier. Unfortunately, the datasheet does not comprehensively detail what that is, but it does provide formulae for calculating the values of the resistor/capacitor network attached to this pin. However, since this application uses the same general configuration for everything (output voltage/current, switching frequency, dithering frequency), the same resistor/capacitor network can be used.
+> [!WARNING]
+> This needs to be verified...
+
+### ILIM Pin
+> *Pin: ILIM (17)*
+
+The TPS55288 supports average current limiting through the external 4.7uH inductor; this is performed through the ISP and ISN pins, which sense the average voltage across the inductor and calculate the current. However, momentary spikes in current that are far above the average current occur during switching, and the TPS55288 also supports sensing this current. This peak current is set using the ILIM pin. Per the datasheet, a 20kΩ pull down resistor is recommended here (which is also used in the EVM), and hence that is what is implemented in this design.
+
+### CDC Pin
+> *Pin: CDC (16)*
+
+On the CDC pin, the TPS55288 outputs a voltage equal to `20 × (V_ISP - V_ISN)`, which can be used for current monitoring. In this application, this pin is connected to the LicheeRV Nano's ADC pin to perform current monitoring, which is preferred over using a PAC1954 because the PAC1954 presents a (small) amount of loss across its own current sense resistor. Note that because of the `20×` multiplication of the voltage, a separate operational amplifier circuit (like what the ADCs use for the 12V/5V rails of each SATA port in this design) is not needed; the voltage is high enough that the voltage sensed by the LicheeRV Nano is sufficiently accurate.
+
+In addition to current sensing, this pin can be used for droop compensation. The USB-C cable that is connected to this PCB presents some amount of resistance, which leads to the actual voltage presented to the connected laptop being slightly lower than at the output of the TPS55288. To compensate for this, the output voltage can be increased slightly through droop compensation, which occurs through the pull down resistors on the CDC and FB/INT pins. This is for *external* compensation; however, *internal* compensation, which does not require resistors on either of these pins, can be used instead, and uses an internal voltage divider to achieve the same thing. Internal compensation is controlled by writing the intended voltage compensation into the CDC[2:0] bits in register `05h` of the TPS55288. This is what is used in the LAZARUS-1 PCB, as it requires fewer resisters. As a result, the CDC pin is not connected to a pull down resistor, and is instead only connected to 
+
+### FB/INT Pin
+> *Pin: FB/INT (14)*
+
+In external compensation mode, the FB/INT pin must be wired to the middle of a voltage divider (through a single external resistor) to configure droop compensation. However, in internal mode (which is what is used in this design), the FB/INT pin just acts as a fault indicator. It is thus pulled up to 3.3V by a 10kΩ resistor, and is connected to an RP2354B for fault detection.
