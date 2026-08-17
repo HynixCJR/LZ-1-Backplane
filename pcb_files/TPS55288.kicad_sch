@@ -5121,9 +5121,9 @@
 		(uuid "1582010a-9cb1-4c85-9996-b6c5ee08f0cc")
 	)
 	(junction
-		(at 154.94 109.22)
+		(at 149.86 110.49)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 139 0 0 1)
 		(uuid "245337d3-7763-4fb7-9022-73a2d859e9a8")
 	)
 	(junction
@@ -5175,7 +5175,7 @@
 		(uuid "37187a2f-826b-4b9b-a609-115280d150d4")
 	)
 	(junction
-		(at 154.94 99.06)
+		(at 149.86 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3772f9bf-65d9-4761-beff-d4d7bc7909ba")
@@ -5197,6 +5197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef73594-b42d-4119-8dbf-c6c584788924")
+	)
+	(junction
+		(at 157.48 110.49)
+		(diameter 0)
+		(color 139 0 0 1)
+		(uuid "6522b3b4-4aea-4bb4-a36c-40db1839f207")
 	)
 	(junction
 		(at 60.96 57.15)
@@ -5247,7 +5253,7 @@
 		(uuid "9b5d3333-67c3-4466-a4e1-4474338f2cfd")
 	)
 	(junction
-		(at 162.56 99.06)
+		(at 157.48 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a73e9c85-db74-41b7-b662-9ea94fe4d445")
@@ -5295,6 +5301,12 @@
 		(uuid "c2591313-29fb-4d99-a322-4a78dec5ffa9")
 	)
 	(junction
+		(at 165.1 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf2daa4e-b42c-4af7-8948-f6ac24587c4e")
+	)
+	(junction
 		(at 74.93 53.34)
 		(diameter 0)
 		(color 139 0 0 1)
@@ -5307,7 +5319,7 @@
 		(uuid "dafa0c7a-48b6-442c-a230-c17d4a0a970d")
 	)
 	(junction
-		(at 147.32 99.06)
+		(at 142.24 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f177a7cf-72f5-42f4-919d-15c40651d41f")
@@ -5473,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 154.94 99.06)
+			(xy 142.24 100.33) (xy 149.86 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5490,6 +5502,17 @@
 			(type default)
 		)
 		(uuid "3ab8f6ef-50d9-4c25-b024-2b4af55a5370")
+	)
+	(wire
+		(pts
+			(xy 157.48 110.49) (xy 165.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 139 0 0 1)
+		)
+		(uuid "3b256931-43f9-45e1-9df7-bfae202b5129")
 	)
 	(wire
 		(pts
@@ -5928,6 +5951,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 100.33) (xy 171.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3eac6b-5abc-49d7-bf6a-246a6e048cd5")
+	)
+	(wire
+		(pts
 			(xy 74.93 53.34) (xy 74.93 52.07)
 		)
 		(stroke
@@ -5958,16 +5991,6 @@
 			(color 139 0 0 1)
 		)
 		(uuid "a1f28743-09ce-4f15-ab5e-919cddc3713a")
-	)
-	(wire
-		(pts
-			(xy 171.45 109.22) (xy 171.45 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2121943-0192-4b89-aac2-b80e38df239f")
 	)
 	(wire
 		(pts
@@ -6117,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 109.22) (xy 162.56 109.22)
+			(xy 149.86 110.49) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6135,6 +6158,16 @@
 			(type default)
 		)
 		(uuid "bbb30458-7449-4d20-b27c-d70687453f92")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc682397-e6fd-487a-873a-a48546d130ea")
 	)
 	(wire
 		(pts
@@ -6241,7 +6274,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 171.45 99.06)
+			(xy 157.48 100.33) (xy 165.1 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6271,7 +6304,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 109.22) (xy 154.94 109.22)
+			(xy 142.24 110.49) (xy 149.86 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6292,7 +6325,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 162.56 99.06)
+			(xy 149.86 100.33) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6383,7 +6416,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 147.32 99.06)
+			(xy 140.97 100.33) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6443,7 +6476,7 @@
 		(uuid "03838237-056e-4c3d-905d-d9ad4b461efc")
 	)
 	(label "PGND"
-		(at 148.59 109.22 0)
+		(at 143.51 110.49 0)
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -6796,7 +6829,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 146.05 99.06 180)
+		(at 140.97 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8472,7 +8505,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:DHG100M686G150S1AA")
-		(at 147.32 104.14 270)
+		(at 142.24 105.41 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8482,7 +8515,7 @@
 		(dnp no)
 		(uuid "8921edf6-cb49-476d-a46e-8393b834ef1c")
 		(property "Reference" "C131"
-			(at 141.986 102.362 90)
+			(at 136.906 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8493,7 +8526,7 @@
 			)
 		)
 		(property "Value" "68uF"
-			(at 141.986 106.426 90)
+			(at 136.906 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8504,7 +8537,7 @@
 			)
 		)
 		(property "Footprint" "JLCImport:DHG100M686G150S1AA"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8515,7 +8548,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250828/0654BD1517550F7FB040F38784C4EB35.pdf"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8526,7 +8559,7 @@
 			)
 		)
 		(property "Description" "68uF ±20% 100V"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +8570,7 @@
 			)
 		)
 		(property "LCSC" "C46551229"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8581,7 @@
 			)
 		)
 		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,7 +8592,7 @@
 			)
 		)
 		(property "Manufacturer Part" "DHG100M686G150S1AA"
-			(at 147.32 104.14 0)
+			(at 142.24 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8587,7 +8620,7 @@
 	(symbol
 		(lib_name "CL21A106KAYNNNE_1")
 		(lib_id "JLCImport:CL21A106KAYNNNE")
-		(at 162.56 104.14 90)
+		(at 157.48 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8597,7 +8630,7 @@
 		(dnp no)
 		(uuid "8b86737b-6a30-4f98-a3fa-3032a354510c")
 		(property "Reference" "C125"
-			(at 163.068 102.362 90)
+			(at 157.988 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8608,7 +8641,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 163.068 105.918 90)
+			(at 157.988 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8619,7 +8652,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8630,7 +8663,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8641,7 +8674,7 @@
 			)
 		)
 		(property "Description" "10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +8685,7 @@
 			)
 		)
 		(property "LCSC" "C15850"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8663,7 +8696,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8674,7 +8707,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL21A106KAYNNNE"
-			(at 162.56 104.14 0)
+			(at 157.48 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9747,7 +9780,7 @@
 	(symbol
 		(lib_name "CL21A106KAYNNNE_1")
 		(lib_id "JLCImport:CL21A106KAYNNNE")
-		(at 154.94 104.14 90)
+		(at 149.86 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9757,7 +9790,7 @@
 		(dnp no)
 		(uuid "ce36feae-1b54-47d0-94eb-13bd17b56819")
 		(property "Reference" "C126"
-			(at 155.448 102.362 90)
+			(at 150.368 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9768,7 +9801,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 155.448 105.918 90)
+			(at 150.368 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9779,7 +9812,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9790,7 +9823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9801,7 +9834,7 @@
 			)
 		)
 		(property "Description" "10uF 25V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9812,7 +9845,7 @@
 			)
 		)
 		(property "LCSC" "C15850"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9823,7 +9856,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9834,7 +9867,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL21A106KAYNNNE"
-			(at 154.94 104.14 0)
+			(at 149.86 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,6 +10683,120 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b43497c2-ce72-4a73-863d-5d490b2b70e6"
 					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CL05A105KA5NQNC")
+		(at 165.1 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5664ecb-97c3-45ff-8e42-7796a6edc119")
+		(property "Reference" "C134"
+			(at 165.354 103.886 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 165.354 106.934 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
+			(at 165.1 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d26e877a-2992-4de9-81e1-604f48505792")
+		)
+		(pin "1"
+			(uuid "c363cd9d-6a83-41cc-b5d5-8735af94021e")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b43497c2-ce72-4a73-863d-5d490b2b70e6"
+					(reference "C134")
 					(unit 1)
 				)
 			)

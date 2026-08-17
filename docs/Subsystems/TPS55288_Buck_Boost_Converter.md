@@ -43,7 +43,7 @@ In the datasheet, DR1L and DR1H are directly connected to their respective MOSFE
 SW1 is also connected to the high-side source/low-side drain; this is so that the current sense inductor (and thereby the boost side) can still receive the input voltage during boost mode.
 
 >[!WARNING] Note: the EVM uses the `Infineon IPZ40N04S5L4R8ATMA1` MOSFET, whereas this design uses the `HUASHUO HSBB4056`.
->This needs to be verified still; the specs seem to line up, but further verification is still needed due to the importance and sensitivity of this part of the subsystem.
+>This needs to be verified still; the specs seem to line up and it's the #1 listed alternative on LCSC, but further verification is still needed due to the importance and sensitivity of this part of the subsystem.
 ### Output Current Limit Pin
 > *Pin: ISP (12), ISN (13)*
 

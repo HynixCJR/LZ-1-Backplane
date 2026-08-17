@@ -166,167 +166,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:0402WGF1003TCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402WGF1003TCE"
-				(at 0 -3.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C25741"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "0402WGF1003TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "0402WGF1003TCE C25741 R0402 UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0402WGF1003TCE_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:PAC1954T-E_4MX"
 			(pin_names
 				(offset 1.016)
@@ -772,7 +611,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:RBL06FTR020"
+		(symbol "JLCImport:RMS04FT4992"
 			(pin_numbers
 				(hide yes)
 			)
@@ -786,7 +625,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 3.27 0)
+				(at 0 3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -795,8 +634,8 @@
 					)
 				)
 			)
-			(property "Value" "RBL06FTR020"
-				(at 0 -3.27 0)
+			(property "Value" "RMS04FT4992"
+				(at 0 -3.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -805,7 +644,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -816,7 +655,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TA-I-Tech-RMS04FT4992_C208898.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -827,7 +666,7 @@
 					)
 				)
 			)
-			(property "Description" "20mΩ 250mW SMD ±1% 0603 Current Sense Resistors / Shunt Resistors ROHS"
+			(property "Description" "-55℃~+155℃ 49.9kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -838,7 +677,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C911681"
+			(property "LCSC" "C208898"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -860,7 +699,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "RBL06FTR020"
+			(property "Manufacturer Part" "RMS04FT4992"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -871,7 +710,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C911681 R0603 RBL06FTR020 TA-I Tech"
+			(property "ki_keywords" "C208898 R0402 RMS04FT4992 TA-I Tech"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -882,10 +721,10 @@
 					)
 				)
 			)
-			(symbol "RBL06FTR020_0_1"
+			(symbol "RMS04FT4992_0_1"
 				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1411,16 +1250,6 @@
 		)
 		(uuid "ae2b3852-0b29-499f-b11b-42fec714841c")
 	)
-	(text "~5 A max sense on USB-C VBUS"
-		(exclude_from_sim no)
-		(at 92.71 90.424 0)
-		(effects
-			(font
-				(size 0.9144 0.9144)
-			)
-		)
-		(uuid "b8d0ac02-6ff6-4759-a9cb-723843a20b6c")
-	)
 	(text "Power monitor for: 12V rail, 5V rail, 3V3 rail, and USB-C VBUS"
 		(exclude_from_sim no)
 		(at 17.78 17.78 0)
@@ -1436,19 +1265,27 @@
 		(at 30.48 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "400a42a1-7881-4d71-83d4-1ac89f3001db")
+		(uuid "35cf0c3a-4492-4378-8ac2-3e6a0fc7f9ec")
 	)
 	(junction
 		(at 30.48 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "54c431f3-f9b8-41b2-a7fa-4d9d62b2736b")
+		(uuid "6d0a5dbc-00d0-4656-9377-1429dce7cdbe")
 	)
 	(junction
 		(at 62.23 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e61a2977-cc13-4ca4-93f1-54bd88c0bc43")
+	)
+	(no_connect
+		(at 100.33 50.8)
+		(uuid "d159c9a8-8c67-4af5-a059-33b9e478057e")
+	)
+	(no_connect
+		(at 100.33 53.34)
+		(uuid "e3773149-1b2c-4870-8b1f-bd33ba422e25")
 	)
 	(wire
 		(pts
@@ -1469,16 +1306,6 @@
 			(type default)
 		)
 		(uuid "02c6bf63-1875-4b29-a4d1-b3cea2f87b5d")
-	)
-	(wire
-		(pts
-			(xy 86.36 86.36) (xy 87.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec08a02-84b2-4fe9-b79a-d535f4f6a241")
 	)
 	(wire
 		(pts
@@ -1532,16 +1359,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 100.33 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "298bf42f-5289-4947-bd7e-8ca360066f64")
-	)
-	(wire
-		(pts
 			(xy 105.41 55.88) (xy 100.33 55.88)
 		)
 		(stroke
@@ -1549,16 +1366,6 @@
 			(type default)
 		)
 		(uuid "2d0872d7-b823-4804-bda7-cc02a72e6d0f")
-	)
-	(wire
-		(pts
-			(xy 30.48 44.45) (xy 52.07 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3391f153-de35-4ead-b201-8bbaa090dc65")
 	)
 	(wire
 		(pts
@@ -1572,13 +1379,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 86.36) (xy 97.79 86.36)
+			(xy 30.48 46.99) (xy 52.07 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52038c90-fb2f-4d4e-b1df-df6739beca60")
+		(uuid "59112e61-4075-4337-aa70-50b6a9a0d946")
 	)
 	(wire
 		(pts
@@ -1589,16 +1396,6 @@
 			(type default)
 		)
 		(uuid "5fe7cf57-8386-4776-8c06-e11c43db7c57")
-	)
-	(wire
-		(pts
-			(xy 100.33 53.34) (xy 105.41 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b6ecf1-57fc-4c91-a8ec-e29f5c356515")
 	)
 	(wire
 		(pts
@@ -1652,7 +1449,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 46.99) (xy 52.07 46.99)
+			(xy 30.48 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7beaefa8-d23a-4c91-8892-d4229cc57e28")
+	)
+	(wire
+		(pts
+			(xy 27.94 46.99) (xy 30.48 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1742,16 +1549,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 46.99) (xy 30.48 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bf1ce8-a07a-495a-9c5c-af6e5ea88eb3")
-	)
-	(wire
-		(pts
 			(xy 48.26 54.61) (xy 52.07 54.61)
 		)
 		(stroke
@@ -1801,17 +1598,6 @@
 			(justify left)
 		)
 		(uuid "2ab7b894-bfcd-4960-9ae7-d57a2db3ca80")
-	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 86.36 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46df7be4-8604-4a45-8320-023d1aa90ccc")
 	)
 	(hierarchical_label "PSU_+3V3DC"
 		(shape input)
@@ -1868,17 +1654,6 @@
 		)
 		(uuid "7dd640da-d518-4a93-902e-6eb5edec1c9c")
 	)
-	(hierarchical_label "VBUS_SENSE"
-		(shape output)
-		(at 105.41 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83008ff4-36e4-4684-8e86-9b080a159071")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 63.5 26.67 0)
@@ -1923,17 +1698,6 @@
 		)
 		(uuid "ad550106-8510-4a12-861c-6378b1892ece")
 	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 105.41 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b07fcf7e-a093-4cab-8d0e-546feb7ccceb")
-	)
 	(hierarchical_label "+3V3"
 		(shape output)
 		(at 48.26 57.15 180)
@@ -1944,17 +1708,6 @@
 			(justify right)
 		)
 		(uuid "bdd11fe6-1f99-4e77-82f5-6f7b441811df")
-	)
-	(hierarchical_label "VBUS_SENSE"
-		(shape output)
-		(at 99.06 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c228d13e-84d5-438d-b9c5-02699d7475a8")
 	)
 	(hierarchical_label "+5V"
 		(shape output)
@@ -2096,6 +1849,120 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:RMS04FT4992")
+		(at 30.48 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1858499d-cd48-410a-8f40-9efca4dca1ab")
+		(property "Reference" "R90"
+			(at 28.956 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9k"
+			(at 28.956 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TA-I-Tech-RMS04FT4992_C208898.pdf"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 49.9kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C208898"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TA-I Tech"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RMS04FT4992"
+			(at 30.48 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "552ba21b-122f-4156-a834-188a56c77925")
+		)
+		(pin "2"
+			(uuid "a09be43c-a087-4bae-8f23-3a8ec9729731")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -2252,233 +2119,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "#PWR0313")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:RBL06FTR020")
-		(at 92.71 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3faaff62-0c92-418b-9eee-67dfe2bfa497")
-		(property "Reference" "R146"
-			(at 92.71 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20mΩ ±1%"
-			(at 92.71 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "20mΩ 250mW SMD ±1% 0603 Current Sense Resistors / Shunt Resistors ROHS"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C911681"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TA-I Tech"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "RBL06FTR020"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6327d9b6-58a9-4541-98eb-3f5445a52d51")
-		)
-		(pin "1"
-			(uuid "25918e39-0f17-44b2-b0cf-fa01dc604720")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
-					(reference "R146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 30.48 39.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5319d8c2-ec30-4a96-a359-ff4e847b2e9a")
-		(property "Reference" "R147"
-			(at 23.876 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 23.876 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 30.48 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "299071e8-64b9-4a93-b5cf-0d4a4086f6ba")
-		)
-		(pin "1"
-			(uuid "c9097b60-f644-4a4d-9b1e-c3a32c0f397d")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
-					(reference "R147")
 					(unit 1)
 				)
 			)
@@ -2971,6 +2611,120 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:RMS04FT4992")
+		(at 30.48 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5cf245c-927e-4ed8-a86a-2797abbeed70")
+		(property "Reference" "R89"
+			(at 28.956 40.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9k"
+			(at 28.956 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_TA-I-Tech-RMS04FT4992_C208898.pdf"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 49.9kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C208898"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TA-I Tech"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RMS04FT4992"
+			(at 30.48 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d5280c9-611f-4f45-b070-b24279b116b9")
+		)
+		(pin "2"
+			(uuid "76524da0-762d-436f-bcce-d669f0d8a011")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -3583,120 +3337,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "#PWR0296")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:0402WGF1003TCE")
-		(at 30.48 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e72999ac-0a2c-48d9-8c2d-4de0f47d4b69")
-		(property "Reference" "R148"
-			(at 23.876 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k"
-			(at 23.876 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25741"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1003TCE"
-			(at 30.48 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "549d9c6d-5ece-4315-b0f2-0c1a1d9d0834")
-		)
-		(pin "1"
-			(uuid "745c2b81-3b7a-41e5-8d68-8bbbc37b2e3d")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
-					(reference "R148")
 					(unit 1)
 				)
 			)
