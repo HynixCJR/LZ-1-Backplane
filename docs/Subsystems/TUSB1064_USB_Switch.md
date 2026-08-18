@@ -5,7 +5,7 @@ The TUSB1064 is a USB-C redriving switch supporting up to 10Gbps data rates and 
 
 # Revision Progress
 
-| Stages                               |    PS176     |
+| Stages                               |    TUSB1064     |
 | ------------------------------------ | :----------: |
 | Initial Design                       | ✅ 2026-07-09 |
 | Basic Function Review/Documentation  | ✅ 2026-07-22 |

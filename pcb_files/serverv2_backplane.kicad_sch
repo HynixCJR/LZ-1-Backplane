@@ -31234,7 +31234,7 @@
 				(justify right)
 			)
 		)
-		(pin "+3V3" output
+		(pin "+3V3" input
 			(at 138.43 46.99 0)
 			(uuid "67080516-fb60-4f63-9992-9e2299ce4d32")
 			(effects

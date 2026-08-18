@@ -11,7 +11,7 @@ The TPS55288 is a four-switch buck-boost converter that can output 0.8V to 22V f
 
 ## Revision Progress
 
-| Stages                               |   RP2354B    |
+| Stages                               |   TPS55288    |
 | ------------------------------------ | :----------: |
 | Initial Design                       | ✅ 2026-07-06 |
 | Basic Function Review/Documentation  | ✅ 2026-08-16 |

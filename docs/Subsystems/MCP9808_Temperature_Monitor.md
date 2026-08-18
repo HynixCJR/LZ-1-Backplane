@@ -7,7 +7,7 @@ The MCP9808 is a digital temperature sensor. It reads temperatures from -40°C t
 
 ## Revision Progress
 
-| Stages                               |   USB2244i   |
+| Stages                               |   MCP9808   |
 | ------------------------------------ | :----------: |
 | Initial Design                       | ✅ 2026-07-09 |
 | Basic Function Review/Documentation  | ✅ 2026-08-16 |

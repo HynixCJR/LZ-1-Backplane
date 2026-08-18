@@ -16,7 +16,7 @@ The TPS65987D is a stand-alone USB Type-C PD controller with DisplayPort alt-mod
 
 ## Revision Progress
 
-| Stages                               |   USB2244i   |
+| Stages                               |   TPS65987D   |
 | ------------------------------------ | :----------: |
 | Initial Design                       | ✅ 2026-07-06 |
 | Basic Function Review/Documentation  | ✅ 2026-08-07 |
