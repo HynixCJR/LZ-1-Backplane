@@ -19,7 +19,7 @@ The PAC1954 is a four-channel current-sense and voltage monitor IC from Microchi
 | Stages                               | PAC1954_PSU_PD | PAC1954_FANS | PAC1954_IPKVM | PAC1954_HUB  |
 | ------------------------------------ | :------------: | ------------ | ------------- | ------------ |
 | Initial Design                       |  ✅ 2026-07-10  | ✅ 2026-07-12 | ✅ 2026-07-11  | ✅ 2026-07-12 |
-| Basic Function Review/Documentation  |                |              |               |              |
+| Basic Function Review/Documentation  |                | ✅ 2026-08-19 |               |              |
 | Extended Design Review/Documentation |                |              |               |              |
 | Initial PCB layout                   |                |              |               |              |
 
@@ -57,4 +57,43 @@ The PWRDN# pin is an active low disable (or alternatively, an active high enable
 ### GPIO/ALERT2 Pin
 > *Pin: GPIO/ALERT2 (15)*
 
-The PAC1954 has a GPIO/ALERT pin on pin 16, which can be programmed over I2C. However, as detailed in [SLOW/ALERT1 Pin](#slow/alert1-pin), 
+The PAC1954 has a GPIO input or ALERT output pin on pin 16, which can be programmed over I2C. However, as detailed in [SLOW/ALERT1 Pin](#slow/alert1-pin) description, additional GPIO is not needed for this application, so it is simply tied to GND through a 10kΩ resistor.
+
+### SENSE Pins and Current Sense Resistors
+> *Pins: SENSEx+, SENSEx-*
+
+On the PAC1954, there are four current/voltage sense channels, which equates to eight SENSE pins (four `+`, four `-`). In a high-side configuration, which is used in this design, the `+` pin is connected directly to the input supply, the `-` pin is connected to the load, and a current sense resistor bridges the `+` and `-` pins together.
+
+The value of the current sense resistor can be calculated by:
+```
+R_SENSE = FSR / I_MAX
+```
+
+...where `I_MAX` is the maximum current drawn by the subsystem, and `FSR` is 100mV.
+> Note: `FSR` is set to 100mV unidirectional by default, and that is used on the LAZARUS-1 PCB.
+
+However, `I_MAX` for certain subsystems may be far greater than what is typically drawn; for example, `I_MAX` for the +12V, +5V, and +3.3V rails is calculated for the absolute worst-case possible scenario, where USB-C PD is sustained at 100W, all 12 SATA ports are connected to HDDs that are actively being spun up, and all other subsystems are completely maxxed out. Realistically this will never happen, but `I_MAX` is still used, as a lower `I_MAX` would result in a larger current sense resistor (and thereby higher power dissipation). Moreover, it is still safe; the only downside would be lower precision, but with 16 total bits the actual precision still remains good enough for this application. For example, for the worst case scenario for the +12V rail (32A), the measurement is still precise down to 0.5mA (or 5.9mW). This is largely negligible for basic telemetry.
+
+The specific subsystems monitored by the PAC1954's, and which PAC1954 they are monitored by, are detailed in the table below.
+
+| PAC1954 number | Subsystem/voltage | Max current | Typical Current | Sense Resistor | Power wasted (typ) |
+| -------------- | ----------------- | ----------- | --------------- | -------------- | ------------------ |
+| 0              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
+| 0              |                   |             |                 |                |                    |
+| 0              |                   |             |                 |                |                    |
+| 0              |                   |             |                 |                |                    |
+| 1              |                   |             |                 |                |                    |
+| 1              |                   |             |                 |                |                    |
+| 1              |                   |             |                 |                |                    |
+| 1              |                   |             |                 |                |                    |
+| 2              |                   |             |                 |                |                    |
+| 2              |                   |             |                 |                |                    |
+| 2              |                   |             |                 |                |                    |
+| 2              |                   |             |                 |                |                    |
+| 3              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
+| 3              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
+| 3              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
+| 3              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
+
+> *Note: 0 = PAC1954_PSU_PD, 1 = PAC1954_IPKVM, 2 = PAC1954_HUB, 3 = PAC1954_FANS*
+

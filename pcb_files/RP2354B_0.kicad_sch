@@ -3610,7 +3610,7 @@
 	)
 	(rectangle
 		(start 129.54 40.64)
-		(end 153.67 60.96)
+		(end 153.67 65.786)
 		(stroke
 			(width 0)
 			(type default)
@@ -3689,7 +3689,7 @@
 	)
 	(text "TODO: verify how the PWM\nworks on the RP2354 ;-;"
 		(exclude_from_sim no)
-		(at 130.048 64.77 0)
+		(at 158.496 57.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 	)
 	(text "PWM Fan Control\n+ Fan Tach Measuring"
 		(exclude_from_sim no)
-		(at 151.13 51.054 90)
+		(at 151.13 53.34 90)
 		(effects
 			(font
 				(size 0.9144 0.9144)
@@ -4030,10 +4030,6 @@
 		(uuid "0bad1d8c-943e-4b56-b0c1-7c1efaf60b18")
 	)
 	(no_connect
-		(at 128.27 64.77)
-		(uuid "0f9a992d-4334-4752-a0f1-32f3bb4ebd36")
-	)
-	(no_connect
 		(at 128.27 113.03)
 		(uuid "16b79dd0-3f30-41af-9d33-2abbc04f470f")
 	)
@@ -4048,10 +4044,6 @@
 	(no_connect
 		(at 77.47 72.39)
 		(uuid "7a04047d-0b08-413e-b93d-a8ec64a94717")
-	)
-	(no_connect
-		(at 128.27 62.23)
-		(uuid "7a7e8122-4aee-4d9b-bd30-b259cc271150")
 	)
 	(no_connect
 		(at 77.47 59.69)
@@ -4320,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "3d4d7770-a89f-487e-8c9a-378c074ad31c")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 132.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4141ba0d-3107-4e00-94f2-7cd368bcd05d")
 	)
 	(wire
 		(pts
@@ -4970,6 +4972,16 @@
 			(type default)
 		)
 		(uuid "cf24667a-a74f-4504-a040-b5ad44b90831")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1659179-3cc2-414c-b2ad-f3279c29aa9c")
 	)
 	(wire
 		(pts
@@ -5664,6 +5676,17 @@
 		)
 		(uuid "d14442f2-92f3-4fd0-b6f7-36c724f0724e")
 	)
+	(hierarchical_label "GPIO10_PWM5A"
+		(shape output)
+		(at 132.08 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df5fb9de-ebc1-4a70-8c08-f3217ec76f14")
+	)
 	(hierarchical_label "GPIO9"
 		(shape input)
 		(at 132.08 59.69 0)
@@ -5707,6 +5730,17 @@
 			(justify left)
 		)
 		(uuid "f90a96c7-8d3b-4826-969c-6032af790ccf")
+	)
+	(hierarchical_label "GPIO11"
+		(shape input)
+		(at 132.08 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fca72b62-803e-48fb-90cf-95400aadf5e8")
 	)
 	(hierarchical_label "IRQ1"
 		(shape input)
