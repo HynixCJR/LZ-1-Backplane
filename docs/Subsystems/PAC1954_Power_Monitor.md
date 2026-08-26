@@ -19,7 +19,7 @@ The PAC1954 is a four-channel current-sense and voltage monitor IC from Microchi
 | Stages                               | PAC1954_PSU_PD | PAC1954_FANS | PAC1954_IPKVM | PAC1954_HUB  |
 | ------------------------------------ | :------------: | ------------ | ------------- | ------------ |
 | Initial Design                       |  ✅ 2026-07-10  | ✅ 2026-07-12 | ✅ 2026-07-11  | ✅ 2026-07-12 |
-| Basic Function Review/Documentation  |                | ✅ 2026-08-19 |               |              |
+| Basic Function Review/Documentation  |  ✅ 2026-08-25  | ✅ 2026-08-19 |               |              |
 | Extended Design Review/Documentation |                |              |               |              |
 | Initial PCB layout                   |                |              |               |              |
 
@@ -79,9 +79,9 @@ The specific subsystems monitored by the PAC1954's, and which PAC1954 they are m
 | PAC1954 number | Subsystem/voltage | Max current | Typical Current | Sense Resistor | Power wasted (typ) |
 | -------------- | ----------------- | ----------- | --------------- | -------------- | ------------------ |
 | 0              | Fans/+12V         | 500mA       | ~50mA           | 200mΩ ±1%      | ~0.5mW             |
-| 0              |                   |             |                 |                |                    |
-| 0              |                   |             |                 |                |                    |
-| 0              |                   |             |                 |                |                    |
+| 0              | PSU/+5V           | 40A         | ~4.8A           | 5mΩ ±5%        | ~24mW              |
+| 0              | PSU/+12V          | 20A         | ~8A             | 2.5mΩ ±1%      | ~20mW              |
+| 0              | PSU/+3V3          | 1.47A       | ~0.5A           | 68mΩ ±1%       | ~34mW              |
 | 1              |                   |             |                 |                |                    |
 | 1              |                   |             |                 |                |                    |
 | 1              |                   |             |                 |                |                    |
@@ -97,3 +97,23 @@ The specific subsystems monitored by the PAC1954's, and which PAC1954 they are m
 
 > *Note: 0 = PAC1954_PSU_PD, 1 = PAC1954_IPKVM, 2 = PAC1954_HUB, 3 = PAC1954_FANS*
 
+#### Subsystem Current Calculations
+##### 1. Global +12V rail:
+- `(12 HDDs × 2.0A) + 9.2A (PD) + (5 fans × 0.5A) = 35.7A`
+- With 10% safety margin: `35.7A * 1.10 = ~39.27A`
+- Sense resistor: `100mV / 39.27A = ~2.5mΩ`
+- Actual max current: **~40A**
+- Realistic typical current (active use, 12 HDDs, 50W laptop): `(12 HDDs × 0.25A) + 4.2A (PD) + (5 fans × 0.16A) = 8A`
+##### 2. Global +5V rail:
+- `(12 HDDs × 1.0A) + 0.6A (PD CTRL) + 3 × 1.5A (Panel) = 17.1A`
+- With 10% safety margin: `17.1A × 1.10 = ~18.81A`
+- Sense resistor: `100mV / 18.81A = ~5mΩ`
+- Actual max current: **~20A**
+- Realistic typical current (active use, 12 HDDs, no panel use, no active PD cable): `12 HDDs × 0.4A = 4.8A`
+
+##### 3. Global +3V3 rail:
+- `0.008A (PD CTRL) + (3 flash × 0.025A) + (3 RP2354 × 0.025A) + 0.18A (MUX) + 0.2A (HUB) + 0.15A (SD) + 0.173A (PS176) + 0.188A (LT6911C) + 0.3A (DISP) = 1.349A`
+- With 10% safety margin: `1.349A × 1.10 = ~1.48A`
+- Sense resistor: `100mV / 1.48A = ~68mΩ`
+- Actual max current: **1.47A**
+- Realistic typical current (active use, display off, IPKVM off): ~0.5A

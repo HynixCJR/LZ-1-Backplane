@@ -562,6 +562,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:JER2512F3R2R5L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JER2512F3R2R5L"
+				(at 0 -3.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2506121200_jieerrui-JER2512F3R2R5L_C49164684.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.5mΩ 3W Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C49164684"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "jieerrui"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "JER2512F3R2R5L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C49164684 JER2512F3R2R5L R2512 jieerrui"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JER2512F3R2R5L_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:PAC1954T-E_4MX"
 			(pin_names
 				(offset 1.016)
@@ -1503,7 +1664,7 @@
 		)
 		(uuid "e9b750d3-d0ef-493e-ab9b-f1463bbc9eba")
 	)
-	(text "~32 A max sense on 12V rail"
+	(text "~40 A max sense on 12V rail"
 		(exclude_from_sim no)
 		(at 57.912 74.676 0)
 		(effects
@@ -1553,7 +1714,7 @@
 		)
 		(uuid "88fd1019-4ce3-4aab-9c23-6a5f70f26deb")
 	)
-	(text "~7 A max sense on 3V3 rail"
+	(text "~1.47 A max sense on 3V3 rail"
 		(exclude_from_sim no)
 		(at 58.42 90.424 0)
 		(effects
@@ -2598,118 +2759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:YHR1206SE1WR003F5")
-		(at 58.42 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "71fb8642-eb14-40cc-8193-18f2475822c0")
-		(property "Reference" "R145"
-			(at 58.42 81.026 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "14mΩ ±1%"
-			(at 58.42 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2941109.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=FgcLV1deR1RZUAZfQwALU1UCEQMPU1IETwdYAQAFQAUxVlNeRFZdX11QRlhdVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES 14mΩ ±1% 500mW 0805"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2941109"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "MS05W2F140MT5E"
-			(at 58.42 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d4cca6b-5336-4c8d-aab5-7fb6d0a34a5b")
-		)
-		(pin "2"
-			(uuid "f5e903ca-9d47-4a58-b3ce-8c0b6f42b84b")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLCImport:0402WGF1002TCE")
 		(at 52.07 31.75 90)
 		(unit 1)
@@ -2929,6 +2978,118 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "R162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:YHR1206SE1WR003F5")
+		(at 58.42 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9b50511d-73e4-4ee7-a545-c17b7e3f09f6")
+		(property "Reference" "R170"
+			(at 58.42 81.026 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68mΩ ±1%"
+			(at 58.42 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874764.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.9.xh&lcsc_vid=FgcLV1deR1RZUAZfQwALU1UCEQMPU1IETwdYAQAFQAUxVlNeRFZdX11QRlhdVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRlhXSQwSGg0%3D"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 68mΩ ±1% 1W 1206"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42454045"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yohey"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "YHR1206SE1WR068F5"
+			(at 58.42 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8ee30f8-6aa8-41bd-9a3a-f602fcdd4ee2")
+		)
+		(pin "2"
+			(uuid "b95ff365-5453-4c7a-a98c-8078e612f6f8")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
+					(reference "R170")
 					(unit 1)
 				)
 			)
@@ -3161,6 +3322,119 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCImport:JER2512F3R2R5L")
+		(at 58.42 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6637c9f-fdcb-42e9-aad4-3cb531387ced")
+		(property "Reference" "R166"
+			(at 58.42 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.5mΩ ±1%"
+			(at 58.42 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2506121200_jieerrui-JER2512F3R2R5L_C49164684.pdf"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.5mΩ 3W Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49164684"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "jieerrui"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "JER2512F3R2R5L"
+			(at 58.42 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "167a99df-7f58-4fab-af79-eca04a541d88")
+		)
+		(pin "2"
+			(uuid "23ec6f74-9b63-47a5-8da5-c7a10f51776d")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
+					(reference "R166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:CL05A475MP5NRNC")
 		(at 133.35 71.12 90)
 		(unit 1)
@@ -3381,118 +3655,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
 					(reference "R143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:YHR1206SE1WR003F5")
-		(at 58.42 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d4b87bdc-500e-45d0-822f-3b265131a959")
-		(property "Reference" "R140"
-			(at 58.42 65.786 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3mΩ ±1%"
-			(at 58.42 68.326 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250120/0C9113E53EE977994BFB208E06A9E207.pdf"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3mΩ ±1% 1W 温度系数：50PPM"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C42454016"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yohey(元晖)"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "YHR1206SE1WR003F5"
-			(at 58.42 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "771776d1-9f27-4192-9cc1-b92da1e072ec")
-		)
-		(pin "2"
-			(uuid "a7159916-f18c-46be-870f-5123cdeb0acd")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/b93a12c2-f637-489d-8857-c7fe286f64a4"
-					(reference "R140")
 					(unit 1)
 				)
 			)

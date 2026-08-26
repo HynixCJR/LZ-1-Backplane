@@ -1532,16 +1532,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 116.84 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07b8214a-8f96-4f36-9734-0c3eb32ebdf0")
-	)
-	(wire
-		(pts
 			(xy 182.88 252.73) (xy 199.39 252.73)
 		)
 		(stroke
@@ -5573,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 44.45 72.39)
+			(xy 90.17 87.63) (xy 44.45 87.63)
 		)
 		(stroke
 			(width 0)
@@ -28576,7 +28566,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 44.45 72.39 0)
+			(at 44.45 87.63 0)
 			(uuid "8b3e51c7-2dd7-4114-a4b5-05fb0dd2c130")
 			(effects
 				(font
@@ -34229,13 +34219,13 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 116.84 77.47 90)
+			(at 90.17 87.63 180)
 			(uuid "d01bef3c-bd02-477b-b8f2-0a69c6431fe9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "+3V3" input
