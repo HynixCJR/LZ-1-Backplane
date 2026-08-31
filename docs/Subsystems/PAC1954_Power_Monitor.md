@@ -19,7 +19,7 @@ The PAC1954 is a four-channel current-sense and voltage monitor IC from Microchi
 | Stages                               | PAC1954_PSU_PD | PAC1954_FANS | PAC1954_IPKVM | PAC1954_HUB  |
 | ------------------------------------ | :------------: | ------------ | ------------- | ------------ |
 | Initial Design                       |  ✅ 2026-07-10  | ✅ 2026-07-12 | ✅ 2026-07-11  | ✅ 2026-07-12 |
-| Basic Function Review/Documentation  |  ✅ 2026-08-25  | ✅ 2026-08-19 |               |              |
+| Basic Function Review/Documentation  |  ✅ 2026-08-25  | ✅ 2026-08-19 | ✅ 2026-08-30  |              |
 | Extended Design Review/Documentation |                |              |               |              |
 | Initial PCB layout                   |                |              |               |              |
 
@@ -82,10 +82,10 @@ The specific subsystems monitored by the PAC1954's, and which PAC1954 they are m
 | 0              | PSU/+5V           | 40A         | ~4.8A           | 5mΩ ±5%        | ~24mW              |
 | 0              | PSU/+12V          | 20A         | ~8A             | 2.5mΩ ±1%      | ~20mW              |
 | 0              | PSU/+3V3          | 1.47A       | ~0.5A           | 68mΩ ±1%       | ~34mW              |
-| 1              |                   |             |                 |                |                    |
-| 1              |                   |             |                 |                |                    |
-| 1              |                   |             |                 |                |                    |
-| 1              |                   |             |                 |                |                    |
+| 1              | PS176/+3V3        | 196mA       | 30uA            | 510mΩ ±5%      | ~15.3uW            |
+| 1              | LT6911C/+3V3      | 196mA       | 196mA           | 510mΩ ±5%      | ~100mW             |
+| 1              | Display/+3V3      | 47mA        | 24mA            | 2Ω ±1%         | ~48mW              |
+| 1              | LicheeRV Nano/+5V | 1.1A        | 200mA           | 90mΩ ±1%       | ~18mW              |
 | 2              |                   |             |                 |                |                    |
 | 2              |                   |             |                 |                |                    |
 | 2              |                   |             |                 |                |                    |
@@ -117,3 +117,21 @@ The specific subsystems monitored by the PAC1954's, and which PAC1954 they are m
 - Sense resistor: `100mV / 1.48A = ~68mΩ`
 - Actual max current: **1.47A**
 - Realistic typical current (active use, display off, IPKVM off): ~0.5A
+
+##### 4. PS176
+- Per datasheet, at HDMI output 5.94Gbps, there is a normal supply current of `18.5mA` at `+3.3V`, and `432.2mA` at `1.2V`.
+- This system uses an MCP1602 buck converter, which has ~80% efficiency with `432.2mA` drawn at `1.2V` output.
+- So, total current is: `1.2 × 432.2mA × 1.2V / 3.3V + 18.5mA = 144.2mA`
+- With 10% margin, that comes out to `144.2mA × 1.10 = 158.62mA`
+- Sense resistor: `100mV / 158.62mA = ~625mΩ`
+- But `510mΩ` is much cheaper! So we get actual max current: **196mA**
+- When shut down by RP2354, current drawn is `30uA`
+
+##### 4. LT6911C
+- Per datasheet, at 1080p 60Hz, the LT6911C draws: `56mA` at `+3.3V`, and `306mA` at `+1.2V`.
+- This subsystem uses the same MCP1602 as the PS176, so assuming 80% efficiency, the total current drawn is `1.2 × 306mA × 1.2V / 3.3V + 56mA = 189.5mA`
+- With 10% margin: `189.5 × 1.10 = 208.5mA`
+- Sense resistor: `100mV / 208.5mA = ~480mΩ`
+- But `510mΩ` is already being used, so we get actual max current: **196mA**
+- The system does not have a power down mode specified in the datasheet, so assume that max current draw is equal to the typical current draw.
+

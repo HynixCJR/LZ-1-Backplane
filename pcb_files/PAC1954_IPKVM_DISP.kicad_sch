@@ -166,6 +166,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCImport:1206W3J010LT5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1206W3J010LT5E"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/311874.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 10mΩ 200V 333mW Thick Film Resistor ±1500ppm/℃ ±5% 1206 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C247541"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "1206W3J010LT5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1206W3J010LT5E C247541 R1206 UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1206W3J010LT5E_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCImport:CL05A475MP5NRNC"
 			(pin_numbers
 				(hide yes)
@@ -562,7 +723,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:LTR10EVHJLR18"
+		(symbol "JLCImport:JER2512F2R100"
 			(pin_numbers
 				(hide yes)
 			)
@@ -576,7 +737,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 3.016 0)
+				(at 0 3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -585,8 +746,8 @@
 					)
 				)
 			)
-			(property "Value" "LTR10EVHJLR18"
-				(at 0 -3.016 0)
+			(property "Value" "JER2512F2R100"
+				(at 0 -3.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -595,7 +756,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
+			(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -606,7 +767,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ROHM-Semicon-LTR10EVHJLR18_C253348.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2506121200_jieerrui-JER2512F2R100_C49164916.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -617,7 +778,7 @@
 					)
 				)
 			)
-			(property "Description" "180mΩ 500mW SMD ±150ppm/℃ ±5% 0805 Current Sense Resistors / Shunt Resistors ROHS"
+			(property "Description" "100mΩ 2W Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -628,7 +789,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C253348"
+			(property "LCSC" "C49164916"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -639,7 +800,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "ROHM Semicon"
+			(property "Manufacturer" "jieerrui"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -650,7 +811,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "LTR10EVHJLR18"
+			(property "Manufacturer Part" "JER2512F2R100"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -661,7 +822,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C253348 LTR10EVHJLR18 R0508 ROHM Semicon"
+			(property "ki_keywords" "C49164916 JER2512F2R100 R2512 jieerrui"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -672,10 +833,10 @@
 					)
 				)
 			)
-			(symbol "LTR10EVHJLR18_0_1"
+			(symbol "JER2512F2R100_0_1"
 				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1664,7 +1825,7 @@
 		)
 		(uuid "a7732428-fdba-4345-8976-bbbba5bf6527")
 	)
-	(text "550mA max sense for touch display +3V3"
+	(text "50mA max sense for touch display +3V3"
 		(exclude_from_sim no)
 		(at 92.71 89.154 0)
 		(effects
@@ -1725,7 +1886,7 @@
 		)
 		(uuid "6fda0cbe-7084-497c-9b1e-81229b51636c")
 	)
-	(text "550mA max sense for LicheeRV Nano +5V"
+	(text "1.1A max sense for LicheeRV Nano +5V"
 		(exclude_from_sim no)
 		(at 54.61 89.154 0)
 		(effects
@@ -2459,6 +2620,119 @@
 		(uuid "f5c8c8a7-f10f-4758-9b8d-c3ede230e951")
 	)
 	(symbol
+		(lib_id "JLCImport:1206W3J010LT5E")
+		(at 92.71 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b901e78-2c40-406f-a4fc-7b4478f8e1bc")
+		(property "Reference" "R140"
+			(at 92.71 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2Ω ±1%"
+			(at 92.71 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2Ω 200V 500mW Thick Film Resistor  ±1% 1206 Chip Resistor - Surface Mount ROHS"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C54102244"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FRP1206F2R00TS"
+			(at 92.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "426858b3-643b-485d-a645-82a009214124")
+		)
+		(pin "2"
+			(uuid "ccc22541-0a2e-43ee-9111-fd1e64bddcb3")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
+					(reference "R140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:RMS04FT4992")
 		(at 29.21 38.1 270)
 		(unit 1)
@@ -2791,6 +3065,119 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
 					(reference "R156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:JER2512F2R100")
+		(at 54.61 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48f1b5a7-e7aa-467a-aeb8-723dcbc955b4")
+		(property "Reference" "R145"
+			(at 54.61 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90mΩ ±1%"
+			(at 54.61 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "90mΩ 3W Current Sense Resistor SMD ±1% ±50ppm/℃ 2512 Current Sense Resistors / Shunt Resistors ROHS"
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49164915"
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JIERR"
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "JER2512F3R090"
+			(at 54.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8f35091-39c7-4dc2-94fb-9545edbf86cc")
+		)
+		(pin "2"
+			(uuid "be507197-5b0a-4e1c-91d5-92ecc4c4a9f2")
+		)
+		(instances
+			(project "serverv2_backplane"
+				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -3625,230 +4012,6 @@
 			(project "serverv2_backplane"
 				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
 					(reference "C274")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:LTR10EVHJLR18")
-		(at 54.61 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c0bb4b73-7d04-4ed1-adaa-1efa6f2b3796")
-		(property "Reference" "R154"
-			(at 54.61 81.026 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "180mΩ ±5%"
-			(at 54.61 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ROHM-Semicon-LTR10EVHJLR18_C253348.pdf"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "180mΩ 500mW SMD ±150ppm/℃ ±5% 0805 Current Sense Resistors / Shunt Resistors ROHS"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C253348"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "LTR10EVHJLR18"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9139822-84e1-4f31-94d3-e2d4b3ccb1b4")
-		)
-		(pin "2"
-			(uuid "f9917b81-76bd-416e-b8ea-ec9dad783204")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
-					(reference "R154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:LTR10EVHJLR18")
-		(at 92.71 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0a07ae4-7cfb-46fb-b4e2-185bac04d416")
-		(property "Reference" "R155"
-			(at 92.71 81.026 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "180mΩ ±5%"
-			(at 92.71 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0508_1220Metric"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_ROHM-Semicon-LTR10EVHJLR18_C253348.pdf"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "180mΩ 500mW SMD ±150ppm/℃ ±5% 0805 Current Sense Resistors / Shunt Resistors ROHS"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C253348"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ROHM Semicon"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "LTR10EVHJLR18"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55a5556b-8e50-444b-b720-6d8e3b96a228")
-		)
-		(pin "2"
-			(uuid "5442a5d0-f0ab-4261-863a-27faa8a9c8c4")
-		)
-		(instances
-			(project "serverv2_backplane"
-				(path "/d38d6818-cf53-410d-afa3-a75a85b7c05a/f2e967c0-ce90-4cb8-9de5-e046db142ae2"
-					(reference "R155")
 					(unit 1)
 				)
 			)
